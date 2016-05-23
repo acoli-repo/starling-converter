@@ -1,0 +1,524 @@
+@prefix msh:  <https://miskinhill.com.au/rdfschema/1.0/> .
+@prefix star:  <http://acoli.cs.uni-frankfurt.de/starling/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix vartrans:  <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:  <http://www.w3.org/ns/lemon/lime#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lemonet:  <http://www.lemon-model.net/lemon/etym#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix lexvo:  <http://www.lexvo.org/page/iso639-3/> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kir/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+star:lexicon_tyv  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tyv/bb40d115dc7f37e4de7e4a894c71efbf> ;
+        dct:language   lexvo:tyv ;
+        lime:language  "tyv" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_bak/9d3fd9927b555d32920b4c84251c4f84>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_bak/9d3fd9927b555d32920b4c84251c4f84/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_bak/9d3fd9927b555d32920b4c84251c4f84/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_dlg/11b58131b147555fbb66cbb9dc3970e0/canForm>
+        ontolex:writtenRep  "kus"@dlg .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaa/be29dbc9ade1fbfece261ccf49a91cb7/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+star:lexicon_uzb  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_uzb/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:uzb ;
+        lime:language  "uzb" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense2>
+        rdfs:label       "утка"@ru ;
+        skos:definition  "утка"@ru ;
+        rdfs:label       "duck"@en ;
+        skos:definition  "duck"@en ;
+        rdf:type         ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_uig/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_sah/11b58131b147555fbb66cbb9dc3970e0>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_sah/11b58131b147555fbb66cbb9dc3970e0/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_sah/11b58131b147555fbb66cbb9dc3970e0/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_gag/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@gag .
+
+star:lexicon_dlg  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_dlg/11b58131b147555fbb66cbb9dc3970e0> ;
+        dct:language   lexvo:dlg ;
+        lime:language  "dlg" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/comment/VEWT>
+        msh:cites     <http://acoli.cs.uni-frankfurt.de/starling/bib/VEWT> ;
+        rdfs:comment  "pages : 305" ;
+        rdf:type      msh:Citation .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kdr/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kdr/75de76de3d1e77964f52628c879cb743/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kdr/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaz/be29dbc9ade1fbfece261ccf49a91cb7>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaz/be29dbc9ade1fbfece261ccf49a91cb7/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaz/be29dbc9ade1fbfece261ccf49a91cb7/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_dlg/11b58131b147555fbb66cbb9dc3970e0>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_dlg/11b58131b147555fbb66cbb9dc3970e0/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_dlg/11b58131b147555fbb66cbb9dc3970e0/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+star:lexicon_kim  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kim/bb40d115dc7f37e4de7e4a894c71efbf> ;
+        dct:language   lexvo:kim ;
+        lime:language  "kim" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_slr/2054bfcc59749ce21102245811d8df80/canForm>
+        ontolex:writtenRep  "Guš"@slr .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_nog/be29dbc9ade1fbfece261ccf49a91cb7/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tur/4dc5ba55284536c7be8ecf68497c70c7/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaz/be29dbc9ade1fbfece261ccf49a91cb7/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaa/be29dbc9ade1fbfece261ccf49a91cb7>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaa/be29dbc9ade1fbfece261ccf49a91cb7/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaa/be29dbc9ade1fbfece261ccf49a91cb7/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+star:lexicon_xqa  dct:language  lexvo:xqa ;
+        lime:language  "xqa" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_nog/be29dbc9ade1fbfece261ccf49a91cb7/canForm>
+        ontolex:writtenRep  "qus"@nog .
+
+star:lexicon_Proto-Turkic
+        lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        rdf:type    lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kum/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kum/75de76de3d1e77964f52628c879cb743/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kum/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1>
+        rdfs:label       "птица"@ru ;
+        skos:definition  "птица"@ru ;
+        rdfs:label       "bird"@en ;
+        skos:definition  "bird"@en ;
+        rdf:type         ontolex:LexicalSense .
+
+star:lexicon_tat  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tat/9d3fd9927b555d32920b4c84251c4f84> ;
+        dct:language   lexvo:tat ;
+        lime:language  "tat" ;
+        rdf:type       lime:Lexicon .
+
+star:lexicon_ybe  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_ybe/6adc4cf2e779fdb6a64ea8155a89fb9c> ;
+        dct:language   lexvo:ybe ;
+        lime:language  "ybe" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tyv/bb40d115dc7f37e4de7e4a894c71efbf/canForm>
+        ontolex:writtenRep  "qu'š"@tyv .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kir/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@kir .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_nog/be29dbc9ade1fbfece261ccf49a91cb7>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_nog/be29dbc9ade1fbfece261ccf49a91cb7/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_nog/be29dbc9ade1fbfece261ccf49a91cb7/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a>
+        dct:references         <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/comment/Stachowski> ;
+        dct:references         <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/comment/EDT> ;
+        dct:references         <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/comment/TMN> ;
+        dct:references         <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/comment/VEWT> ;
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense2> ;
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+star:lexicon_kir  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kir/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:kir ;
+        lime:language  "kir" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_ybe/6adc4cf2e779fdb6a64ea8155a89fb9c/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_bak/9d3fd9927b555d32920b4c84251c4f84/canForm>
+        ontolex:writtenRep  "qoš"@bak .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_azb/2054bfcc59749ce21102245811d8df80>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_azb/2054bfcc59749ce21102245811d8df80/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_azb/2054bfcc59749ce21102245811d8df80/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+star:lexicon_chv  dct:language  lexvo:chv ;
+        lime:language  "chv" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/comment/TMN>
+        msh:cites     <http://acoli.cs.uni-frankfurt.de/starling/bib/TMN> ;
+        rdfs:comment  "pages : 3,547-548" ;
+        rdf:type      msh:Citation .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_krc/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kim/bb40d115dc7f37e4de7e4a894c71efbf>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kim/bb40d115dc7f37e4de7e4a894c71efbf/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kim/bb40d115dc7f37e4de7e4a894c71efbf/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tuk/2054bfcc59749ce21102245811d8df80/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_ybe/6adc4cf2e779fdb6a64ea8155a89fb9c/canForm>
+        ontolex:writtenRep  "Gus"@ybe .
+
+star:lexicon_sah  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_sah/11b58131b147555fbb66cbb9dc3970e0> ;
+        dct:language   lexvo:sah ;
+        lime:language  "sah" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kir/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kir/75de76de3d1e77964f52628c879cb743/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kir/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+star:lexicon_otk  dct:language  lexvo:otk ;
+        lime:language  "otk" ;
+        rdf:type       lime:Lexicon .
+
+star:lexicon_nog  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_nog/be29dbc9ade1fbfece261ccf49a91cb7> ;
+        dct:language   lexvo:nog ;
+        lime:language  "nog" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_cjs/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_cjs/75de76de3d1e77964f52628c879cb743/sense> ;
+        rdfs:comment           "gloss : 'hen'" ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_cjs/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaa/be29dbc9ade1fbfece261ccf49a91cb7/canForm>
+        ontolex:writtenRep  "qus"@kaa .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_gag/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_gag/75de76de3d1e77964f52628c879cb743/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_gag/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+lemonet:derivedFrom  rdfs:subPropertyOf  vartrans:lexicalRel ;
+        rdfs:range          ontolex:LexicalEntry ;
+        rdfs:label          "directed etymological relationship"@en ;
+        rdfs:domain         ontolex:LexicalEntry ;
+        rdfs:comment        "The ’derivedFrom’ property relates two lexical entries that stand in a etymological relation where source and target are known. The subject position holds the source whereas the object position holds the derived word"@en ;
+        rdf:type            owl:TransitiveProperty ;
+        rdf:type            owl:ObjectProperty .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_krc/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_krc/75de76de3d1e77964f52628c879cb743/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_krc/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kjh/9cc975c5794209f4b20611761c62c35f>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kjh/9cc975c5794209f4b20611761c62c35f/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kjh/9cc975c5794209f4b20611761c62c35f/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+star:lexicon_bak  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_bak/9d3fd9927b555d32920b4c84251c4f84> ;
+        dct:language   lexvo:bak ;
+        lime:language  "bak" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_xal/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@xal .
+
+star:lexicon_xal  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_xal/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:xal ;
+        lime:language  "xal" ;
+        rdf:type       lime:Lexicon .
+
+star:lexicon_kaz  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaz/be29dbc9ade1fbfece261ccf49a91cb7> ;
+        dct:language   lexvo:kaz ;
+        lime:language  "kaz" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_cjs/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_sah/11b58131b147555fbb66cbb9dc3970e0/canForm>
+        ontolex:writtenRep  "kus"@sah .
+
+star:lexicon_tur  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tur/4dc5ba55284536c7be8ecf68497c70c7> ;
+        dct:language   lexvo:tur ;
+        lime:language  "tur" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tyv/bb40d115dc7f37e4de7e4a894c71efbf/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kjh/9cc975c5794209f4b20611761c62c35f/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/canForm>
+        ontolex:writtenRep  "*Kuĺ"@Proto-Turkic .
+
+star:lexicon_kdr  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kdr/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:kdr ;
+        lime:language  "kdr" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tat/9d3fd9927b555d32920b4c84251c4f84>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tat/9d3fd9927b555d32920b4c84251c4f84/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tat/9d3fd9927b555d32920b4c84251c4f84/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tuk/2054bfcc59749ce21102245811d8df80>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tuk/2054bfcc59749ce21102245811d8df80/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tuk/2054bfcc59749ce21102245811d8df80/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_uzb/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_uzb/75de76de3d1e77964f52628c879cb743/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_uzb/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tur/4dc5ba55284536c7be8ecf68497c70c7/canForm>
+        ontolex:writtenRep  "kuš"@tur .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_bak/9d3fd9927b555d32920b4c84251c4f84/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/comment/Stachowski>
+        msh:cites     <http://acoli.cs.uni-frankfurt.de/starling/bib/Stachowski> ;
+        rdfs:comment  "pages : 162" ;
+        rdf:type      msh:Citation .
+
+star:lexicon_kjh  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kjh/9cc975c5794209f4b20611761c62c35f> ;
+        dct:language   lexvo:kjh ;
+        lime:language  "kjh" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kum/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_gag/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_sah/11b58131b147555fbb66cbb9dc3970e0/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense2> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tat/9d3fd9927b555d32920b4c84251c4f84/canForm>
+        ontolex:writtenRep  "qoš"@tat .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_krc/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@krc .
+
+star:lexicon_slr  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_slr/2054bfcc59749ce21102245811d8df80> ;
+        dct:language   lexvo:slr ;
+        lime:language  "slr" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_uzb/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@uzb .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_uig/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@uig .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_ybe/6adc4cf2e779fdb6a64ea8155a89fb9c>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_ybe/6adc4cf2e779fdb6a64ea8155a89fb9c/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_ybe/6adc4cf2e779fdb6a64ea8155a89fb9c/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kdr/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_cjs/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@cjs .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tat/9d3fd9927b555d32920b4c84251c4f84/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+star:lexicon_kum  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kum/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:kum ;
+        lime:language  "kum" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_uig/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_uig/75de76de3d1e77964f52628c879cb743/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_uig/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_xal/75de76de3d1e77964f52628c879cb743>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_xal/75de76de3d1e77964f52628c879cb743/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_xal/75de76de3d1e77964f52628c879cb743/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_azb/2054bfcc59749ce21102245811d8df80/canForm>
+        ontolex:writtenRep  "Guš"@azb .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kum/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@kum .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kdr/75de76de3d1e77964f52628c879cb743/canForm>
+        ontolex:writtenRep  "quš"@kdr .
+
+star:lexicon_tuk  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tuk/2054bfcc59749ce21102245811d8df80> ;
+        dct:language   lexvo:tuk ;
+        lime:language  "tuk" ;
+        rdf:type       lime:Lexicon .
+
+star:lexicon_azb  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_azb/2054bfcc59749ce21102245811d8df80> ;
+        dct:language   lexvo:azb ;
+        lime:language  "azb" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_slr/2054bfcc59749ce21102245811d8df80>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_slr/2054bfcc59749ce21102245811d8df80/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_slr/2054bfcc59749ce21102245811d8df80/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_slr/2054bfcc59749ce21102245811d8df80/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tyv/bb40d115dc7f37e4de7e4a894c71efbf>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tyv/bb40d115dc7f37e4de7e4a894c71efbf/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tyv/bb40d115dc7f37e4de7e4a894c71efbf/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_dlg/11b58131b147555fbb66cbb9dc3970e0/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense2> ;
+        rdf:type           ontolex:LexicalSense .
+
+star:lexicon_krc  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_krc/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:krc ;
+        lime:language  "krc" ;
+        rdf:type       lime:Lexicon .
+
+star:lexicon_uig  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_uig/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:uig ;
+        lime:language  "uig" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/comment/EDT>
+        msh:cites     <http://acoli.cs.uni-frankfurt.de/starling/bib/EDT> ;
+        rdfs:comment  "pages : 670" ;
+        rdf:type      msh:Citation .
+
+star:lexicon_kaa  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaa/be29dbc9ade1fbfece261ccf49a91cb7> ;
+        dct:language   lexvo:kaa ;
+        lime:language  "kaa" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_azb/2054bfcc59749ce21102245811d8df80/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tuk/2054bfcc59749ce21102245811d8df80/canForm>
+        ontolex:writtenRep  "Guš"@tuk .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_xal/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kim/bb40d115dc7f37e4de7e4a894c71efbf/canForm>
+        ontolex:writtenRep  "qu'š"@kim .
+
+star:lexicon_kjf  dct:language  lexvo:kjf ;
+        lime:language  "kjf" ;
+        rdf:type       lime:Lexicon .
+
+star:lexicon_cjs  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_cjs/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:cjs ;
+        lime:language  "cjs" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kim/bb40d115dc7f37e4de7e4a894c71efbf/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .
+
+star:lexicon_chg  dct:language  lexvo:chg ;
+        lime:language  "chg" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kaz/be29dbc9ade1fbfece261ccf49a91cb7/canForm>
+        ontolex:writtenRep  "qus"@kaz .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_kjh/9cc975c5794209f4b20611761c62c35f/canForm>
+        ontolex:writtenRep  "xus"@kjh .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_tur/4dc5ba55284536c7be8ecf68497c70c7>
+        ontolex:sense          <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tur/4dc5ba55284536c7be8ecf68497c70c7/sense> ;
+        lemonet:derivedFrom    <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a> ;
+        ontolex:canonicalForm  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_tur/4dc5ba55284536c7be8ecf68497c70c7/canForm> ;
+        rdf:type               ontolex:LexicalEntry .
+
+star:lexicon_gag  lime:entry  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_gag/75de76de3d1e77964f52628c879cb743> ;
+        dct:language   lexvo:gag ;
+        lime:language  "gag" ;
+        rdf:type       lime:Lexicon .
+
+<http://acoli.cs.uni-frankfurt.de/starling/lexicon_uzb/75de76de3d1e77964f52628c879cb743/sense>
+        ontolex:reference  <http://acoli.cs.uni-frankfurt.de/starling/lexicon_Proto-Turkic/c7bd8c014ea7737a084c5033a095a33a/sense1> ;
+        rdf:type           ontolex:LexicalSense .

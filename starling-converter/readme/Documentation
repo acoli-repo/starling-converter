@@ -1,0 +1,28 @@
+
+Usage :
+
+Quick demo : (creates turkic-demo.ttl, bib.ttl from /input-files/turkic-demo.xml)
+
+  java -jar starling2rdf-1.0-with-dp.jar demo 
+
+
+How the conversion of Starling dictionaries to RDF works : 
+
+1. Get dictionaries (e.g. http://starling.rinet.ru/download/ALTAIC.exe)
+2. Extract files
+3. Get http://starling.rinet.ru/download/star4win-2.4.2.exe
+   in order to convert a .dbf file to an XML file which is the input for the Starling-converter
+4. Additionally you need to install the XML export plugin in star4win
+   http://starling.rinet.ru/startrac/starling/wiki/StarLingPlugins
+5. Convert a dictionary (.dbf file) to XML format
+6. Create a language code mapping (.csv file) (see example for Turkic below)
+7. Run 
+
+
+   java -jar starling2rdf-1.0-with-dp.jar inputFile.xml languageCodeMap.csv [rdfBaseUri]
+
+
+Files :
+/input-files/codeMappingTurkic.csv		Code mapping from proprietary Starling language codes to iso-codes
+/input-files/turkic-demo.xml			(Example for dictionary in XML format (is output of star4win)
+										 contains 1 record)

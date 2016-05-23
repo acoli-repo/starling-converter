@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.unifrankfurt.informatik.acoli</groupId>
+  <artifactId>starling2rdf</artifactId>
+  <version>1.0</version>
+  <name>starling2rdf</name>
+  
+  <dependencies>
+   <dependency>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>apache-jena-libs</artifactId>
+    <type>pom</type>
+    <version>3.0.0</version>
+  </dependency>
+  </dependencies>
+  
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+                <encoding>UTF-8</encoding>
+            </configuration>
+        </plugin>
+        
+    		<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<finalName>${artifactId}-${version}-with-dp</finalName>
+						<transformers>
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+									<mainClass>de.unifrankfurt.informatik.acoli.starling.Run</mainClass>
+								</transformer>
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+							</transformers>
+				</configuration>
+			</plugin>
+    </plugins>
+    <resources>
+        <resource>
+         	<directory>input-files</directory>
+	        <targetPath>input-files</targetPath>
+        </resource>
+    <resource>
+         	<directory>owl</directory>
+	        <targetPath>owl</targetPath>
+        </resource>
+    <resource>
+         	<directory>doc</directory>
+	        <targetPath>doc</targetPath>
+        </resource>
+    <resource>
+         	<directory>readme</directory>
+	        <targetPath>readme</targetPath>
+        </resource>
+    <resource>
+         	<directory>output-files</directory>
+	        <targetPath>output-files</targetPath>
+    </resource>
+    </resources>
+</build>
+</project>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <description>  This is the Turkic part of the Altaic Etymological Dictionary.
+
+    Database structure.
+
+    1. Protoform. The Proto-Turkic form is given with O. Mudrak's modifications, notably, with an introduction of the *ia-diphthong, as well as open and close mid-vowels.
+    2. Altaic etymology. A link to the upper level (Common Altaic) database.
+    3. Meaning. As in most lowlevel (subgroup) databases the meaning presented here is not an attempt of semantic reconstruction, but rather an enumeration of the actually attested meanings in daughter languages.
+    4-30. Languages: Old Turkic (Orkhon and Old Uighur), Old Turkic (Karakhanid), Middle Turkic (Chagatai), Turkish, Azeri, Gagauz, Turkmen, Khaladzh, Salar,  Sary-Yughur, Tatar, Kirghiz, Kazakh, Nogai, Balkar, Kumyk, Karakalpak, Uzbek, Uigur, Bashkir, Khakassian, Tuva-Tofalar, Altai, Shor, Chuvash, Yakut, Dolgan. Not all the languages are equally well represented, but the database is being  constantly supplemented. 
+    31. Comments. References and etymological comments. 
+
+ 
+
+  </description>
+  <fields>
+    <field name="NUMBER">
+      <type>numeric</type>
+      <description>\1:Number\2:Номер</description>
+    </field>
+    <field name="PROTO">
+      <type>character</type>
+      <description>\1:Proto-Turkic\2:Пратюркский</description>
+    </field>
+    <field name="PRNUM">
+      <type>numeric</type>
+      <description>Altaic etymology</description>
+    </field>
+    <field name="MEANING">
+      <type>character</type>
+      <description>\1:Meaning\2:Англ. значение</description>
+    </field>
+    <field name="RUSMEAN">
+      <type>character</type>
+      <description>\1:Russian meaning\2:Значение</description>
+    </field>
+    <field name="ATU">
+      <type>character</type>
+      <description>\1:Old Turkic\2:Древнетюркский</description>
+    </field>
+    <field name="KRH">
+      <type>character</type>
+      <description>\1:Karakhanid\2:Караханидский</description>
+    </field>
+    <field name="TRK">
+      <type>character</type>
+      <description>\1:Turkish\2:Турецкий</description>
+    </field>
+    <field name="TAT">
+      <type>character</type>
+      <description>\1:Tatar\2:Татарский</description>
+    </field>
+    <field name="CHG">
+      <type>character</type>
+      <description>\1:Middle Turkic\2:Среднетюркский</description>
+    </field>
+    <field name="UZB">
+      <type>character</type>
+      <description>\1:Uzbek\2:Узбекский</description>
+    </field>
+    <field name="UIG">
+      <type>character</type>
+      <description>\1:Uighur\2:Уйгурский</description>
+    </field>
+    <field name="SJG">
+      <type>character</type>
+      <description>\1:Sary-Yughur\2:Сарыюгурский</description>
+    </field>
+    <field name="AZB">
+      <type>character</type>
+      <description>\1:Azerbaidzhan\2:Азербайджанский</description>
+    </field>
+    <field name="TRM">
+      <type>character</type>
+      <description>\1:Turkmen\2:Туркменский</description>
+    </field>
+    <field name="HAK">
+      <type>character</type>
+      <description>\1:Khakassian\2:Хакасский</description>
+    </field>
+    <field name="SHR">
+      <type>character</type>
+      <description>\1:Shor\2:Шорский</description>
+    </field>
+    <field name="ALT">
+      <type>character</type>
+      <description>\1:Oyrat\2:Ойратский</description>
+    </field>
+    <field name="KHAL">
+      <type>character</type>
+      <description>\1:Halaj\2:Халаджский</description>
+    </field>
+    <field name="CHV">
+      <type>character</type>
+      <description>\1:Chuvash\2:Чувашский</description>
+    </field>
+    <field name="JAK">
+      <type>character</type>
+      <description>\1:Yakut\2:Якутский</description>
+    </field>
+    <field name="DOLG">
+      <type>character</type>
+      <description>\1:Dolgan\2:Долганский</description>
+    </field>
+    <field name="TUV">
+      <type>character</type>
+      <description>\1:Tuva\2:Тувинский</description>
+    </field>
+    <field name="TOF">
+      <type>character</type>
+      <description>\1:Tofalar\2:Тофаларский</description>
+    </field>
+    <field name="KRG">
+      <type>character</type>
+      <description>\1:Kirghiz\2:Киргизский</description>
+    </field>
+    <field name="KAZ">
+      <type>character</type>
+      <description>\1:Kazakh\2:Казахский</description>
+    </field>
+    <field name="NOGX">
+      <type>character</type>
+      <description>\1:Noghai\2:Ногайский</description>
+    </field>
+    <field name="BAS">
+      <type>character</type>
+      <description>\1:Bashkir\2:Башкирский</description>
+    </field>
+    <field name="BLKX">
+      <type>character</type>
+      <description>\1:Balkar\2:Балкарский</description>
+    </field>
+    <field name="GAGX">
+      <type>character</type>
+      <description>\1:Gagauz\2:Гагаузский</description>
+    </field>
+    <field name="KRMX">
+      <type>character</type>
+      <description>\1:Karaim\2:Караимский</description>
+    </field>
+    <field name="KLPX">
+      <type>character</type>
+      <description>\1:Karakalpak\2:Каракалпакский</description>
+    </field>
+    <field name="SAL">
+      <type>character</type>
+      <description>\1:Salar\2:Саларский</description>
+    </field>
+    <field name="QUM">
+      <type>character</type>
+      <description>\1:Kumyk\2:Кумыкский</description>
+    </field>
+    <field name="REFERENCE">
+      <type>character</type>
+      <description>\1:Comments\2:Комментарии</description>
+    </field>
+  </fields>
+  <data>
+  <record id="6">
+      <field name="NUMBER">6</field>
+      <field name="PROTO">*Kuĺ</field>
+      <field name="PRNUM">1157</field>
+      <field name="MEANING">1 bird  2 duck</field>
+      <field name="RUSMEAN">1 птица  2 утка</field>
+      <field name="ATU">quš 1 (OUygh.)</field>
+      <field name="KRH">quš 1 (MK, KB)</field>
+      <field name="TRK">kuš 1</field>
+      <field name="TAT">qoš 1</field>
+      <field name="CHG">quš 1 (Sangl.); 'moth' (Abush.)</field>
+      <field name="UZB">quš 1</field>
+      <field name="UIG">quš 1</field>
+      <field name="SJG">\IGus\i 1</field>
+      <field name="AZB">\IGuš\i 1</field>
+      <field name="TRM">\IGuš\i 1</field>
+      <field name="HAK">xus 1</field>
+      <field name="SHR">quš 1; 'hen'</field>
+      <field name="ALT">quš 1</field>
+      <field name="KHAL">quš, Guš (&lt; Az.) 'sparrow'</field>
+      <field name="JAK">kus 2</field>
+      <field name="DOLG">kus 2</field>
+      <field name="TUV">qu'š 1</field>
+      <field name="TOF">qu'š 1</field>
+      <field name="KRG">quš 1</field>
+      <field name="KAZ">qus 1</field>
+      <field name="NOGX">qus 1</field>
+      <field name="BAS">qoš 1</field>
+      <field name="BLKX">quš 1</field>
+      <field name="GAGX">quš 1</field>
+      <field name="KRMX">quš 1</field>
+      <field name="KLPX">qus 1</field>
+      <field name="SAL">\IGuš\i 1</field>
+      <field name="QUM">quš 1</field>
+      <field name="REFERENCE">VEWT 305, TMN 3, 547-548; EDT 670; ЭСТЯ 6, 180-182, Лексика 168, Stachowski 162. Chuv. xъlat 'hawk' &lt; Mong.</field>
+    </record>
+  </data>
+</root>

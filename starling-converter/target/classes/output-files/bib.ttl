@@ -1,0 +1,4079 @@
+@prefix msh:  <http://miskinhill.com.au/rdfschema/1.0/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix talis:  <http://schemas.talis.com/2005/address/schema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bib:  <http://acoli.cs.uni-frankfurt.de/starling/bib/> .
+@prefix dc:  <http://purl.org/dc/elements/1.1/> .
+
+bib:Vovin_1993  dct:date    "1993" ;
+        dc:identifier       "Vovin 1993" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "About the Phonetic Value of the Middle Korean Grapheme D // BSOAS 56" ;
+        dc:creator          "Vovin A." ;
+        rdf:type            msh:Book .
+
+bib:Ozawa  dct:date         "1968" ;
+        talis:localityName  "Tokyo" ;
+        dc:identifier       "Ozawa" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Kodai nihongo to chūsei mongorugo" ;
+        dc:creator          "Shigeo Ozawa" ;
+        rdf:type            msh:Book .
+
+bib:Tugov_1967  dct:date    "1967" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Tugov 1967" ;
+        dc:title            "Абазинско-русский словарь" ;
+        dc:creator          "Тугов В. Б. (редактор)" ;
+        rdf:type            msh:Book .
+
+bib:Mikailov_1967  dct:date  "1967" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Mikailov 1967" ;
+        dc:title            "Арчинский язык" ;
+        dc:creator          "Микаилов К. Ш." ;
+        rdf:type            msh:Book .
+
+bib:Dornan  dct:date        "1917" ;
+        dc:identifier       "Dornan" ;
+        dct:isReferencedBy  "East Central Khoisan etymology" ;
+        dc:title            "The Tati Bushmen (Masarwas) and their language. // In: Journal of the Royal Anthropological Institute of Great Britain and Ireland, 47, pp 37-112." ;
+        dc:creator          "Dornan Samuel" ;
+        rdf:type            msh:Book .
+
+bib:Magomedbekova_1967
+        dct:date            "1967" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Magomedbekova 1967" ;
+        dc:title            "Ахвахский язык: Грамматический анализ, тексты, словарь" ;
+        dc:creator          "Магомедбекова З. М." ;
+        rdf:type            msh:Book .
+
+bib:Егоров  dct:date        "1964" ;
+        talis:localityName  "Чебоксары [Cheboksary]" ;
+        dc:identifier       "Егоров" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Этимологический словарь чувашского языка" ;
+        dc:creator          "Егоров В. Г. [V. G. Yegorov]" ;
+        rdf:type            msh:Book .
+
+bib:Новикова_1972  dct:date  "1972" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Новикова 1972" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Иноязычные элементы в тунгусоманьчжурской лексике, относящиеся к животному миру // Очерки сравнительной лексикологии алтайских языков [Foreign elements in the animal lexicon of Tungus-Manchu // Sketches of comparative lexicology of the Altaic languages]" ;
+        dc:creator          "Новикова К. А. [K. A. Novikova]" ;
+        rdf:type            msh:Book .
+
+bib:Róna-Tas_1972  dct:date  "1972" ;
+        dc:identifier       "Róna-Tas 1972" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology" ;
+        dc:title            "Dream, magic power and divination in the Altaic world // AOH 25" ;
+        dc:creator          "Róna-Tas A." ;
+        rdf:type            msh:Book .
+
+bib:Амаржаргал  dct:date    "1988" ;
+        talis:localityName  "Улан-Батор" ;
+        dc:identifier       "Амаржаргал" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "БНМАУ дахь монголь хэлний нутгийн аялгууны толь бичиг, I" ;
+        dc:creator          "Амаржаргал Б." ;
+        rdf:type            msh:Book .
+
+bib:Friedrich  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Friedrich" ;
+        rdf:type            msh:Book .
+
+bib:Menges_1984  dct:date   "1984" ;
+        dc:identifier       "Menges 1984" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Korean and Altaic a preliminary sketch // CAJ 28" ;
+        dc:creator          "Menges K. H." ;
+        rdf:type            msh:Book .
+
+bib:Ibragimov_1978  dct:date  "1978" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Ibragimov 1978" ;
+        dc:title            "Рутульский язык" ;
+        dc:creator          "Ибрагимов Г. Х." ;
+        rdf:type            msh:Book .
+
+bib:Lafon_1966  dct:date    "1966" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Lafon 1966" ;
+        dc:title            "Notes de phonétique comparée des langues caucasiques du Nord-Ouest. \"Bedi Kartlisa. Revue de kartvélologie\", vol. XXI-XXII (No 50-51)" ;
+        dc:creator          "Lafon R." ;
+        rdf:type            msh:Book .
+
+bib:Paulsen  dct:isReferencedBy  "Plang etymology" ;
+        dc:creator          "Paulsen" ;
+        rdf:type            msh:Book .
+
+bib:Bouda_1960  dct:date  "1960" ;
+        dc:identifier  "Bouda 1960" ;
+        dc:title       "Étymologies oubykh. Journal Asiatique, CCLXVIII" ;
+        dc:creator     "Bouda K." ;
+        rdf:type       msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Тод._Мгр.>
+        dct:date            "1973" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Тод. Мгр." ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Монгорский язык [The Mongor Language]" ;
+        dc:creator          "Тодаева Б. Х. [B. Kh. Todayeva]" ;
+        rdf:type            msh:Book .
+
+bib:Rössler_ZAss  dct:date  "1952" ;
+        talis:localityName  "Berlin" ;
+        dc:identifier       "Rössler ZAss" ;
+        dct:isReferencedBy  "Long-range etymologies" ;
+        dc:title            "Der semitische Charakter der libyschen Sprache // Zeitschrift für Assyriologie und verwandte Gebiete, Neue Folge 16" ;
+        dc:creator          "Rössler O." ;
+        rdf:type            msh:Book .
+
+bib:Klimov_1971  dct:date   "1971" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Klimov 1971" ;
+        dc:title            "Кавказские этимологии (1-8). Этимология 1968" ;
+        dc:creator          "Климов Г. А." ;
+        rdf:type            msh:Book .
+
+bib:IM  dct:date            "1934" ;
+        talis:localityName  "Istanbul" ;
+        dc:identifier       "IM" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology" ;
+        dc:title            "Ibnü-Mühenna lûgati (MA = Mongolian glosses in Ibnü-Mühenna's dictionary)" ;
+        dc:creator          "Battal Aptullah" ;
+        rdf:type            msh:Book .
+
+bib:Köhler_1981  dct:date   "1981" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Köhler 1981" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "La langue Kxoe. // In: Les langues dans le monde ancien et moderne, tome 1, pp 483-555. Ed(s): Jean Perrot." ;
+        dc:creator          "Köhler Oswin" ;
+        rdf:type            msh:Book .
+
+bib:Werner  dct:isReferencedBy  "Yenisseian etymology" ;
+        dc:creator          "Werner" ;
+        rdf:type            msh:Book .
+
+bib:Vasmer  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Vasmer" ;
+        rdf:type            msh:Book .
+
+bib:Charaya_1912  dct:date  "1912" ;
+        talis:localityName  "Петербург" ;
+        dc:identifier       "Charaya 1912" ;
+        dc:title            "Об отношении абхазского языка к яфетическим" ;
+        dc:creator          "Чарая П." ;
+        rdf:type            msh:Book .
+
+bib:Ramstedt_1924  dct:date  "1924" ;
+        dc:identifier       "Ramstedt 1924" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Die Verneigung in den altaischen Sprachen // MSFOu, T. 52" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:Kumakhov_1981  dct:date  "1981" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Kumakhov 1981" ;
+        dc:title            "Сравнительно-историческая фонетика адыгских (черкесских) языков" ;
+        dc:creator          "Кумахов М. А." ;
+        rdf:type            msh:Book .
+
+bib:Radlov_1-4  dct:date    "1893-1911" ;
+        talis:localityName  "Санкт-Петербург" ;
+        dc:identifier       "Radlov 1-4" ;
+        dc:title            "Опыт словаря тюркских наречий. Тт. 1-4" ;
+        dc:creator          "Радлов В." ;
+        rdf:type            msh:Book .
+
+bib:Gabain_AG  dct:date     "1950" ;
+        talis:localityName  "Leipzig" ;
+        dc:identifier       "Gabain AG" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Alttürkische Grammatik" ;
+        dc:creator          "Gabain A. von" ;
+        rdf:type            msh:Book .
+
+bib:Nikolayev_1984  dct:date  "1984" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Nikolayev 1984" ;
+        dc:title            "Hачальные сочетания \"согласный + постувулярный\" в пранахском. // Лингвистические исследования" ;
+        dc:creator          "Hиколаев С. Л." ;
+        rdf:type            msh:Book .
+
+bib:Zajączkowski_1932
+        dct:date            "1932" ;
+        talis:localityName  "Krakow" ;
+        dc:identifier       "Zajączkowski 1932" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Sufiksy imienne i czasownikowe w jezyku zachodnio-karaimskim" ;
+        dc:creator          "Zajączkowski A." ;
+        rdf:type            msh:Book .
+
+bib:SKE  dct:date           "1949" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "SKE" ;
+        dct:isReferencedBy  "Altaic etymology, Korean etymology" ;
+        dc:title            "Studies in Korean etymology" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:MD  dct:date            "1961" ;
+        talis:localityName  "Indiana" ;
+        dc:identifier       "MD" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Mongolian. Grammar, texts and lexicon" ;
+        dc:creator          "Martin S. E." ;
+        rdf:type            msh:Book .
+
+bib:Street_1980  dct:date   "1980" ;
+        dc:identifier       "Street 1980" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Protoaltaic *l(V)b ~ turcic š // CAJ 1980. Vol. 24, No 34" ;
+        dc:creator          "Street J." ;
+        rdf:type            msh:Book .
+
+bib:Talibov-Gadzhiyev_1966
+        dct:date            "1966" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Talibov-Gadzhiyev 1966" ;
+        dc:title            "Лезгинско-русский словарь" ;
+        dc:creator          "Талибов Б. Б., Гаджиев М. М." ;
+        rdf:type            msh:Book .
+
+bib:Róna-Tas_1971-1972
+        dct:date            "1971-1972" ;
+        dc:identifier       "Róna-Tas 1971-1972" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Középmongol eredetú́ jövevényszavak a czuvasban I // Néprajz és Nyelvtudumány 1516" ;
+        dc:creator          "Róna-Tas A." ;
+        rdf:type            msh:Book .
+
+bib:Turner  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Turner" ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1971  dct:date  "1971" ;
+        dc:identifier  "Dumézil 1971" ;
+        dc:title       "Basque et Caucasique du Nord-Ouest. Examen des rapprochements lexicaux récemment proposés. Journal Asiatique, CCLIX, fasc. 1 et 2" ;
+        dc:creator     "Dumézil G." ;
+        rdf:type       msh:Book .
+
+bib:Kavtaradze_1972  dct:date  "1972" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Kavtaradze 1972" ;
+        dc:title            "Несколько общеупотребительных слов в иберийско-кавказских языках. // Труды Тбилисского университета, ВЗ (142)" ;
+        dc:creator          "Кавтарадзе И. И." ;
+        rdf:type            msh:Book .
+
+bib:Gombocz_1912  dct:date  "1912" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "Gombocz 1912" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology" ;
+        dc:title            "Die bulgarisch-türkische Lehnwörter in der ungarischen Sprache" ;
+        dc:creator          "Gombocz Z." ;
+        rdf:type            msh:Book .
+
+bib:Illich-Svitych_1965
+        dct:date            "1965" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Illich-Svitych 1965" ;
+        dc:title            "Caucasica. // Этимология 1964" ;
+        dc:creator          "Иллич-Свитыч В. М." ;
+        rdf:type            msh:Book .
+
+bib:Dzhanashia_1959  dct:date  "1959" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Dzhanashia 1959" ;
+        dc:title            "Сванско-адыгейские (черкесские) языковые встречи. Картвельско-адыгейские параллели, I. // С.H.Джанашиа. Труды, III" ;
+        dc:creator          "Джанашиа С. H." ;
+        rdf:type            msh:Book .
+
+bib:Bork_1907  dct:date     "1907" ;
+        talis:localityName  "Königsberg" ;
+        dc:identifier       "Bork 1907" ;
+        dc:title            "Beiträge zur Kaukasischen Sprachwissenschaft. T. 1. Kaukasische Miszellen" ;
+        dc:creator          "Bork F." ;
+        rdf:type            msh:Book .
+
+bib:Ernout-Meillet  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Ernout-Meillet" ;
+        rdf:type            msh:Book .
+
+bib:Uslar_1876  dct:date    "1876" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Uslar 1876" ;
+        dc:title            "Кюринский язык" ;
+        dc:creator          "Услар П. К." ;
+        rdf:type            msh:Book .
+
+bib:Helimski_1995  dct:date  "1995" ;
+        talis:localityName  "Wiesbaden" ;
+        dc:identifier       "Helimski 1995" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Samoyedic loans in Turkic: Checklist of etymologies // Laut und Wortgeschichte der Türksprachen" ;
+        dc:creator          "Helimski Ye." ;
+        rdf:type            msh:Book .
+
+bib:H   dct:date            "1974" ;
+        talis:localityName  "Wiesbaden" ;
+        dc:identifier       "H" ;
+        dct:isReferencedBy  "Zhuang-Tai etymology" ;
+        dc:title            "Explication et commentaire. // In: Robert Shafer. Introduction to Sino-Tibetan." ;
+        dc:creator          "Haudricourt, A.-G." ;
+        rdf:type            msh:Book .
+
+bib:Щербак_1970  dct:date   "1970" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Щербак 1970" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Сравнительная фонетика тюркских языков // Comparative phonology of Turkic languages" ;
+        dc:creator          "Щербак А. М. [A. M. Scherbak]" ;
+        rdf:type            msh:Book .
+
+bib:Bgazhba_1964б  dct:date  "1964" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Bgazhba 1964б" ;
+        dc:title            "Бзыбский диалект абхазского языка" ;
+        dc:creator          "Бгажба Х. С." ;
+        rdf:type            msh:Book .
+
+bib:Ramstedt_1906  dct:date  "1906" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "Ramstedt 1906" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Mogholica. Beiträge zur Kenntnis der Monghol-Sprache in Afghanistan // Journal de la Société Finno-Ougrienne" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:Ozdoyev_1980  dct:date  "1980" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Ozdoyev 1980" ;
+        dc:title            "Русско-ингушский словарь" ;
+        dc:creator          "Оздоев И. А." ;
+        rdf:type            msh:Book .
+
+bib:Nam  dct:date           "1960" ;
+        talis:localityName  "Seoul" ;
+        dc:identifier       "Nam" ;
+        dct:isReferencedBy  "Korean etymology" ;
+        dc:title            "Koe sacen" ;
+        dc:creator          "Nam Kwang U." ;
+        rdf:type            msh:Book .
+
+bib:DO  dct:date            "1960" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "DO" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Dictionnaire Ordos" ;
+        dc:creator          "Mostaert A." ;
+        rdf:type            msh:Book .
+
+bib:Peiros_1989  dct:date   "1989" ;
+        talis:localityName  "Ann Arbor" ;
+        dc:identifier       "Peiros 1989" ;
+        dct:isReferencedBy  "Long-range etymologies" ;
+        dc:title            "The Austric Macrofamily: Some Considerations // In: Reconstructing Proto-Languages and Cultures, pp. 66-69" ;
+        dc:creator          "Peiros, Ilya" ;
+        rdf:type            msh:Book .
+
+bib:Zhirkov_1936  dct:date  "1936" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Zhirkov 1936" ;
+        dc:title            "Аварско-русский словарь" ;
+        dc:creator          "Жирков Л. И." ;
+        rdf:type            msh:Book .
+
+bib:Setumadhava_Rao  dct:isReferencedBy  "Kolami-Gadba etymology" ;
+        dc:creator          "Setumadhava Rao" ;
+        rdf:type            msh:Book .
+
+bib:Lee_1991  dct:date      "1991" ;
+        talis:localityName  "Seoul" ;
+        dc:identifier       "Lee 1991" ;
+        dct:isReferencedBy  "Korean etymology" ;
+        dc:title            "Kuge ehwi sa yengu" ;
+        dc:creator          "Lee Ki-Moon" ;
+        rdf:type            msh:Book .
+
+bib:Sieg-Siegling  dct:date  "1949" ;
+        talis:localityName  "Göttingen" ;
+        dc:identifier       "Sieg-Siegling" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Tocharische Sprachreste. Sprache B" ;
+        dc:creator          "Sieg E., Siegling W." ;
+        rdf:type            msh:Book .
+
+bib:Sands-H  dct:date       "1999" ;
+        dc:identifier       "Sands-H" ;
+        dct:isReferencedBy  "Hadza etymology" ;
+        dc:title            "Linguistics in the Bush. Colloquium Presentation." ;
+        dc:creator          "Sands Bonnie" ;
+        rdf:type            msh:Book .
+
+bib:Рясянен_1955  dct:date  "1955" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Рясянен 1955" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Материалы по исторической фонетике тюркских языков" ;
+        dc:creator          "Räsänen M. [М. Рясянен]" ;
+        rdf:type            msh:Book .
+
+bib:EDT  dct:date           "1972" ;
+        talis:localityName  "Oxford" ;
+        dc:identifier       "EDT" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology, Tungus etymology" ;
+        dc:title            "Etymological Dictionary of PreThirteenth Century Turkish (MK = dictionary of Maḥmūd Kāšɣarī; KB = Karakhanide Turkic according to Qutadɣu Bilig; YB = Irk Bitig)" ;
+        dc:creator          "Clauson G." ;
+        rdf:type            msh:Book .
+
+bib:Shafer  dct:isReferencedBy  "Sino-Tibetan etymology" ;
+        dc:creator          "Shafer" ;
+        rdf:type            msh:Book .
+
+bib:Mayrhofer  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Mayrhofer" ;
+        rdf:type            msh:Book .
+
+bib:Lind  dct:isReferencedBy  "Gondi etymology" ;
+        dc:creator          "Lind" ;
+        rdf:type            msh:Book .
+
+bib:Kakhadze_1973б  dct:date  "1973" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Kakhadze 1973б" ;
+        dc:title            "Hекоторые вопросы строения и склонения личных местоимений в арчибском языке. - Иберийско-Кавказскoe Языкoзнание, т. XVIII" ;
+        dc:creator          "Кахадзе О. И." ;
+        rdf:type            msh:Book .
+
+bib:Uslar_1888  dct:date    "1888" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Uslar 1888" ;
+        dc:title            "Чеченский язык" ;
+        dc:creator          "Услар П. К." ;
+        rdf:type            msh:Book .
+
+bib:Dzhavakhishvili_1930-1934
+        dct:date            "1934" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Dzhavakhishvili 1930-1934" ;
+        dc:title            "Экономическая история Грузии, т. 1. Тбилиси 1930; т. 2" ;
+        dc:creator          "Джавахишвили И. А." ;
+        rdf:type            msh:Book .
+
+bib:Elderkin_1998  dct:date  "1998" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Elderkin 1998" ;
+        dct:isReferencedBy  "Sandawe etymology" ;
+        dc:title            "Sandawe stems. // In: Language, identity and conceptualization among the Khoisan, pp 13-33. Ed(s): Mathias Schladt. Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 15." ;
+        dc:creator          "Derek Elderkin" ;
+        rdf:type            msh:Book .
+
+bib:Joki_1963  dct:date     "1963" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "Joki 1963" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Uralte Lehnwörter oder Zufälle? // \"Congressus internationalis fenno-ugristarum, Budapest 1960\"" ;
+        dc:creator          "Joki A. J." ;
+        rdf:type            msh:Book .
+
+bib:Dempwolff  dct:date     "1916" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Dempwolff" ;
+        dct:isReferencedBy  "Sandawe etymology" ;
+        dc:title            "Die Sandawe: linguistisches und ethnographisches Material aus Deutsch-Ostafrika. Abhandlungen der hamburgischen Kolonial-Instituts, Bd 34. Reihe B: Völkerkunde, Kulturgeschichte und Sprachen, Bd 19, pp. 180." ;
+        dc:creator          "Dempwolff Otto" ;
+        rdf:type            msh:Book .
+
+bib:Vovin_2000  dct:date    "2000" ;
+        talis:localityName  "Hawaii" ;
+        dc:identifier       "Vovin 2000" ;
+        dct:isReferencedBy  "Altaic etymology, Japanese etymology" ;
+        dc:title            "Pre-Hankul materials, Koreo-Japonic and Altaic // Korean Studies 24" ;
+        dc:creator          "Vovin A." ;
+        rdf:type            msh:Book .
+
+bib:Honken_1998  dct:date   "1998" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Honken 1998" ;
+        dct:isReferencedBy  "Macro-Khoisan etymology" ;
+        dc:title            "Types of sound correspondence patterns in Khoisan languages. // In: Language, identity and conceptualization among the Khoisan, pp 171-193. Ed(s): Mathias Schladt. Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 15." ;
+        dc:creator          "Honken Henry" ;
+        rdf:type            msh:Book .
+
+bib:Baucom  dct:date        "1974" ;
+        dc:identifier       "Baucom" ;
+        dct:isReferencedBy  "Central Khoisan etymology" ;
+        dc:title            "Proto-Central-Khoisan. // In: Proceedings of the 3rd annual conference on African linguistics, 7-8 April 1972, pp 3-37. Ed(s): Erhard F[riedrich] K[arl] Voeltz. Indiana University publications, African series, vol 7." ;
+        dc:creator          "Baucom Kenneth" ;
+        rdf:type            msh:Book .
+
+bib:LH  dct:date            "1927" ;
+        dc:identifier       "LH" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Das mongolische Sprachmaterial einer Leidener Handschrift // ИАН СССР, XXI, сер. VI, N 15-17" ;
+        dc:creator          "Poppe N." ;
+        rdf:type            msh:Book .
+
+bib:Kibrik-Kodzasov_1988
+        dct:date            "1988" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Kibrik-Kodzasov 1988" ;
+        dc:title            "Сопоставительное изучение дагестанских языков. Глагол" ;
+        dc:creator          "Кибрик А. Е., Кодзасов С. В." ;
+        rdf:type            msh:Book .
+
+bib:Владимирцов  dct:date   "1929" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Владимирцов" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Сравнительная грамматика монгольского письменного языка и халхаского наречия: Введение и фонетика" ;
+        dc:creator          "Владимирцов Б. Я. [B. Ya. Vladimirtsov]" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/NC,_Crawhall,_Crawhall-Sands>
+        dct:date            "2002-5" ;
+        dc:identifier       "NC, Crawhall, Crawhall-Sands" ;
+        dct:isReferencedBy  "South Khoisan (!Wi subgroup) etymology" ;
+        dc:title            "Unpublished fieldnotes on N|huki [partially available on the Internet]." ;
+        dc:creator          "Crawhall Nigel, Sands Bonnie et al." ;
+        rdf:type            msh:Book .
+
+bib:NSC  dct:date           "1989" ;
+        dc:identifier       "NSC" ;
+        dct:isReferencedBy  "Sino-Caucasian etymology" ;
+        dc:title            "Nostratic and Sino-Caucasian // In: Explorations in Language Macrofamilies." ;
+        dc:creator          "Starostin S. A." ;
+        rdf:type            msh:Book .
+
+bib:ТДГДС  dct:date         "1977" ;
+        talis:localityName  "Ashkhabad" ;
+        dc:identifier       "ТДГДС" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Тɣркмен дилинин гысгача диалектологик сöзлɣги" ;
+        dc:creator          "Аразкулыев С., Атаниязов С., Бердиев Р., Сапарова Г. [S. Arazkulyev, S. Ataniyazov, R. Berdiev, G. Saparova]" ;
+        rdf:type            msh:Book .
+
+bib:Miller_1996  dct:date   "1996" ;
+        talis:localityName  "Bangkok" ;
+        dc:identifier       "Miller 1996" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Languages and History. Japanese, Korean, and Altaic" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:HSED  dct:date          "1995" ;
+        talis:localityName  "Leiden & New York" ;
+        dc:identifier       "HSED" ;
+        dct:isReferencedBy  "Afroasiatic etymology" ;
+        dc:title            "Hamito-Semitic Etymological Dictionary: Materials for a Reconstruction" ;
+        dc:creator          "Orel V., Stolbova O." ;
+        rdf:type            msh:Book .
+
+bib:Desheriyev_1953  dct:date  "1953" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Desheriyev 1953" ;
+        dc:title            "Бацбийский язык" ;
+        dc:creator          "Дешериев Ю. Д." ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1965  dct:date  "1965" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Dumézil 1965" ;
+        dc:title            "Documents anatoliens sur les langues et les traditions du Caucase, III. Nouvelles Etudes Oubykh" ;
+        dc:creator          "Dumézil G." ;
+        rdf:type            msh:Book .
+
+bib:Дмитриева_1988  dct:date  "1988" ;
+        talis:localityName  "Чебоксары [Cheboksary]" ;
+        dc:identifier       "Дмитриева 1988" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "К этимологии названий травянистых растений в чувашском языке. VII // Исследования по этимологии и грамматике чувашского языка [Towards an etymology of herbaceous plant names in Chuvash // Explorations in Chuvash etymology and grammar]" ;
+        dc:creator          "Дмитриева Ю. [Yu. Dmitriyeva]" ;
+        rdf:type            msh:Book .
+
+bib:Heikkinen_1986  dct:date  "1986" ;
+        dc:identifier       "Heikkinen 1986" ;
+        dct:isReferencedBy  "North Khoisan etymology" ;
+        dc:title            "Outline of the phonology of the !Xû dialect spokenin Ovamboland and Western Kavango. In: South African journal of African languages, 6 (1)." ;
+        dc:creator          "Heikkinen Terttu" ;
+        rdf:type            msh:Book .
+
+bib:Horn_1893  dct:date     "1893" ;
+        talis:localityName  "Strassburg" ;
+        dc:identifier       "Horn 1893" ;
+        dc:title            "Grundriss der neupersischen Etymologie" ;
+        dc:creator          "Horn P." ;
+        rdf:type            msh:Book .
+
+bib:СЯОС  dct:date          "2001" ;
+        talis:localityName  "Элиста [Elista]" ;
+        dc:identifier       "СЯОС" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Словарь языка ойратов Синьцзяна [Dictionary of the Language of Xinjiang Oyrats]" ;
+        dc:creator          "Тодаева Б. Х. [B. Kh. Todayeva]" ;
+        rdf:type            msh:Book .
+
+bib:Sokolovskaya  dct:isReferencedBy  "Viet-Muong etymology" ;
+        dc:creator          "Sokolovskaya" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Тод._Даг.>
+        dct:date            "1986" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Тод. Даг." ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology, Tungus etymology, Altaic etymology" ;
+        dc:title            "Дагурский язык [The Dagur Language]" ;
+        dc:creator          "Тодаева Б. Х. [B. Kh. Todayeva]" ;
+        rdf:type            msh:Book .
+
+bib:УНС  dct:date           "1961" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "УНС" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Уйгурские наречия Синьцзяна" ;
+        dc:creator          "Малов С. Е. [S. Ye. Malov]" ;
+        rdf:type            msh:Book .
+
+bib:Фасмер  dct:date        "1964-1973" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Фасмер" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Этимологический словарь русского языка // Russian Etymological Dictionary" ;
+        dc:creator          "Фасмер М. [M. Vasmer]" ;
+        rdf:type            msh:Book .
+
+bib:Sommerfelt_1938  dct:date  "1938" ;
+        dc:identifier  "Sommerfelt 1938" ;
+        dc:title       "Études comparatives sur le caucasique du Nord-Est, Norsk Tidsskrift for Sprogvidenskap, Bd. 9: 115-143" ;
+        dc:creator     "Sommerfelt A." ;
+        rdf:type       msh:Book .
+
+bib:Musayev_1978  dct:date  "1978" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Musayev 1978" ;
+        dc:title            "Лексика даргинских диалектов в сравнительно-историческом освещении" ;
+        dc:creator          "Мусаев М.-С. М." ;
+        rdf:type            msh:Book .
+
+bib:Dzhavakhishvili_1937
+        dct:date            "1937" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Dzhavakhishvili 1937" ;
+        dc:title            "Введение в историю грузинского народа, т. II. Первоначальный строй и родство грузинского и кавказских языков (in Georgian)" ;
+        dc:creator          "Джавахишвили И. А." ;
+        rdf:type            msh:Book .
+
+bib:Trubetzkoy_1926  dct:date  "1926" ;
+        talis:localityName  "Leipzig" ;
+        dc:identifier       "Trubetzkoy 1926" ;
+        dc:title            "Studien auf dem Gebiete der vergleichenden Lautlehre der Nordkaukasischen Sprachen. I. Caucasica, fasc. 3, S. 7-36. Russian translation: Исследования в области сравнительной фонетики севернокавказских языков, в сб.: Н.С.Трубецкой, Избранные труды по филологии, Москва, 1987, стр. 247-270" ;
+        dc:creator          "Trubetzkoy N. S." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Баск._Леб.>
+        dct:date            "1975" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Баск. Леб." ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology" ;
+        dc:title            "Диалект лебединских татар-чалканцев (Куу-кижи): Грамматический очерк, тексты, переводы и словарь // The Dialect of Chalkan Tatars: Grammar sketch, texts, translations and dictionary" ;
+        dc:creator          "Баскаков Н. А. [N. A. Baskakov]" ;
+        rdf:type            msh:Book .
+
+bib:Starostin_1975б  dct:date  "1975" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Starostin 1975б" ;
+        dc:title            "О реконструкции пралезгинской системы гласных. // Тезисы конференции аспирантов и молодых сотрудников: Литературоведение, текстология, лингвистика" ;
+        dc:creator          "Старостин С. А." ;
+        rdf:type            msh:Book .
+
+bib:Burrow-Bhattacharya
+        dct:isReferencedBy  "Konda etymology" ;
+        dc:creator          "Burrow-Bhattacharya" ;
+        rdf:type            msh:Book .
+
+bib:Fähnrich_1972  dct:date  "1972" ;
+        talis:localityName  "Jena" ;
+        dc:identifier       "Fähnrich 1972" ;
+        dc:title            "Regelmässige Phonementsprechungen in den abchasisch-adygischen Sprachen und einige Bemerkungen zum kartvelischen Wortschatz. \"Wissenschaftliche Zeitschrift\", Jg. 21, H. 5/6" ;
+        dc:creator          "Fähnrich H." ;
+        rdf:type            msh:Book .
+
+bib:Dirr_1908  dct:date     "1908" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Dirr 1908" ;
+        dc:title            "Арчинский язык" ;
+        dc:creator          "Дирр А. М." ;
+        rdf:type            msh:Book .
+
+bib:Dzhanashia_1954  dct:date  "1954" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Dzhanashia 1954" ;
+        dc:title            "Абхазско-грузинский словарь" ;
+        dc:creator          "Джанашиа Б. H." ;
+        rdf:type            msh:Book .
+
+bib:Bläsing_2002  dct:date  "2002" ;
+        dc:identifier       "Bläsing 2002" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Pflanzennamen im Kumükischen // Studia Etymologica Cracoviensia 7" ;
+        dc:creator          "Bläsing U." ;
+        rdf:type            msh:Book .
+
+bib:KhM  dct:date           "1971" ;
+        talis:localityName  "The Hague" ;
+        dc:identifier       "KhM" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Khalaj materials" ;
+        dc:creator          "Doerfer G., Hesche W., Scheinhardt H., Tezcan S." ;
+        rdf:type            msh:Book .
+
+bib:Starostin_1978  dct:date  "1978" ;
+        talis:localityName  "Tallinn" ;
+        dc:identifier       "Starostin 1978" ;
+        dc:title            "Preliminary remarks on accent correspondences between some languages of Dagestan. // Estonian papers in phonetics, pp. 88-91" ;
+        dc:creator          "Starostin S. A." ;
+        rdf:type            msh:Book .
+
+bib:Talibov_1960а  dct:date  "1960" ;
+        dc:identifier  "Talibov 1960а" ;
+        dc:title       "Место хиналугского языка в системе языков лезгинской группы. // Ученые записки ИИЯЛ, т. VII" ;
+        dc:creator     "Талибов Б. Б." ;
+        rdf:type       msh:Book .
+
+bib:Sinor_1995  dct:date    "1995" ;
+        dc:identifier       "Sinor 1995" ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "On vessels, bags, coffins and melons (musing over Turkic QAP) // AOH 48" ;
+        dc:creator          "Sinor D." ;
+        rdf:type            msh:Book .
+
+bib:Bouda_1948  dct:date  "1948" ;
+        dc:identifier  "Bouda 1948" ;
+        dc:title       "Baskisch und Kaukasisch. // Zeitschrift für Phonetik und allgemeine Sprachwissenschaft, Jg. 2, H. 3-4" ;
+        dc:creator     "Bouda K." ;
+        rdf:type       msh:Book .
+
+bib:Berger  dct:isReferencedBy  "Burushaski etymology" ;
+        dc:creator          "Berger" ;
+        rdf:type            msh:Book .
+
+bib:Tekin_1979  dct:date    "1979" ;
+        dc:identifier       "Tekin 1979" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Once more zetacism and sigmatism // CAJ 23" ;
+        dc:creator          "Tekin T." ;
+        rdf:type            msh:Book .
+
+bib:Smith  dct:isReferencedBy  "Gondi etymology" ;
+        dc:creator          "Smith" ;
+        rdf:type            msh:Book .
+
+bib:Lig._VSOu  dct:date     "1966" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "Lig. VSOu" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Un vocabulaire sinoouigour des Ming. Le \"Kaochangkouan yichou\" du bureau des traducteurs // AOH. T. XIX, fasc. 23" ;
+        dc:creator          "Ligeti L." ;
+        rdf:type            msh:Book .
+
+bib:Sinor_1965  dct:date    "1965" ;
+        dc:identifier       "Sinor 1965" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Notes on the Altaic equine terminology // CAJ 1965, Vol. X, N 3-4" ;
+        dc:creator          "Sinor D." ;
+        rdf:type            msh:Book .
+
+bib:Bgazhba_1948  dct:date  "1948" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Bgazhba 1948" ;
+        dc:title            "Общие корни (и основы) в абхазском и картвельских языках. - Иберийско-кавказское языкознание, т. II" ;
+        dc:creator          "Бгажба Х." ;
+        rdf:type            msh:Book .
+
+bib:Barnard  dct:date       "1985" ;
+        dc:identifier       "Barnard" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "A Nharo wordlist, with notes on grammar. Occasional publications from the Department of African Studies, no 2." ;
+        dc:creator          "Barnard Alan" ;
+        rdf:type            msh:Book .
+
+bib:Nogma_1956  dct:date    "1956" ;
+        talis:localityName  "Hальчик" ;
+        dc:identifier       "Nogma 1956" ;
+        dc:title            "Филологические труды" ;
+        dc:creator          "Hогма Ш. Б." ;
+        rdf:type            msh:Book .
+
+bib:Rogava_1956  dct:date   "1956" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Rogava 1956" ;
+        dc:title            "К вопросу о структуре именных основ и категориях грамматических классов в адыгских (черкесских) языках" ;
+        dc:creator          "Рогава Г. В." ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1959  dct:date  "1959" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Dumézil 1959" ;
+        dc:title            "Études oubykhs. // Bibliothèque archéologique et historique de l'Institut Franc̣ais d'Archéologie d'Istanbul, VII" ;
+        dc:creator          "Dumézil G." ;
+        rdf:type            msh:Book .
+
+bib:KW  dct:date            "1935" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "KW" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology, Mongolian etymology" ;
+        dc:title            "Kalmückisches Wörterbuch" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:Doke  dct:date          "1925" ;
+        dc:identifier       "Doke" ;
+        dct:isReferencedBy  "North Khoisan etymology" ;
+        dc:title            "An outline of the phonetics of the language of the Chû: Bushmen of north-west Kalahari // Bantu studies and general South African anthropology, 2 (3)" ;
+        dc:creator          "Doke Clement M." ;
+        rdf:type            msh:Book .
+
+bib:Uslar_1979  dct:date    "1979" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Uslar 1979" ;
+        dc:title            "Табасаранский язык" ;
+        dc:creator          "Услар П. К." ;
+        rdf:type            msh:Book .
+
+bib:ССЯ  dct:date           "1976" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "ССЯ" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Строй саларского языка [The Structure of the Salar Language]" ;
+        dc:creator          "Тенишев Э. Р. [E. R. Tenishev]" ;
+        rdf:type            msh:Book .
+
+bib:Dzhamalkhanov-Matsiyev-Ozdoyev_1962
+        dct:date            "1962" ;
+        talis:localityName  "Грозный" ;
+        dc:identifier       "Dzhamalkhanov-Matsiyev-Ozdoyev 1962" ;
+        dc:title            "Ингушско-чеченско-русский словарь" ;
+        dc:creator          "Джамалханов З. Д., Мациев А. Г., Оздоев И. А." ;
+        rdf:type            msh:Book .
+
+bib:Magometov_1965  dct:date  "1965" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Magometov 1965" ;
+        dc:title            "Табасаранский язык" ;
+        dc:creator          "Магометов А. А." ;
+        rdf:type            msh:Book .
+
+bib:Acharyan  dct:date      "1926-1935" ;
+        talis:localityName  "Ереван" ;
+        dc:identifier       "Acharyan" ;
+        dc:title            "Этимологический корневой словарь армянского языка, т. I-VII" ;
+        dc:creator          "Ачарян Р." ;
+        rdf:type            msh:Book .
+
+bib:Yakovlev_1941  dct:date  "1941" ;
+        talis:localityName  "Москва-Ленинград" ;
+        dc:identifier       "Yakovlev 1941" ;
+        dc:title            "Грамматика адыгейского литературного языка" ;
+        dc:creator          "Яковлев Н. Ф., Ашхамаф Д." ;
+        rdf:type            msh:Book .
+
+bib:Talibov_1960b  dct:date  "1960" ;
+        talis:localityName  "Москва-Ленинград" ;
+        dc:identifier       "Talibov 1960b" ;
+        dc:title            "О некоторых окаменелых и полуокаменелых элементах в структуре лезгинского языка. // Вопросы грамматики" ;
+        dc:creator          "Талибов Б. Б." ;
+        rdf:type            msh:Book .
+
+bib:Klimov_1972  dct:date   "1972" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Klimov 1972" ;
+        dc:title            "О некоторых словарных общностях картвельских и нахско-дагестанских языков. Этимология 1970" ;
+        dc:creator          "Климов Г. А." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/ПДП,_Rabg.>
+        dct:date            "1951" ;
+        talis:localityName  "Москва-Ленинград [Moscow-Leningrad]" ;
+        dc:identifier       "ПДП, Rabg." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Памятники древнетюркской письменности [Old Turkic written monuments]; Rabg. = the Rabɣuzi manuscript" ;
+        dc:creator          "Малов С. Е. [S. Ye. Malov]" ;
+        rdf:type            msh:Book .
+
+bib:Gudava_1964  dct:date   "1964" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Gudava 1964" ;
+        dc:title            "Консонантизм андийских языков" ;
+        dc:creator          "Гудава Т. Е." ;
+        rdf:type            msh:Book .
+
+bib:Fitzgerald  dct:isReferencedBy  "Kui-Kuwi etymology" ;
+        dc:creator          "Fitzgerald" ;
+        rdf:type            msh:Book .
+
+bib:Nikolayev_1985  dct:date  "1985" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Nikolayev 1985" ;
+        dc:title            "Севернокавказские заимствования в хеттском и древнегреческом. // Древняя Анатолия" ;
+        dc:creator          "Hиколаев С. Л." ;
+        rdf:type            msh:Book .
+
+bib:Дыбо_1988  dct:date     "1988" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Дыбо 1988" ;
+        dct:isReferencedBy  "Altaic etymology, Tungus etymology" ;
+        dc:title            "Этимологический материал к реконструкции пратунгусоманьчжурских названий частей тела // Синхрония и диахрония в лингвистических исследованиях [Etymologic Material For The Reconstruction of Proto-Tungus-Manchu Words for Body Parts, in: Synchrony and Diachrony in Linguistic Research]" ;
+        dc:creator          "Дыбо А. В. [A. V. Dybo]" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Дыбо_Дисс.>
+        dct:date            "1991" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Дыбо Дисс." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Семантическая реконструкция в алтайской этимологии. Диссертация на соискание ученой степени докт. фил. наук [Semantic reconstruction in Altaic etymology. PhD Thesis]" ;
+        dc:creator          "Дыбо А. В. [A. V. Dybo]" ;
+        rdf:type            msh:Book .
+
+bib:Meilanova_1984  dct:date  "1984" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Meilanova 1984" ;
+        dc:title            "Будухско-русский словарь" ;
+        dc:creator          "Мейланова У. А." ;
+        rdf:type            msh:Book .
+
+bib:Dirr_1903  dct:date     "1903" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Dirr 1903" ;
+        dc:title            "Краткий грамматический очерк андийского языка с текстами, сборником андийских слов и русским к нему указателем" ;
+        dc:creator          "Дирр А. М." ;
+        rdf:type            msh:Book .
+
+bib:Collins_2001a  dct:date  "2001" ;
+        dc:identifier       "Collins 2001a" ;
+        dct:isReferencedBy  "East #Hoan etymology" ;
+        dc:title            "Multiple verb movement in #Hoan. In: Cornell working papers in linguistics, 18, pp 75-104." ;
+        dc:creator          "Collins Chris" ;
+        rdf:type            msh:Book .
+
+bib:Дыбо  dct:date          "1996" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Дыбо" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Семантическая реконструкция в алтайской этимологии. Соматические термины (плечевой пояс) [Semantic reconstruction in Altaic etymology. Somatic terms (of the humeral area)]" ;
+        dc:creator          "Дыбо А. В. [A. V. Dybo]" ;
+        rdf:type            msh:Book .
+
+bib:ЯБТ  dct:date           "1981" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "ЯБТ" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology" ;
+        dc:title            "Язык барабинских татар [The Language of Barabin Tatars]" ;
+        dc:creator          "Дмитриева Л. В. [L. V. Dmitrieva]" ;
+        rdf:type            msh:Book .
+
+bib:Maingard  dct:date      "1937" ;
+        talis:localityName  "Johannesburg" ;
+        dc:identifier       "Maingard" ;
+        dct:isReferencedBy  "South Khoisan (!Wi subgroup) etymology" ;
+        dc:title            "The #Khomani dialect of Bushman: its morphology and other characteristics. In: Bushmen of the southern Kalahari, pp 237-275." ;
+        dc:creator          "Maingard Louis F." ;
+        rdf:type            msh:Book .
+
+bib:GE  dct:date            "1994" ;
+        dc:identifier       "GE" ;
+        dct:isReferencedBy  "Long-range etymologies" ;
+        dc:title            "Global etymologies. // On the origin of languages: studies in linguistic taxonomy, by M. Ruhlen, pp. 277-336." ;
+        dc:creator          "Bengtson, John; Ruhlen, Merritt" ;
+        rdf:type            msh:Book .
+
+bib:Захаров  dct:date       "1875" ;
+        talis:localityName  "Санкт-Петербург [Saint-Petersburg]" ;
+        dc:identifier       "Захаров" ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "Полный маньчжурско-русский словарь [The Complete Manchu-Russian Dictionary]" ;
+        dc:creator          "Захаров И. [I. Zakharov]" ;
+        rdf:type            msh:Book .
+
+bib:Sinor_1990  dct:date    "1990" ;
+        dc:identifier       "Sinor 1990" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Turkic yer 'ground, place, earth' - Chuvash śer - Hungarian szer // Essays in Comparative Altaic Linguistics" ;
+        dc:creator          "Sinor D." ;
+        rdf:type            msh:Book .
+
+bib:Frisk  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Frisk" ;
+        rdf:type            msh:Book .
+
+bib:Traill  dct:date        "1994" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Traill" ;
+        dct:isReferencedBy  "South Khoisan (Taa subgroup) etymology" ;
+        dc:title            "A !Xóõ dictionary. Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 9." ;
+        dc:creator          "Traill Anthony" ;
+        rdf:type            msh:Book .
+
+bib:D-T  dct:date           "1980" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "D-T" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Wörterbuch des Chaladsch: (Dialekt von Charrab)" ;
+        dc:creator          "Doerfer G., Tezcan C." ;
+        rdf:type            msh:Book .
+
+bib:Snyman  dct:date        "1970" ;
+        talis:localityName  "Cape Town" ;
+        dc:identifier       "Snyman" ;
+        dct:isReferencedBy  "North Khoisan etymology" ;
+        dc:title            "An introduction to the !Xũ (!Kung) language. Communications from the School of African Studies, no 34." ;
+        dc:creator          "Snyman Jan W." ;
+        rdf:type            msh:Book .
+
+bib:DED  dc:identifier      "DED" ;
+        dct:isReferencedBy  "Dravidian etymology" ;
+        dc:creator          "Burrow-Emeneau" ;
+        rdf:type            msh:Book .
+
+bib:Kumakhov_1964  dct:date  "1964" ;
+        talis:localityName  "Нальчик" ;
+        dc:identifier       "Kumakhov 1964" ;
+        dc:title            "Морфология адыгских языков. Синхронно-диахронная характеристика, I" ;
+        dc:creator          "Кумахов М. А." ;
+        rdf:type            msh:Book .
+
+bib:JOAL  dct:date          "1971" ;
+        talis:localityName  "Chicago and London" ;
+        dc:identifier       "JOAL" ;
+        dct:isReferencedBy  "Altaic etymology, Japanese etymology" ;
+        dc:title            "Japanese and the Other Altaic Languages" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Кал.>
+        dct:date            "1978-1985" ;
+        dc:identifier       "Кал." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Этимологические исследования по якутскому языку I-VIII [Etymological Research On The Yakut Language]" ;
+        dc:creator          "Калужиньский С. [S. Kaluzhinsky]" ;
+        rdf:type            msh:Book .
+
+bib:Knobloch_1958  dct:date  "1958" ;
+        dc:identifier  "Knobloch 1958" ;
+        dc:title       "Ein kaukasisches Lehnwort in den klassischen Sprachen. \"Die Sprache\", IV" ;
+        dc:creator     "Knobloch J." ;
+        rdf:type       msh:Book .
+
+bib:T   dct:date            "1988" ;
+        talis:localityName  "Arlington" ;
+        dc:identifier       "T" ;
+        dct:isReferencedBy  "Kam-Sui etymology" ;
+        dc:title            "Notes on the reconstruction of Proto-Kam-Sui // In: Comparative Kadai: linguistic studies beyond Tai. Ed. by Jerold A. Edmonson and David B. Solnit." ;
+        dc:creator          "Thurgood, Graham" ;
+        rdf:type            msh:Book .
+
+bib:ОСНЯ  dct:date          "1971-84" ;
+        talis:localityName  "Москва. [Moscow.]" ;
+        dc:identifier       "ОСНЯ" ;
+        dct:isReferencedBy  "Long-range etymologies, Nostratic etymology, Altaic etymology, Turkic etymology" ;
+        dc:title            "Опыт сравнения ностратических языков (семито-хамитский, картвельский, индоевропейский, уральский, дравидийский, алтайский). Сравнительный словарь. [A Tentative Comparative Dictionary of the Nostratic Languages (Semito-Hamitic, Kartvelian, Indo-European, Uralic, Dravidian, Altaic).]" ;
+        dc:creator          "Иллич-Свитыч, В. М. [V. M. Illich-Svitych]" ;
+        rdf:type            msh:Book .
+
+bib:Miller_1985  dct:date   "1985" ;
+        dc:identifier       "Miller 1985" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Externalizing internal rules (Lyman's law in Japanese and Altaic) // Diachronica II: 2" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Tolsma_1999  dct:isReferencedBy  "Kulung dictionary" ;
+        dc:creator          "Tolsma 1999" ;
+        rdf:type            msh:Book .
+
+bib:Meinhof_1929  dct:date  "1929" ;
+        dc:identifier       "Meinhof 1929" ;
+        dct:isReferencedBy  "South Khoisan (!Wi subgroup) etymology" ;
+        dc:title            "Versuch einer grammatischen Skizze einer Buschmannsprache // Zeitschrift für Eingeborenen-Sprachen, Vol. XIX, No. 3" ;
+        dc:creator          "Meinhof Carl" ;
+        rdf:type            msh:Book .
+
+bib:Starostin_1985  dct:date  "1985" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Starostin 1985" ;
+        dc:title            "Культурная лексика в общесевернокавказском словарном фонде. // Древняя Анатолия" ;
+        dc:creator          "Старостин С. А." ;
+        rdf:type            msh:Book .
+
+bib:Haacke  dct:date        "1998" ;
+        talis:localityName  "Windhoek" ;
+        dc:identifier       "Haacke" ;
+        dct:isReferencedBy  "Khoekhoe etymology" ;
+        dc:title            "Khoekhoegowab-English, English-Khoekhoegowab glossary." ;
+        dc:creator          "Haacke Wilfrid, Eiseb Eliphas" ;
+        rdf:type            msh:Book .
+
+bib:Aliroyev_1975  dct:date  "1975" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Aliroyev 1975" ;
+        dc:title            "Hазвания трав в нахских языках. Иберийско-кавказское языкознание, т. II, с. 159-165" ;
+        dc:creator          "Алироев И. Ю." ;
+        rdf:type            msh:Book .
+
+bib:Tsertsvadze_1965  dct:date  "1965" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Tsertsvadze 1965" ;
+        dc:title            "Андийский язык: Грамматический анализ с текстами (in Georgian: Andiuriena)" ;
+        dc:creator          "Церцвадзе И. И." ;
+        rdf:type            msh:Book .
+
+bib:Lomtatidze_1966  dct:date  "1966" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Lomtatidze 1966" ;
+        dc:title            "К вопросу об исходных видах слов рука и нога в абхазо-адыгских языках и анализ некоторых картвельских основ. // Иберийско-кавказское языкознание, т. XV" ;
+        dc:creator          "Ломтатидзе К. В." ;
+        rdf:type            msh:Book .
+
+bib:Imnayshvili_1963  dct:date  "1963" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Imnayshvili 1963" ;
+        dc:title            "Дидойский язык в сравнении с гинухским и хваршийским языками" ;
+        dc:creator          "Имнайшвили Д. С." ;
+        rdf:type            msh:Book .
+
+bib:Sands_1998  dct:date    "1998" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Sands 1998" ;
+        dct:isReferencedBy  "Hadza etymology" ;
+        dc:title            "The linguistic relationship between Hadza and Khoisan. // In: Language, identity and conceptualization among the Khoisan, pp 266-283. Ed(s): Mathias Schladt. Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 15." ;
+        dc:creator          "Sands Bonnie" ;
+        rdf:type            msh:Book .
+
+bib:Bell-Collins_2001
+        dct:date            "2001" ;
+        dc:identifier       "Bell-Collins 2001" ;
+        dct:isReferencedBy  "East #Hoan etymology" ;
+        dc:title            "#Hoan and the typology of click accompaniments in Khoisan. In: Cornell working papers in linguistics, 18, pp 126-153." ;
+        dc:creator          "Bell Arthur, Collins Chris" ;
+        rdf:type            msh:Book .
+
+bib:Uslar_1889  dct:date    "1889" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Uslar 1889" ;
+        dc:title            "Аварский язык" ;
+        dc:creator          "Услар П. К." ;
+        rdf:type            msh:Book .
+
+bib:KED  dct:date           "1967" ;
+        talis:localityName  "New Haven-London" ;
+        dc:identifier       "KED" ;
+        dct:isReferencedBy  "Altaic etymology, Korean etymology" ;
+        dc:title            "A KoreanEnglish Dictionary" ;
+        dc:creator          "Martin S. E., Yang Ha Lee, SungUn Chang" ;
+        rdf:type            msh:Book .
+
+bib:Kagaya  dct:date        "1993" ;
+        talis:localityName  "Tokyo" ;
+        dc:identifier       "Kagaya" ;
+        dct:isReferencedBy  "Sandawe etymology" ;
+        dc:title            "A classified vocabulary of the Sandawe language." ;
+        dc:creator          "Kagaya Ryohei" ;
+        rdf:type            msh:Book .
+
+bib:Toivonen_FUF  dct:date  "1928" ;
+        dc:identifier       "Toivonen FUF" ;
+        dct:isReferencedBy  "Nostratic etymology" ;
+        dc:title            "Zur Geschichte der finnisch-ugrischen inlautenden Affrikaten // Finnisch-Ugrische Forschungen 16" ;
+        dc:creator          "Toivonen Y. H." ;
+        rdf:type            msh:Book .
+
+bib:Kimmenade  dct:date     "1954" ;
+        talis:localityName  "Switzerland" ;
+        dc:identifier       "Kimmenade" ;
+        dct:isReferencedBy  "Sandawe etymology" ;
+        dc:title            "Essai de grammaire et vocabulaire de la langue Sandawe. Micro bibliotheca anthropos, no 9, pp. 120." ;
+        dc:creator          "Kimmenade Martin van de" ;
+        rdf:type            msh:Book .
+
+bib:Saidov_1967  dct:date   "1967" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Saidov 1967" ;
+        dc:title            "Аварско-русский словарь" ;
+        dc:creator          "Саидов М." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/ZM,_KT>
+        dct:date            "1961" ;
+        talis:localityName  "Kyoto" ;
+        dc:identifier       "ZM, KT" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "The Zirni Manuscript. A Persian-Mongolian Glossary and Grammar; (KT) - the Mogol Kundur text" ;
+        dc:creator          "Shinobu Iwamura" ;
+        rdf:type            msh:Book .
+
+bib:Miller_1986a  dct:date  "1986" ;
+        dc:identifier       "Miller 1986a" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Altaic Evidence for Prehistoric Incursions of Japan // UAJ 58" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Mitchell  dct:isReferencedBy  "Gondi etymology" ;
+        dc:creator          "Mitchell" ;
+        rdf:type            msh:Book .
+
+bib:Russian_field_recordings
+        dct:isReferencedBy  "Viet-Muong etymology" ;
+        dc:creator          "Russian field recordings" ;
+        rdf:type            msh:Book .
+
+bib:Poppe_1983  dct:date    "1983" ;
+        dc:identifier       "Poppe 1983" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Chaladsch und die Altaische Sprachwissenschaft // CAJ 27" ;
+        dc:creator          "Poppe N." ;
+        rdf:type            msh:Book .
+
+bib:Gasanova_1971  dct:date  "1971" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Gasanova 1971" ;
+        dc:title            "Очерки даргинской диалектологии" ;
+        dc:creator          "Гасанова С. М." ;
+        rdf:type            msh:Book .
+
+bib:Poppe  dct:date         "1960" ;
+        talis:localityName  "Wiesbaden" ;
+        dc:identifier       "Poppe" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Vergleichende Grammatik der Altaischen Sprachen, Teil 1. Vergleichende Lautlehre" ;
+        dc:creator          "Poppe N." ;
+        rdf:type            msh:Book .
+
+bib:Ketskij_sb._A  dc:identifier  "Ketskij sb. A" ;
+        dct:isReferencedBy  "Sino-Caucasian etymology" ;
+        dc:creator          "Starostin" ;
+        rdf:type            msh:Book .
+
+bib:Сетаров_1970  dct:date  "1970" ;
+        talis:localityName  "Самарканд - Карши [Samarkand - Karshi]" ;
+        dc:identifier       "Сетаров 1970" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Тюркизмы в русских названиях грызунов // Вопросы теории и методики русского языка и литературы. Вып. 20 [Turkisms in Russian names for rodents // Problems of the theory and methodology in Russian language and literature, v. 20]" ;
+        dc:creator          "Сетаров Д. С. [D. S. Setarov]" ;
+        rdf:type            msh:Book .
+
+bib:Weiers  dct:date        "1972" ;
+        talis:localityName  "Göttingen" ;
+        dc:identifier       "Weiers" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Die Sprache der Moghol der Provinz Herat in Afghanistan" ;
+        dc:creator          "M. Weiers" ;
+        rdf:type            msh:Book .
+
+bib:Murayama_1950  dct:date  "1950" ;
+        dc:identifier       "Murayama 1950" ;
+        dct:isReferencedBy  "Japanese etymology" ;
+        dc:title            "Kodai Nihongo ni okeru daimeishi // Gengo kenkyū 15" ;
+        dc:creator          "Murayama S." ;
+        rdf:type            msh:Book .
+
+bib:Walde-Hoffmann  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Walde-Hoffmann" ;
+        rdf:type            msh:Book .
+
+bib:Lig._MNyTK  dct:date    "1977" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "Lig. MNyTK" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "A magyar nyelv török kapcsolatai és ami körülöttük van. I" ;
+        dc:creator          "L. Ligeti" ;
+        rdf:type            msh:Book .
+
+bib:Kibrik-Kodzasov_1990
+        dct:date            "1990" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Kibrik-Kodzasov 1990" ;
+        dc:title            "Сопоставительное изучение дагестанских языков. Имя. Фонетика" ;
+        dc:creator          "Кибрик А. Е., Кодзасов С. В." ;
+        rdf:type            msh:Book .
+
+bib:Колесникова_1972а
+        dct:date            "1972" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Колесникова 1972а" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Названия частей тела человека в алтайских языках // Очерки сравнительной лексикологии алтайских языков [Names of human body parts in Altaic languages // Sketches of comparative lexicology of the Altaic languages]" ;
+        dc:creator          "Колесникова В. Д. [V. D. Kolesnikova]" ;
+        rdf:type            msh:Book .
+
+bib:Шервашидзе_1989  dct:date  "1989" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Шервашидзе 1989" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Фрагмент общетюркской лексики. Заимствованный фонд. // Вопросы языкознания, N 2 [A fragment of Common Turkic Lexicon. The Borrowed Inventory // Voprosy yazykoznanija, N 2]" ;
+        dc:creator          "Шервашидзе И. Н. [I. N. Shervashidze]" ;
+        rdf:type            msh:Book .
+
+bib:PKE  dct:date           "1982" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "PKE" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Paralipomena of Korean Etymologies" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:Clark_1977  dct:date    "1977" ;
+        dc:identifier       "Clark 1977" ;
+        dct:isReferencedBy  "Turkic etymology, Tungus etymology" ;
+        dc:title            "Mongol elements in old Turkic? // JSFOu, t. 75" ;
+        dc:creator          "Clark L. V." ;
+        rdf:type            msh:Book .
+
+bib:MK  dct:date            "1972" ;
+        talis:localityName  "Oxford" ;
+        dc:identifier       "MK" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology, Tungus etymology" ;
+        dc:title            "Etymological Dictionary of PreThirteenth Century Turkish (dictionary of Maḥmūd Kāšɣarī" ;
+        dc:creator          "Clauson G." ;
+        rdf:type            msh:Book .
+
+bib:Bleek  dct:date         "1956" ;
+        talis:localityName  "New Haven, Connecticut." ;
+        dc:identifier       "Bleek" ;
+        dct:isReferencedBy  "Hadza etymology, West Central Khoisan etymology, East Central Khoisan etymology, North Khoisan etymology, South Khoisan (Taa subgroup) etymology, South Khoisan (!Wi subgroup) etymology" ;
+        dc:title            "A Bushman Dictionary. American Oriental Series, vol. 41" ;
+        dc:creator          "Bleek Dorothea F." ;
+        rdf:type            msh:Book .
+
+bib:LHb  dct:date           "1956" ;
+        dc:identifier       "LHb" ;
+        dct:isReferencedBy  "South Khoisan (!Wi subgroup) etymology" ;
+        dc:title            "Linguistic relationships and contacts expressed in the vocabulary of Eastern Bushman. In: African studies, 15 (1), pp. 45-48." ;
+        dc:creator          "Lanham L. W., Hallowes D. P." ;
+        rdf:type            msh:Book .
+
+bib:Gigineyshvili_1977
+        dct:date            "1977" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Gigineyshvili 1977" ;
+        dc:title            "Сравнительная фонетика дагестанских языков" ;
+        dc:creator          "Гигинейшвили Б. К." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Lo'i>
+        dct:isReferencedBy  "Viet-Muong etymology" ;
+        dc:creator          "Lo'i" ;
+        rdf:type            msh:Book .
+
+bib:Trombetti_1923  dct:date  "1923" ;
+        talis:localityName  "Bologna" ;
+        dc:identifier       "Trombetti 1923" ;
+        dc:title            "Elementi di glottologia" ;
+        dc:creator          "Trombetti A." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1979  dct:date   "1979" ;
+        dc:identifier       "Miller 1979" ;
+        dct:isReferencedBy  "Altaic etymology, Japanese etymology" ;
+        dc:title            "Old Korean and Altaic // UAJ 51" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Gudava_1971  dct:date   "1971" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Gudava 1971" ;
+        dc:title            "Багвалинский язык: Грамматический анализ с текстами (in Georgian: Bagwaluri ena)" ;
+        dc:creator          "Гудава Т. Е." ;
+        rdf:type            msh:Book .
+
+bib:Цинциус_1972а  dct:date  "1972" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Цинциус 1972а" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "К этимологии алтайских терминов родства. // Очерки сравнительной лексикологии алтайских языков [Towards an etymology of Altaic kinship terms // Sketches of comparative lexicology of the Altaic languages]" ;
+        dc:creator          "Цинциус В. И. [V. I. Tsintsius]" ;
+        rdf:type            msh:Book .
+
+bib:Murayama_1962  dct:date  "1962" ;
+        dc:identifier       "Murayama 1962" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Etymologie des altjapanischen Wortes irö 'Farbe, Gesichtsfarbe, Gesicht' //UAJ, Bd 34, H. 12" ;
+        dc:creator          "Murayama S." ;
+        rdf:type            msh:Book .
+
+bib:Дыбо_1989а  dct:date    "1989" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Дыбо 1989а" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Заимствования из уральских языков в анатомической лексике алтайских языков // Лингвистическая реконструкция и древнейшая история Востока [Borrowings from Uralic in the anatomical lexicon of Altaic languages // In: Linguistic reconstruction and Eastern prehistory" ;
+        dc:creator          "Дыбо А. В. [A. V. Dybo]" ;
+        rdf:type            msh:Book .
+
+bib:Elderkin_1982  dct:date  "1982" ;
+        dc:identifier       "Elderkin 1982" ;
+        dct:isReferencedBy  "Hadza etymology" ;
+        dc:title            "On the classification of Hadza. // In: Sprache und Geshichte in Afrika, 4, pp. 67-82." ;
+        dc:creator          "Elderkin Derek" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Мудрак_Дисс.>
+        dct:date            "1994" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Мудрак Дисс." ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology" ;
+        dc:title            "Обособленный язык и проблема реконструкции праязыка. Диссертация на соискание ученой степени докт. филол. наук [The Isolated Language and the Problem of Protolanguage Reconstruction. PhD Thesis]" ;
+        dc:creator          "Мудрак О. А. [O. A. Mudrak]" ;
+        rdf:type            msh:Book .
+
+bib:Isakov-Khalilov_1986
+        dct:date            "1986" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Isakov-Khalilov 1986" ;
+        dc:title            "Соматические названия в цезских языках. // Проблемы отраслевой лексики дагестанских языков: Соматические термины" ;
+        dc:creator          "Исаков И. А., Халилов M. Ш." ;
+        rdf:type            msh:Book .
+
+bib:Bokarev_1959  dct:date  "1959" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Bokarev 1959" ;
+        dc:title            "Цезские (дидойские) языки Дагестана" ;
+        dc:creator          "Бокарев Е. А." ;
+        rdf:type            msh:Book .
+
+bib:KB  dct:date            "1972" ;
+        talis:localityName  "Oxford" ;
+        dc:identifier       "KB" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology, Tungus etymology" ;
+        dc:title            "Etymological Dictionary of PreThirteenth Century Turkish (Karakhanide Turkic according to Qutadɣu Bilig)" ;
+        dc:creator          "Clauson G." ;
+        rdf:type            msh:Book .
+
+bib:Щербак_1977  dct:date   "1977" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Щербак 1977" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Очерки по сравнительной морфологии тюркских языков (Имя) [Sketches of comparative morphology of the Turkic languages (Noun)]" ;
+        dc:creator          "Щербак А. М. [A. M. Scherbak]" ;
+        rdf:type            msh:Book .
+
+bib:Collins_2001  dct:date  "2001" ;
+        dc:identifier       "Collins 2001" ;
+        dct:isReferencedBy  "East #Hoan etymology" ;
+        dc:title            "Aspects of plurality in #Hoan. In: Language, 77 (3), pp 456-476." ;
+        dc:creator          "Collins Chris" ;
+        rdf:type            msh:Book .
+
+bib:Elderkin  dc:identifier  "Elderkin" ;
+        dct:isReferencedBy  "Hadza etymology" ;
+        dc:title            "Fieldnotes on Hadza." ;
+        dc:creator          "Elderkin Derek" ;
+        rdf:type            msh:Book .
+
+bib:Kakuk  dct:date         "1962" ;
+        dc:identifier       "Kakuk" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Un vocabulaire salar // AOH. T. XIV, fasc. 2" ;
+        dc:creator          "Kakuk S." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1980  dct:date   "1980" ;
+        talis:localityName  "Seattle" ;
+        dc:identifier       "Miller 1980" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Origins of the Japanese language" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Nakagawa_1998  dct:date  "1998" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Nakagawa 1998" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "Unnatural palatalization in |Gui and //Gana? // In: Language, identity and conceptualization among the Khoisan, pp 245-263. Ed(s): Mathias Schladt. Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 15." ;
+        dc:creator          "Nakagawa Hirosi" ;
+        rdf:type            msh:Book .
+
+bib:Schulze  dct:isReferencedBy  "Kui-Kuwi etymology" ;
+        dc:creator          "Schulze" ;
+        rdf:type            msh:Book .
+
+bib:Van_Driem_1993  dct:isReferencedBy  "Dumi dictionary" ;
+        dc:creator          "Van Driem 1993" ;
+        rdf:type            msh:Book .
+
+bib:Bouda_1950  dct:date    "1950" ;
+        talis:localityName  "Haarlem" ;
+        dc:identifier       "Bouda 1950" ;
+        dc:title            "Beiträge zur etymologischen Erforschung des Georgischen. \"Lingua\", vol. 11,3" ;
+        dc:creator          "Bouda K." ;
+        rdf:type            msh:Book .
+
+bib:Tekin_1981  dct:date    "1981" ;
+        dc:identifier       "Tekin 1981" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Notes on some Altaic harnessing terms // CAJ 25" ;
+        dc:creator          "Tekin T." ;
+        rdf:type            msh:Book .
+
+bib:Vinogradova-Klimov_1979
+        dct:date            "1979" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Vinogradova-Klimov 1979" ;
+        dc:title            "Об арменизмах в дагестанских языках. Этимология 1977" ;
+        dc:creator          "Виноградова О. И., Климов Г. А." ;
+        rdf:type            msh:Book .
+
+bib:Lomtatidze_1961  dct:date  "1961" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Lomtatidze 1961" ;
+        dc:title            "К вопросу об окаменелых экспонентах грамматических классов в именных основах абхазского языка. // Сообщения АH Гр. ССР, т. XXVI, No 1" ;
+        dc:creator          "Ломтатидзе К. В." ;
+        rdf:type            msh:Book .
+
+bib:Khaidakov_1966  dct:date  "1966" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Khaidakov 1966" ;
+        dc:title            "Очерки по лакской диалектологии" ;
+        dc:creator          "Хайдаков С. М." ;
+        rdf:type            msh:Book .
+
+bib:Kuipers_1963  dct:date  "1963" ;
+        talis:localityName  "The Hague" ;
+        dc:identifier       "Kuipers 1963" ;
+        dc:title            "Proto-Circassian Phonology: An Essay in Reconstruction. Studia Caucasica I" ;
+        dc:creator          "Kuipers A. H." ;
+        rdf:type            msh:Book .
+
+bib:Rutgers_2000  dct:isReferencedBy  "Yamphu dictionary" ;
+        dc:creator          "Rutgers 2000" ;
+        rdf:type            msh:Book .
+
+bib:Magometov_1966  dct:date  "1966" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Magometov 1966" ;
+        dc:title            "Рефлексы фарингализованных согласных в агульском языке. - Ежегодник иберийско-кавказского языкознания, т. XV" ;
+        dc:creator          "Магометов А. А." ;
+        rdf:type            msh:Book .
+
+bib:Zyhlarz_ZAS  dct:date   "1934" ;
+        talis:localityName  "Leipzig" ;
+        dc:identifier       "Zyhlarz ZAS" ;
+        dct:isReferencedBy  "Long-range etymologies" ;
+        dc:title            "Konkordanz ägyptischer und libyscher Verbalstammtypen // Zeitschrift für ägyptische Sprache und Altertumskunde LXX" ;
+        dc:creator          "Zyhlarz E." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Борг.>
+        dct:date            "2001" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Борг." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Лексика охоты и рыболовства в диалектах хакасского языка [Hunting and Fishing Lexicon in Dialects of Khakassian]" ;
+        dc:creator          "Боргояков В. А. [V. A. Borgoyakov]" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Jarr.>
+        dct:date            "1964" ;
+        talis:localityName  "Lund" ;
+        dc:identifier       "Jarr." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "An Eastern TurkiEnglish dialekt dictionary" ;
+        dc:creator          "Jarring G." ;
+        rdf:type            msh:Book .
+
+bib:Rust  dct:date          "1969" ;
+        talis:localityName  "Pietermaritzburg" ;
+        dc:identifier       "Rust" ;
+        dct:isReferencedBy  "Khoekhoe etymology" ;
+        dc:title            "Nama Wörterbuch (Krönlein Redivivus): J. G. Krönlein's Wortschatz der Khoi-Khoin." ;
+        dc:creator          "Rust Jnr. Friedrich" ;
+        rdf:type            msh:Book .
+
+bib:Sharafuddinova-Levina_1961
+        dct:date            "1961" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Sharafuddinova-Levina 1961" ;
+        dc:title            "Хваршинский язык (предварительное сообщение). // Вопросы изучения иберийско-кавказских языков" ;
+        dc:creator          "Шарафуддинова Р., Левина Р." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Tel.>
+        dct:date            "1937" ;
+        talis:localityName  "Budapest, Leipzig" ;
+        dc:identifier       "Tel." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Eine türkische grammatik in arabischer Sprache aus dem XV. Jhu. // KCsA" ;
+        dc:creator          "Telegdi S." ;
+        rdf:type            msh:Book .
+
+bib:Bengtson  dct:isReferencedBy  "Basque etymology" ;
+        dc:creator          "Bengtson" ;
+        rdf:type            msh:Book .
+
+bib:Balkarov_1975  dct:date  "1975" ;
+        talis:localityName  "Нальчик" ;
+        dc:identifier       "Balkarov 1975" ;
+        dc:title            "Адыгские названия хлебных злаков и их параллели в других кавказских языках. - Ученые записки Кабардино-Балкарского Научно-Исследовательского Института, т. XXVII" ;
+        dc:creator          "Балкаров Б. Х." ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1931  dct:date  "1931" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Dumézil 1931" ;
+        dc:title            "La langue des Oubykhs" ;
+        dc:creator          "Dumézil G." ;
+        rdf:type            msh:Book .
+
+bib:Eren  dct:date          "1997" ;
+        talis:localityName  "Ankara" ;
+        dc:identifier       "Eren" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Zonguldak bartın karabük Illeri Ağızları" ;
+        dc:creator          "Eren E." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Vam.>
+        dct:date            "1867" ;
+        talis:localityName  "Leipzig" ;
+        dc:identifier       "Vam." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Chagataische Sprachstudien enthaltend grammatikalischen Umriss, Chrestomatie und Wörterbuch der Chagataischen Sprachen" ;
+        dc:creator          "Vámbéry H." ;
+        rdf:type            msh:Book .
+
+bib:Adams  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Adams" ;
+        rdf:type            msh:Book .
+
+bib:Cornell_Files  dc:identifier  "Cornell Files" ;
+        dct:isReferencedBy  "East #Hoan etymology" ;
+        dc:title            "Chris Collins' lexical data on #Hoan, published at the Cornell University site on Khoisan syntax." ;
+        dc:creator          "Collins Chris et al." ;
+        rdf:type            msh:Book .
+
+bib:WFR  dc:identifier      "WFR" ;
+        dct:isReferencedBy  "Sino-Caucasian etymology" ;
+        dc:creator          "Starostin" ;
+        rdf:type            msh:Book .
+
+bib:Kuipers_1975  dct:date  "1975" ;
+        talis:localityName  "Lisse/Netherlands" ;
+        dc:identifier       "Kuipers 1975" ;
+        dc:title            "A Dictionary of Proto-Circassian Roots" ;
+        dc:creator          "Kuipers A. H." ;
+        rdf:type            msh:Book .
+
+bib:Trubetzkoy_1922  dct:date  "1922" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Trubetzkoy 1922" ;
+        dc:title            "Les consonnes latérales des langues Caucasiques-Septentrionales. Bulletin de la Société de Linguistique. T. 23 (N 72), pp. 184-204. Russian translation: Латеральные согласные в севернокавказских языках, в сб.: Н.С.Трубецкой, Избранные труды по филологии, Москва, 1987, стр. 233-247" ;
+        dc:creator          "Trubetzkoy N. S." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Shagirov_I,_2>
+        dct:date            "1977" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Shagirov I, 2" ;
+        dc:title            "Этимологический словарь адыгских (черкесских) языков, тт. 1-2" ;
+        dc:creator          "Шагиров А. К." ;
+        rdf:type            msh:Book .
+
+bib:Whitman_1985  dct:date  "1985" ;
+        talis:localityName  "Cambridge" ;
+        dc:identifier       "Whitman 1985" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "The Phonological Basis for the Comparison of Japanese and Korean" ;
+        dc:creator          "Whitman J. B." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Буд.,_Babur>
+        dct:date            "1869-1871" ;
+        talis:localityName  "Санкт-Петербург [Saint-Petersburg]" ;
+        dc:identifier       "Буд., Babur" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Сравнительный словарь турецко-татарских наречий [A comparative dictionary of Turkish and Tatar dialects]; Babur = Babur-nama" ;
+        dc:creator          "Будагов Л. [L. Budagov]" ;
+        rdf:type            msh:Book .
+
+bib:Dirr_1904  dct:date     "1904" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Dirr 1904" ;
+        dc:title            "Грамматика удинского языка" ;
+        dc:creator          "Дирр А. М." ;
+        rdf:type            msh:Book .
+
+bib:Аникин  dct:date        "2000" ;
+        talis:localityName  "Москва-Новосибирск [Moscow, Novosibirsk]" ;
+        dc:identifier       "Аникин" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology, Mongolian etymology" ;
+        dc:title            "Этимологический словарь русских диалектов Сибири. Заимствования из уральских, алтайских и палеоазиатских языков [An Etymological Dictionary of the Russian Dialects of Siberia. Borrowings from Uralic, Altaic and Paleoasiatic Languages]" ;
+        dc:creator          "Аникин А. Е. [A. Ye. Anikin]" ;
+        rdf:type            msh:Book .
+
+bib:Abayev_1958  dct:date   "1989" ;
+        talis:localityName  "Ленинград" ;
+        dc:identifier       "Abayev 1958" ;
+        dc:title            "Историко-этимологический словарь осетинского языка, т. 4" ;
+        dc:creator          "Абаев В. И." ;
+        rdf:type            msh:Book .
+
+bib:Collins_2001b  dct:date  "2001" ;
+        dc:identifier       "Collins 2001b" ;
+        dct:isReferencedBy  "East #Hoan etymology" ;
+        dc:title            "VP internal structure in Ju|'hoan and #Hoan. In: Cornell working papers in linguistics, 18, pp 1-27." ;
+        dc:creator          "Collins Chris" ;
+        rdf:type            msh:Book .
+
+bib:Schmidt_1950  dct:date  "1950" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "Schmidt 1950" ;
+        dc:title            "Abchasische Lehnwortstudien. \"Studia Orientalia\", XIV, 4" ;
+        dc:creator          "Schmidt G." ;
+        rdf:type            msh:Book .
+
+bib:CKED  dc:identifier     "CKED" ;
+        dct:isReferencedBy  "Chukchee-Kamchatkan etymology" ;
+        dc:creator          "Mudrak" ;
+        rdf:type            msh:Book .
+
+bib:Van_Driem_1987  dct:isReferencedBy  "Limbu dictionary" ;
+        dc:creator          "Van Driem 1987" ;
+        rdf:type            msh:Book .
+
+bib:Matsiyev_1961  dct:date  "1961" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Matsiyev 1961" ;
+        dc:title            "Чеченско-русский словарь" ;
+        dc:creator          "Мациев А. Г." ;
+        rdf:type            msh:Book .
+
+bib:Tekin_1975  dct:date    "1975" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "Tekin 1975" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology" ;
+        dc:title            "Further evidence for \"zetacism\" and \"sigmatism\" // Researches in Altaic languages" ;
+        dc:creator          "Tekin T." ;
+        rdf:type            msh:Book .
+
+bib:Lomtatidze_1955  dct:date  "1955" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Lomtatidze 1955" ;
+        dc:title            "Hекоторые вопросы звуковых процессов и звуковых соответствий в иберийско-кавказских языках. (По данным картвельских и абхазско-адыгских языков). // Сообщения АH Гр. ССР, т. XVI, No 10" ;
+        dc:creator          "Ломтатидзе К. В." ;
+        rdf:type            msh:Book .
+
+bib:Schiefner_1856  dct:date  "1856" ;
+        talis:localityName  "St.-Petersburg" ;
+        dc:identifier       "Schiefner 1856" ;
+        dc:title            "Versuch über die Thusch-Sprache oder die khistische Mundart in Thuschetien" ;
+        dc:creator          "Schiefner A. A." ;
+        rdf:type            msh:Book .
+
+bib:Alekseyev_1988  dct:date  "1988" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Alekseyev 1988" ;
+        dc:title            "Сравнительно-историческая морфология аваро-андийских языков" ;
+        dc:creator          "Алексеев М. Е." ;
+        rdf:type            msh:Book .
+
+bib:Guthrie  dct:date       "1967-71" ;
+        talis:localityName  "London" ;
+        dc:identifier       "Guthrie" ;
+        dct:isReferencedBy  "Long-range etymologies" ;
+        dc:title            "Comparative Bantu, v. 4 [indexes]." ;
+        dc:creator          "Guthrie Malcolm" ;
+        rdf:type            msh:Book .
+
+bib:Honken_1988  dct:date   "1988" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Honken 1988" ;
+        dct:isReferencedBy  "#Hoan etymology" ;
+        dc:title            "Phonetic correspondences among Khoisan affricates. // In: New perspectives on the study of Khoisan, pp. 47-65. Ed(s): Rainer Vossen. Quellen zur Khoisan-Forschung, Bd 7." ;
+        dc:creator          "Honken, Henry" ;
+        rdf:type            msh:Book .
+
+bib:Дыбо_1995б  dct:date    "1995" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Дыбо 1995б" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Судьба праалтайского *ń- по тунгусо-маньчжурским и монгольским данным. Владимирцовские чтения III [The fate of Proto-Altaic *ń- based on Manchu-Tungus and Mongolian data // In the memory of Vladimiritsov - III]" ;
+        dc:creator          "Дыбо А. В. [A. V. Dybo]" ;
+        rdf:type            msh:Book .
+
+bib:Стеблин-Каменский_1982
+        dct:date            "1982" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Стеблин-Каменский 1982" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology" ;
+        dc:title            "Очерки по истории лексики памирских языков. Названия культурных растений [Sketches of Lexical History of the Pamir Languages. Names for Cultural Plants]" ;
+        dc:creator          "Стеблин-Каменский И. М. [I. M. Steblin-Kamenskiy]" ;
+        rdf:type            msh:Book .
+
+bib:KH  dct:date            "2001" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "KH" ;
+        dct:isReferencedBy  "North Khoisan etymology" ;
+        dc:title            "The !Xun of Ekoka: a demographic and linguistic report (Khoisan Forum Working Paper No. 17)" ;
+        dc:creator          "König, Christa & Heine, Bernd" ;
+        rdf:type            msh:Book .
+
+bib:Peiros-Starostin  dct:isReferencedBy  "Sino-Tibetan etymology" ;
+        dc:creator          "Peiros-Starostin" ;
+        rdf:type            msh:Book .
+
+bib:Poppe_1972  dct:date    "1972" ;
+        dc:identifier       "Poppe 1972" ;
+        dct:isReferencedBy  "Altaic etymology, Mongolian etymology, Tungus etymology" ;
+        dc:title            "On some Mongolian loanwords in Evenki // Central Asiatic Journal 16" ;
+        dc:creator          "Poppe N." ;
+        rdf:type            msh:Book .
+
+bib:Bomhard_1994  dct:date  "1994" ;
+        talis:localityName  "Berlin and New York" ;
+        dc:identifier       "Bomhard 1994" ;
+        dct:isReferencedBy  "Long-range etymologies, Nostratic etymology" ;
+        dc:title            "The Nostratic Macrofamily" ;
+        dc:creator          "Bomhard, Alan; Kerns, J. C." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1986  dct:date   "1986" ;
+        dc:identifier       "Miller 1986" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Apocope and the problem of ProtoAltaic *i̯ā̆ (II) // UAJ (NF) 6" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Traill_1973  dct:date   "1973" ;
+        talis:localityName  "Johannesburg" ;
+        dc:identifier       "Traill 1973" ;
+        dct:isReferencedBy  "East #Hoan etymology" ;
+        dc:title            "\"N4 or S7\": another Bushman language. In: African studies, 32 (1), pp 25-32." ;
+        dc:creator          "Traill Anthony" ;
+        rdf:type            msh:Book .
+
+bib:Orel  dct:date          "1998" ;
+        talis:localityName  "Leiden - Boston - Köln" ;
+        dc:identifier       "Orel" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Albanian Etymological Dictionary" ;
+        dc:creator          "Orel V." ;
+        rdf:type            msh:Book .
+
+bib:Snyman_1997  dct:date   "1997" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Snyman 1997" ;
+        dct:isReferencedBy  "North Khoisan etymology" ;
+        dc:title            "A preliminary classification of the !Xũũ and Žhu|'hõasi dialects. // In: Namibian languages: reports and papers, pp 21-106. Ed(s): Wilfrid [Heinrich] [Gerhard] Haacke & Edward D[erek] Elderkin. Namibian African studies, vol 4." ;
+        dc:creator          "Snyman Jan W." ;
+        rdf:type            msh:Book .
+
+bib:Balkarov_1969  dct:date  "1969" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Balkarov 1969" ;
+        dc:title            "Адыго-нахские языковые встречи. // \"Материалы первой сессии по сравнительно-историческому изучению иберийско-кавказских языков.\"" ;
+        dc:creator          "Балкаров Б. Х." ;
+        rdf:type            msh:Book .
+
+bib:Molnár_2001  dct:date  "2001" ;
+        talis:localityName  "Szeged" ;
+        dc:identifier       "Molnár 2001" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Harness and plough in Central Asia. // Néptörténet Nyelvtörténet. A 70 éves RónaTas András köszöntése" ;
+        dc:creator          "Molnár Á." ;
+        rdf:type            msh:Book .
+
+bib:Klimov_1967  dct:date   "1967" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Klimov 1967" ;
+        dc:title            "Абхазско-адыгские этимологии. I (исконный фонд). Этимология 1965" ;
+        dc:creator          "Климов Г. А." ;
+        rdf:type            msh:Book .
+
+bib:Bokarev_1961а  dct:date  "1961" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Bokarev 1961а" ;
+        dc:title            "Материалы к словарю гунзибского языка. // Вопросы изучения иберийско-кавказских языков" ;
+        dc:creator          "Бокарев Е. А." ;
+        rdf:type            msh:Book .
+
+bib:Sinor_1973  dct:date    "1973" ;
+        dc:identifier       "Sinor 1973" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "\"Urine\" - \"star\" - \"nail\" // JSFOu 72" ;
+        dc:creator          "Sinor D." ;
+        rdf:type            msh:Book .
+
+bib:Dzheiranishvili_1971
+        dct:date            "1971" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Dzheiranishvili 1971" ;
+        dc:title            "Удийский язык (на грузинском языке)" ;
+        dc:creator          "Джейранишвили Е. Ф." ;
+        rdf:type            msh:Book .
+
+bib:Stachowski  dct:date    "1993" ;
+        talis:localityName  "Krakow" ;
+        dc:identifier       "Stachowski" ;
+        dct:isReferencedBy  "Altaic etymology, Mongolian etymology, Turkic etymology, Tungus etymology" ;
+        dc:title            "Dolganischer Wortschatz" ;
+        dc:creator          "Stachowski M." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Тод._Дн.>
+        dct:date            "1961" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Тод. Дн." ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Дунсянский язык [The Dongxian language]" ;
+        dc:creator          "Тодаева Б. Х. [B. Kh. Todayeva]" ;
+        rdf:type            msh:Book .
+
+bib:Федотов  dct:date       "1996" ;
+        talis:localityName  "Чебоксары [Cheboksary]" ;
+        dc:identifier       "Федотов" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Этимологический словарь чувашского языка // An Etymological Dictionary of Chuvash" ;
+        dc:creator          "Федотов М. Р. [M. R. Fedotov]" ;
+        rdf:type            msh:Book .
+
+bib:Hoijer  dct:isReferencedBy  "Na-Dene etymology" ;
+        dc:creator          "Hoijer" ;
+        rdf:type            msh:Book .
+
+bib:Balkarov_1970  dct:date  "1970" ;
+        talis:localityName  "Hальчик" ;
+        dc:identifier       "Balkarov 1970" ;
+        dc:title            "Фонетика адыгских языков (Синхронно-диахронное исследование)" ;
+        dc:creator          "Балкаров Б. Х." ;
+        rdf:type            msh:Book .
+
+bib:Ramstedt_1951  dct:date  "1951" ;
+        dc:identifier       "Ramstedt 1951" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Ueber Stämme und Endungen in den altaischen Sprachen // JSFOu 1951, t. 55" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1998  dct:date   "2000" ;
+        dc:identifier       "Miller 1998" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Altaic *kele(-) 'tongue; to speak' in Korean // Studia Etymologica Cracoviensia, N 5" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Ketskij_sb._B  dc:identifier  "Ketskij sb. B" ;
+        dct:isReferencedBy  "Sino-Caucasian etymology" ;
+        dc:creator          "Starostin" ;
+        rdf:type            msh:Book .
+
+bib:Khaidakov_1973  dct:date  "1973" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Khaidakov 1973" ;
+        dc:title            "Сравнительно-сопоставительный словарь дагестанских языков" ;
+        dc:creator          "Хайдаков С. М." ;
+        rdf:type            msh:Book .
+
+bib:Цинциус_1982  dct:date  "1982" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Цинциус 1982" ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "Негидальский язык: Исследования и материалы [The Neghidal Language: Research and Materials]" ;
+        dc:creator          "Цинциус В. И. [V. I. Tsintsius]" ;
+        rdf:type            msh:Book .
+
+bib:Yakovlev_1948  dct:date  "1948" ;
+        talis:localityName  "Москва-Ленинград" ;
+        dc:identifier       "Yakovlev 1948" ;
+        dc:title            "Грамматика литературного кабардино-черкесского языка" ;
+        dc:creator          "Яковлев H. Ф." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/R;_ShS>
+        dct:date            "1899-1911" ;
+        talis:localityName  "Санкт-Петербург [Saint-Petersburg]" ;
+        dc:identifier       "R; ShS" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Опыт словаря тюркских наречий: в 4 т. [A Temptative Dictionary of Turkic Dialects]; ShS = The dictionary of Sheikh Sulayman" ;
+        dc:creator          "Радлов В. В. [V. V. Radlov]" ;
+        rdf:type            msh:Book .
+
+bib:Vodozhdokov_1960  dct:date  "1960" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Vodozhdokov 1960" ;
+        dc:title            "Русско-адыгейский словарь" ;
+        dc:creator          "Водождоков Х. Д. (редактор)" ;
+        rdf:type            msh:Book .
+
+bib:ЭСВЯ  dct:date          "1999" ;
+        talis:localityName  "Санкт-Петербург [Saint-Petersburg]" ;
+        dc:identifier       "ЭСВЯ" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Этимологический словарь ваханского языка" ;
+        dc:creator          "Стеблин-Каменский И. М. [I. M. Steblin-Kamensky]" ;
+        rdf:type            msh:Book .
+
+bib:Maingard_1963  dct:date  "1963" ;
+        talis:localityName  "Johannesburg" ;
+        dc:identifier       "Maingard 1963" ;
+        dct:isReferencedBy  "West Central Khoisan etymology, East Central Khoisan etymology" ;
+        dc:title            "A comparative study of Naron, Hietshware and Korana. // In: African studies, 22 (3), pp 97-108." ;
+        dc:creator          "Maingard Louis F." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Tefs.>
+        dct:date            "1961" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Tefs." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Лексика среднеазиатского тефсира XII-XIII вв. [Lexics of the Middle Asian Tefsir of the XII-XIII centuries]" ;
+        dc:creator          "Боровков А. К. [A. K. Borovkov]" ;
+        rdf:type            msh:Book .
+
+bib:Dickens  dct:date       "1994" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Dickens" ;
+        dct:isReferencedBy  "North Khoisan etymology" ;
+        dc:title            "English-Ju|'hoan, Ju|'hoan-English dictionary. // Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 8." ;
+        dc:creator          "Patrick J. Dickens" ;
+        rdf:type            msh:Book .
+
+bib:Vasmer_1-4  dct:date    "1986" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Vasmer 1-4" ;
+        dc:title            "Этимологический словарь русского языка. Тт. 1-4" ;
+        dc:creator          "Фасмер М." ;
+        rdf:type            msh:Book .
+
+bib:UEW  dct:date           "1986-1989" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "UEW" ;
+        dct:isReferencedBy  "Nostratic etymology, Uralic etymology, Turkic etymology" ;
+        dc:title            "Uralisches etymologisches Wörterbuch" ;
+        dc:creator          "Rédei K." ;
+        rdf:type            msh:Book .
+
+bib:Tekin_1969  dct:date    "1969" ;
+        dc:identifier       "Tekin 1969" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Zetacism and sigmatism in Proto-Turkic // AOH 22" ;
+        dc:creator          "Tekin T." ;
+        rdf:type            msh:Book .
+
+bib:Vogt_1963  dct:date     "1963" ;
+        talis:localityName  "Oslo" ;
+        dc:identifier       "Vogt 1963" ;
+        dc:title            "Dictionnaire de la langue oubykh" ;
+        dc:creator          "Vogt H." ;
+        rdf:type            msh:Book .
+
+bib:Karasayev-Matsiyev_1978
+        dct:date            "1978" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Karasayev-Matsiyev 1978" ;
+        dc:title            "Русско-чеченский словарь" ;
+        dc:creator          "Карасаев А. Т., Мациев А. Г." ;
+        rdf:type            msh:Book .
+
+bib:Mikailov-Saidov_1951
+        dct:date            "1951" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Mikailov-Saidov 1951" ;
+        dc:title            "Русско-аварский словарь" ;
+        dc:creator          "Микаилов Ш. И., Саидов М. С." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/ЭСТЯ,_Xwar.>
+        dct:date            "1974-2000" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "ЭСТЯ, Xwar." ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology" ;
+        dc:title            "Этимологический словарь тюркских языков [An Etymological Dictionary of the Turkic languages]; [Xwar.] = Khwarezmian (Xwarazmian) Middle Turkic texts" ;
+        dc:creator          "Севортян Э. В. и др. [E. W. Sewortyan et al.]" ;
+        rdf:type            msh:Book .
+
+bib:Bang_1925  dct:date     "1925" ;
+        dc:identifier       "Bang 1925" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Manichaeische Hymnen // Le Muséon, 38" ;
+        dc:creator          "Bang W." ;
+        rdf:type            msh:Book .
+
+bib:Menges_1933  dct:date   "1933" ;
+        talis:localityName  "Berlin" ;
+        dc:identifier       "Menges 1933" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Volkskündliche Texte aus OstTürkistan" ;
+        dc:creator          "Menges K. H." ;
+        rdf:type            msh:Book .
+
+bib:Diffloth  dct:isReferencedBy  "Plang etymology" ;
+        dc:creator          "Diffloth" ;
+        rdf:type            msh:Book .
+
+bib:Mudrak  dct:isReferencedBy  "Eskimo etymology" ;
+        dc:creator          "Mudrak" ;
+        rdf:type            msh:Book .
+
+bib:Goniashvili_1940  dct:date  "1940" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Goniashvili 1940" ;
+        dc:title            "Словарные схождения чеченского и картвельских языков. // \"Известия ИЯИМК\", т. V-VI" ;
+        dc:creator          "Гониашвили Т." ;
+        rdf:type            msh:Book .
+
+bib:Weich  dc:identifier    "Weich" ;
+        dct:isReferencedBy  "North Khoisan etymology" ;
+        dc:title            "San Dictionary (San - Afrikaans English)" ;
+        dc:creator          "Weich, Ferdie" ;
+        rdf:type            msh:Book .
+
+bib:Poppe_1966  dct:date    "1966" ;
+        dc:identifier       "Poppe 1966" ;
+        dct:isReferencedBy  "Altaic etymology, Mongolian etymology, Tungus etymology" ;
+        dc:title            "On some ancient Mongolian loanwords in Tungus // Central Asiatic Journal, Vol. 11, N 3" ;
+        dc:creator          "Poppe N." ;
+        rdf:type            msh:Book .
+
+bib:Snyman_1980  dct:date   "1980" ;
+        talis:localityName  "Pretoria" ;
+        dc:identifier       "Snyman 1980" ;
+        dct:isReferencedBy  "North Khoisan etymology" ;
+        dc:title            "The relationship between Angolan !Xu and Žu|'õasi. // In: Bushman and Hottentot linguistic studies 1979, pp 1-58." ;
+        dc:creator          "Snyman Jan W." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/USp.>
+        dct:date            "1928" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "USp." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Uigurische Sprachdenkmäler: Materialien nach dem Tode des Verfassers mit Ergänzungen von S. Malov herausgegeben" ;
+        dc:creator          "Radloff W." ;
+        rdf:type            msh:Book .
+
+bib:Elderkin_1983  dct:date  "1983" ;
+        talis:localityName  "Berlin" ;
+        dc:identifier       "Elderkin 1983" ;
+        dct:isReferencedBy  "Hadza etymology" ;
+        dc:title            "Tanzanian and Ugandian isolates. // In: Nilotic studies: proceedings of the international symposium on languages and history of the Nilotic peoples, Cologne, January 4-6, 1982, vol. 2, pp. 499-521. Ed(s): Rainer Vossen & Marianne Bechhaus-Gerst. Kölner Beiträge zur Afrikanistik, Bd. 10." ;
+        dc:creator          "Elderkin Derek" ;
+        rdf:type            msh:Book .
+
+bib:Bengtson-Blazhek  dct:isReferencedBy  "Na-Dene etymology" ;
+        dc:creator          "Bengtson-Blazhek" ;
+        rdf:type            msh:Book .
+
+bib:Долгопольский_1965
+        dct:date            "1965" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Долгопольский 1965" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Методы реконструкции общеиндоевропейского языка и сибироевропейская гипотеза // Этимология 1964 [Methods of the reconstruction of Proto-Indo-European and the Siberian-European hypothesis // Etymology 1964]" ;
+        dc:creator          "Долгопольский А. Б. [A. B. Dolgopolsky]" ;
+        rdf:type            msh:Book .
+
+bib:Gonov_1956  dct:date    "1956" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Gonov 1956" ;
+        dc:title            "Русско-абазинский словарь" ;
+        dc:creator          "Гонов С. Х., Дзугов П. А., Жиров Х. Д., Табулов Т. З., Табулова H. Т., Хачуков З. К., Экба H. Б., Эскиндаров Я. М." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1981  dct:date   "1981" ;
+        talis:localityName  "Philadelphia" ;
+        dc:identifier       "Miller 1981" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Altaic Origins of the Japanese Verb Classes // Bono Homini Donum: Essays in Historical Linguistics in Memory of J. Alexander Kerns, pp. 815880" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Ramsey_1993  dct:date   "1993" ;
+        dc:identifier       "Ramsey 1993" ;
+        dct:isReferencedBy  "Korean etymology" ;
+        dc:title            "Some Remarks on Reconstructing Earlier Korean // Ehak yengu, 29, 4" ;
+        dc:creator          "Ramsey S. R." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Ашм.>
+        dct:date            "1928-50" ;
+        talis:localityName  "Казань, Чебоксары [Kazan, Cheboksary]" ;
+        dc:identifier       "Ашм." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Словарь чувашского языка [A Dictionary of the Chuvash language]" ;
+        dc:creator          "Ашмарин Н. И. [N. I. Ashmarin]" ;
+        rdf:type            msh:Book .
+
+bib:Tanaka  dct:date        "1978" ;
+        talis:localityName  "Tokyo" ;
+        dc:identifier       "Tanaka" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "A San vocabulary of the central Kalahari: G||ana and G|wi dialects. // African languages and ethnography, vol 7." ;
+        dc:creator          "Tanaka Jiro" ;
+        rdf:type            msh:Book .
+
+bib:Balkarov_1964  dct:date  "1964" ;
+        talis:localityName  "Hальчик" ;
+        dc:identifier       "Balkarov 1964" ;
+        dc:title            "Лексические встречи адыгских языков с дагестанскими. // Ученые записки Кабардино-Балкарского Hаучно-Исследовательского Института, том XX" ;
+        dc:creator          "Балкаров Б. Х." ;
+        rdf:type            msh:Book .
+
+bib:Abdullayev_1950  dct:date  "1950" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Abdullayev 1950" ;
+        dc:title            "Русско-даргинский словарь" ;
+        dc:creator          "Абдуллаев С. H." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Верб.>
+        dct:date            "1884" ;
+        talis:localityName  "Казань [Kazan]" ;
+        dc:identifier       "Верб." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Словарь алтайского и аладагского наречий тюркского языка [A Dictionary of the Altaic and Aladag Dialects of Turkic]" ;
+        dc:creator          "Вербицкий В. [V. Verbitskiy]" ;
+        rdf:type            msh:Book .
+
+bib:Rogava_1958  dct:date   "1958" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Rogava 1958" ;
+        dc:title            "К истории шипящих спирантов в кабардинском языке. // Сообщения АН Груз. ССР, т. XX, No 5" ;
+        dc:creator          "Рогава Г. В." ;
+        rdf:type            msh:Book .
+
+bib:Róna-Tas_1975  dct:date  "1975" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "Róna-Tas 1975" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "The Altaic theory and the history of a Middle Mongolian loan word in Chuvash // Researches in Altaic languages" ;
+        dc:creator          "Róna-Tas A." ;
+        rdf:type            msh:Book .
+
+bib:Krishnamurti  dct:isReferencedBy  "Dravidian etymology" ;
+        dc:creator          "Krishnamurti" ;
+        rdf:type            msh:Book .
+
+bib:Bokarev_1961  dct:date  "1961" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Bokarev 1961" ;
+        dc:title            "Введение в сравнительно-историческое изучение дагестанских языков" ;
+        dc:creator          "Бокарев Е. А." ;
+        rdf:type            msh:Book .
+
+bib:Marr_1926  dct:date     "1926" ;
+        talis:localityName  "Ленинград" ;
+        dc:identifier       "Marr 1926" ;
+        dc:title            "Абхазско-русский словарь" ;
+        dc:creator          "Марр H. Я." ;
+        rdf:type            msh:Book .
+
+bib:Murkelinskiy_1953
+        dct:date            "1953" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Murkelinskiy 1953" ;
+        dc:title            "Русско-лакский словарь" ;
+        dc:creator          "Муркелинский Г. Б." ;
+        rdf:type            msh:Book .
+
+bib:Gudava_1954  dct:date   "1954" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Gudava 1954" ;
+        dc:title            "О лексических встречах между грузинским и аварским языками. // \"Сообщения АH Груз. ССР\", т. XV, No 10" ;
+        dc:creator          "Гудава Т. Е." ;
+        rdf:type            msh:Book .
+
+bib:Петрова_1967  dct:date  "1967" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Петрова 1967" ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "Язык ороков (ульта) [The Orok language]" ;
+        dc:creator          "Петрова Т. И. [T. I. Petrova]" ;
+        rdf:type            msh:Book .
+
+bib:Peiros_1998  dct:date   "1998" ;
+        talis:localityName  "Canberra" ;
+        dc:identifier       "Peiros 1998" ;
+        dct:isReferencedBy  "Long-range etymologies, Zhuang-Tai etymology" ;
+        dc:title            "Comparative Linguistics in Southeast Asia" ;
+        dc:creator          "Peiros, Ilya" ;
+        rdf:type            msh:Book .
+
+bib:HY  dct:date            "1949" ;
+        talis:localityName  "Wroclaw" ;
+        dc:identifier       "HY" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "La langue mongole des transcriptions chinoises du XIV-e siècle. Le Houya-yi yi-yu de 1389 (HYt = texts from HY)" ;
+        dc:creator          "Lewicki M." ;
+        rdf:type            msh:Book .
+
+bib:Kondzharia_1969  dct:date  "1969" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Kondzharia 1969" ;
+        dc:title            "Лексика ашхарского диалекта по сравнению с лексикой абжуйского и бзыбского диалектов абхазского языка" ;
+        dc:creator          "Конджария В. Х." ;
+        rdf:type            msh:Book .
+
+bib:Magomedbekova_1971
+        dct:date            "1971" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Magomedbekova 1971" ;
+        dc:title            "Каратинский язык: Грамматический анализ, тексты, словарь" ;
+        dc:creator          "Магомедбекова З. М." ;
+        rdf:type            msh:Book .
+
+bib:Козин  dct:date         "1941" ;
+        talis:localityName  "Москва-Ленинград [Moscow-Leningrad]" ;
+        dc:identifier       "Козин" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Сокровенное сказание [The Hidden Tale]" ;
+        dc:creator          "Козин С. А. [S. A. Kozin]" ;
+        rdf:type            msh:Book .
+
+bib:Starostin  dct:isReferencedBy  "Yenisseian etymology" ;
+        dc:creator          "Starostin" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Корм.>
+        dct:date            "1998" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Корм." ;
+        dct:isReferencedBy  "Altaic etymology, Tungus etymology" ;
+        dc:title            "Удыхейский язык [The Udighe language]" ;
+        dc:creator          "Кормушин И. В. [I. V. Kormushin]" ;
+        rdf:type            msh:Book .
+
+bib:Aslanov_1975  dct:date  "1975" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Aslanov 1975" ;
+        dc:title            "Термины овцеводства у цахур. // Ежегодник иберийско-кавказского языкознания, т. 2" ;
+        dc:creator          "Асланов А. М." ;
+        rdf:type            msh:Book .
+
+bib:Traill_1980  dct:date   "1986" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Traill 1980" ;
+        dct:isReferencedBy  "#Hoan etymology" ;
+        dc:title            "Do the Khoi have a place in the San? New data on Khoisan linguistic relationships. // In: African hunter-gatherers (international symposium), pp. 407-430" ;
+        dc:creator          "Traill, Anthony" ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1932  dct:date  "1932" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Dumézil 1932" ;
+        dc:title            "Études comparatives sur les langues caucasiennes du Nord-Ouest (morphologie)" ;
+        dc:creator          "Dumézil G." ;
+        rdf:type            msh:Book .
+
+bib:Gruber_1975  dct:date   "1975" ;
+        talis:localityName  "Johannesburg" ;
+        dc:identifier       "Gruber 1975" ;
+        dct:isReferencedBy  "East #Hoan etymology" ;
+        dc:title            "Plural predicates in #Hòã. In: Bushman and Hottentot linguistic studies, pp 1-50. Ed(s): Anthony Traill. Communications from the African Studies Institute, no 2." ;
+        dc:creator          "Gruber Jeffrey S." ;
+        rdf:type            msh:Book .
+
+bib:Martin  dct:date        "1966" ;
+        dc:identifier       "Martin" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Lexical Evidence Relating Korean to Japanese // Language, Vol. 42, N 2" ;
+        dc:creator          "Martin S. E." ;
+        rdf:type            msh:Book .
+
+bib:Яимова  dct:date        "1990" ;
+        talis:localityName  "Горно-Алтайск [Gorno-Altaisk]" ;
+        dc:identifier       "Яимова" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Табуированная лексика и эвфемизмы в алтайском языке // Tabooed Lexics and Euphemisms in the Altaic Language" ;
+        dc:creator          "Яимова Н. А. [N. A. Yaimova]" ;
+        rdf:type            msh:Book .
+
+bib:Lomtatidze_1944  dct:date  "1944" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Lomtatidze 1944" ;
+        dc:title            "Тапантский диалект абхазского языка" ;
+        dc:creator          "Ломтатидзе К. В." ;
+        rdf:type            msh:Book .
+
+bib:TMN  dct:date           "1963-67" ;
+        talis:localityName  "Wiesbaden" ;
+        dc:identifier       "TMN" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology, Mongolian etymology, Tungus etymology" ;
+        dc:title            "Türkische und mongolische Elemente im Neupersischen" ;
+        dc:creator          "Doerfer G." ;
+        rdf:type            msh:Book .
+
+bib:Щербак_1961  dct:date   "1961" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Щербак 1961" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Названия домашних и диких животных в тюркских языках // Историческое развитие лексики тюркских языков [Names for domestic and wild animals in Turkic languages // The historic development of Turkic lexics]" ;
+        dc:creator          "Щербак А. М. [A. M. Scherbak]" ;
+        rdf:type            msh:Book .
+
+bib:Ferlus  dct:isReferencedBy  "Viet-Muong etymology" ;
+        dc:creator          "Ferlus" ;
+        rdf:type            msh:Book .
+
+bib:Bleek_1929  dct:date    "1929" ;
+        dc:identifier       "Bleek 1929" ;
+        dct:isReferencedBy  "North Khoisan etymology, South Khoisan (!Wi subgroup) etymology, South Khoisan (Taa subgroup) etymology" ;
+        dc:title            "Comparative vocabularies of Bushman languages. Publications from the School of African Life and Language." ;
+        dc:creator          "Bleek Dorothea F." ;
+        rdf:type            msh:Book .
+
+bib:Honken_1977  dct:date   "1977" ;
+        talis:localityName  "Johannesburg" ;
+        dc:identifier       "Honken 1977" ;
+        dct:isReferencedBy  "#Hoan etymology" ;
+        dc:title            "Submerged features and proto-Khoisan. // In: Khoisan linguistic studies 3, pp. 145-169. Ed(s): Anthony Traill. Communications from the African Studies Institute, no 6." ;
+        dc:creator          "Honken, Henry" ;
+        rdf:type            msh:Book .
+
+bib:Talibov_1972  dct:date  "1972" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Talibov 1972" ;
+        dc:title            "О процессе делабиализации лабиализованных согласных в лезгинских языках. // Сборник статей по вопросам дагестанских и вейнахских языков" ;
+        dc:creator          "Талибов Б. Б." ;
+        rdf:type            msh:Book .
+
+bib:Shaumyan_1941  dct:date  "1941" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Shaumyan 1941" ;
+        dc:title            "Грамматический очерк агульского языка" ;
+        dc:creator          "Шаумян Р." ;
+        rdf:type            msh:Book .
+
+bib:Дмитриева_1997  dct:date  "1997" ;
+        talis:localityName  "Чебоксары [Cheboksary]" ;
+        dc:identifier       "Дмитриева 1997" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "К этимологии названий травянистых растений в чувашском языке. VII // Материалы по чувашской диалектологии. Выпуск V [Towards an etymology of herbaceous plant names in Chuvash // Materials on Chuvash dialectology, v. 5]" ;
+        dc:creator          "Дмитриева Ю. [Yu. Dmitriyeva]" ;
+        rdf:type            msh:Book .
+
+bib:Poppe_1961  dct:date    "1961" ;
+        dc:identifier       "Poppe 1961" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Jakutische Etymologien // UAJ XXXIII" ;
+        dc:creator          "Poppe N." ;
+        rdf:type            msh:Book .
+
+bib:Gaydarov_1963  dct:date  "1963" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Gaydarov 1963" ;
+        dc:title            "Лезги чIалан диалектология" ;
+        dc:creator          "Гайдаров Р. И." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1975  dct:date   "1975" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "Miller 1975" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Japanese-Altaic evidence and the Proto-Turkic \"zetacism-sigmatism\" // Researches in Altaic languages" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:JLTT  dct:date          "1987" ;
+        talis:localityName  "New Haven - London" ;
+        dc:identifier       "JLTT" ;
+        dct:isReferencedBy  "Japanese etymology, Altaic etymology" ;
+        dc:title            "The Japanese Language Through Time" ;
+        dc:creator          "Martin S. E." ;
+        rdf:type            msh:Book .
+
+bib:Баск._Туба  dct:date    "1966" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Баск. Туба" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology" ;
+        dc:title            "Диалект черневых татар (Туба-кижи): Грамматический очерк и словарь // The Dialect of Chernevo Tatars: Grammar sketch, dictionary" ;
+        dc:creator          "Баскаков Н. А. [N. A. Baskakov]" ;
+        rdf:type            msh:Book .
+
+bib:TT  dct:date            "1929-37" ;
+        talis:localityName  "Berlin" ;
+        dc:identifier       "TT" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Türkische TurfanTexte I-X" ;
+        dc:creator          "Gabain A. von, Bang W., Rachmati G. R." ;
+        rdf:type            msh:Book .
+
+bib:Sands  dct:date         "1998" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Sands" ;
+        dct:isReferencedBy  "Hadza etymology" ;
+        dc:title            "Eastern and Southern African Khoisan. Evaluating claims in distant linguistic relationships. Ed(s): Rainer Vossen. // Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 14, pp. 256." ;
+        dc:creator          "Sands Bonnie" ;
+        rdf:type            msh:Book .
+
+bib:Räsänen_1955  dct:date  "1955" ;
+        dc:identifier       "Räsänen 1955" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Uralaltaische Wortforschungen // StO, Bd. XXVIII, H. 3" ;
+        dc:creator          "Räsänen M." ;
+        rdf:type            msh:Book .
+
+bib:Lomtatidze_1956  dct:date  "1956" ;
+        talis:localityName  "Сухуми" ;
+        dc:identifier       "Lomtatidze 1956" ;
+        dc:title            "К вопросу о генезисе основы q̇a \"быть\", \"существовать\" в абхазском языке. Труды АНИИ, т. XXVII" ;
+        dc:creator          "Ломтатидзе К. В." ;
+        rdf:type            msh:Book .
+
+bib:Mochizuki_1971  dct:date  "1971" ;
+        dc:identifier       "Mochizuki 1971" ;
+        dct:isReferencedBy  "Japanese etymology" ;
+        dc:title            "Gogi to gochō to gogen to no kankei: kyosei/kyoshō no taigen to sono haseigo ni okeru // Tokiwa Joshitankidaigaku kiyo 4" ;
+        dc:creator          "Mochizuki Ikuko" ;
+        rdf:type            msh:Book .
+
+bib:Ивановский  dct:date    "1894" ;
+        talis:localityName  "Санкт-Петербург [Saint-Petersburg]" ;
+        dc:identifier       "Ивановский" ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "Mandjurica. Образцы солонского и дахурского языков [Mandjurica. Samples of Solon and Daghur languages]" ;
+        dc:creator          "Ивановский А. О. [A. O. Ivanovsky]" ;
+        rdf:type            msh:Book .
+
+bib:Köhler_1966  dct:date   "1966" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Köhler 1966" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "Die Wortbeziehung zwischen der Sprache Kxoe-Buschmänner und dem Hottentottischen als geschichtliches Problem. // In: Neue afrikanistische Studien: Festschrift für A. Klingenheben, pp 144-165. Edited by Johannes Lukas. Hamburger Beiträge zur Afrika-Kunde, Bd 5." ;
+        dc:creator          "Köhler Oswin" ;
+        rdf:type            msh:Book .
+
+bib:Sinor_1962  dct:date    "1962" ;
+        dc:identifier       "Sinor 1962" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Some Altaic names for bovines // AOH 15" ;
+        dc:creator          "Sinor D." ;
+        rdf:type            msh:Book .
+
+bib:Matsiyev_1932  dct:date  "1932" ;
+        talis:localityName  "Грозный" ;
+        dc:identifier       "Matsiyev 1932" ;
+        dc:title            "Тушско-чеченско-русский словарь" ;
+        dc:creator          "Мациев А. Г." ;
+        rdf:type            msh:Book .
+
+bib:Lafon_1952  dct:date    "1952" ;
+        talis:localityName  "Salamanca" ;
+        dc:identifier       "Lafon 1952" ;
+        dc:title            "Quelques rapprochements entre les langues caucasiques du Nord et les kartveles. \"Études basques et caucasiques\"" ;
+        dc:creator          "Lafon R." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1985a  dct:date  "1985" ;
+        dc:identifier       "Miller 1985a" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Altaic Connections of the old Japanese Negatives // CAJ 29" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Расторгуева_1990  dct:date  "1990" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Расторгуева 1990" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Сравнительноисторическая грамматика западноиранских языков [Comparative historical grammar of West Iranian languages]" ;
+        dc:creator          "Расторгуева В. С. [V. S. Rastorguyeva]" ;
+        rdf:type            msh:Book .
+
+bib:Starostin_1987  dct:date  "1987" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Starostin 1987" ;
+        dc:title            "Комментарии к кавказоведческим работам H.С.Трубецкого, в сб.: Н.С.Трубецкой, Избранные труды по филологии, стр. 437-473" ;
+        dc:creator          "Старостин С. А." ;
+        rdf:type            msh:Book .
+
+bib:Róna-Tas_1970  dct:date  "1970" ;
+        talis:localityName  "Copenhagen" ;
+        dc:identifier       "Róna-Tas 1970" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Some problems of Ancient Turkic // AO 32" ;
+        dc:creator          "Róna-Tas A." ;
+        rdf:type            msh:Book .
+
+bib:Khaidakov_1962  dct:date  "1962" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Khaidakov 1962" ;
+        dc:title            "Лакско-русский словарь" ;
+        dc:creator          "Хайдаков С. М." ;
+        rdf:type            msh:Book .
+
+bib:VEWT  dct:date          "1969" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "VEWT" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology, Mongolian etymology" ;
+        dc:title            "Versuch eines etymologisches Wörterbuchs der Türksprachen." ;
+        dc:creator          "Räsanen M." ;
+        rdf:type            msh:Book .
+
+bib:YB  dct:date            "1972" ;
+        talis:localityName  "Oxford" ;
+        dc:identifier       "YB" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology, Tungus etymology" ;
+        dc:title            "Etymological Dictionary of PreThirteenth Century Turkish (Irk Bitig)" ;
+        dc:creator          "Clauson G." ;
+        rdf:type            msh:Book .
+
+bib:Lee_1964  dct:date      "1964" ;
+        dc:identifier       "Lee 1964" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Mongolian Loan-Words in Middle Korean // UAJ XXXIV" ;
+        dc:creator          "Lee Ki-Moon" ;
+        rdf:type            msh:Book .
+
+bib:Menges_1982  dct:date   "1982" ;
+        dc:identifier       "Menges 1982" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Etymologica // CAJ 26" ;
+        dc:creator          "Menges K. H." ;
+        rdf:type            msh:Book .
+
+bib:Doerfer_MT  dct:date    "1985" ;
+        talis:localityName  "Wiesbaden" ;
+        dc:identifier       "Doerfer MT" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology, Mongolian etymology, Tungus etymology" ;
+        dc:title            "Mongolo-Tungusica" ;
+        dc:creator          "Doerfer G." ;
+        rdf:type            msh:Book .
+
+bib:Diakonoff-Starostin_1986
+        dct:date            "1986" ;
+        talis:localityName  "München" ;
+        dc:identifier       "Diakonoff-Starostin 1986" ;
+        dc:title            "Hurro-Urartian as an Eastern Caucasian language" ;
+        dc:creator          "Diakonoff I. M., Starostin S. A." ;
+        rdf:type            msh:Book .
+
+bib:Bokarev_1967  dct:date  "1967" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Bokarev 1967" ;
+        dc:title            "Гунзибский язык. // Языки народов СССР, т. 4 (Иберийско-кавказские языки) (стр. 472-487)" ;
+        dc:creator          "Бокарев Е. А." ;
+        rdf:type            msh:Book .
+
+bib:Мудрак  dct:date        "1993" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Мудрак" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Исторические соответствия чувашских и тюркских гласных: Опыт реконструкции и интерпретации [Historic Correspondences between Turkic and Chuvash Vowels: An Attempt at Reconstruction and Interpretation]" ;
+        dc:creator          "Мудрак О. А. [O. A. Mudrak]" ;
+        rdf:type            msh:Book .
+
+bib:Lafon_1964  dct:date    "1964" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Lafon 1964" ;
+        dc:title            "Compléments à un article sur les consonnes latérales dans les langues caucasiques. \"Bedi Kartlisa. Revue de kartvélologie\", vol. XVII-XVIII (No 45-46)" ;
+        dc:creator          "Lafon R." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Pav._C.>
+        dct:date            "1820" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Pav. C." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Dictionnaire turc-oriental" ;
+        dc:creator          "Pavet de Courteille M." ;
+        rdf:type            msh:Book .
+
+bib:Shakryl-Kondzharia_1986-1987
+        dct:date            "1986-1987" ;
+        talis:localityName  "Сухуми" ;
+        dc:identifier       "Shakryl-Kondzharia 1986-1987" ;
+        dc:title            "Словарь абхазского языка" ;
+        dc:creator          "Шакрыл К. С., Конджария В. Х." ;
+        rdf:type            msh:Book .
+
+bib:Gadzhiyev_1951  dct:date  "1951" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Gadzhiyev 1951" ;
+        dc:title            "Русско-лезгинский словарь" ;
+        dc:creator          "Гаджиев М. М." ;
+        rdf:type            msh:Book .
+
+bib:Uslar_1892  dct:date    "1892" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Uslar 1892" ;
+        dc:title            "Хюркилинский язык" ;
+        dc:creator          "Услар П. К." ;
+        rdf:type            msh:Book .
+
+bib:Traill_1986  dct:date   "1986" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Traill 1986" ;
+        dct:isReferencedBy  "East #Hoan etymology" ;
+        dc:title            "Do the Khoi have a place in the San? New data on Khoisan linguistic relationships. In: African hunter-gatherers (international symposium), pp 407-430. Ed(s): Franz Rottland & Rainer Vossen. Sprache und Geschichte in Afrika, special issue, 7(1)." ;
+        dc:creator          "Traill Anthony" ;
+        rdf:type            msh:Book .
+
+bib:Poucha  dct:date        "1955" ;
+        talis:localityName  "Praha" ;
+        dc:identifier       "Poucha" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Institutiones linguae tocharicae. Pt.1. Thesaurus linguae tocharicae, dialecti A" ;
+        dc:creator          "Poucha P." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Баск._Кум.>
+        dct:date            "1972" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Баск. Кум." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Диалект кумандинцев (Кумандыкижи): Грамматический очерк, тексты, переводы и словарь // The Dialect of Kumanda: Grammar sketch, texts, translations, vocabulary" ;
+        dc:creator          "Баскаков Н. А. [N. A. Baskakov]" ;
+        rdf:type            msh:Book .
+
+bib:SM  dct:date            "1933" ;
+        talis:localityName  "Beiping" ;
+        dc:identifier       "SM" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Le dialecte monguor parlé par les Mongols du Kansou occidental." ;
+        dc:creator          "Smedt A. de, Mostaert A." ;
+        rdf:type            msh:Book .
+
+bib:Miller-Street_1975
+        dct:date            "1975" ;
+        talis:localityName  "Wisconsin" ;
+        dc:identifier       "Miller-Street 1975" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Altaic Elements in Old Japanese. P 1" ;
+        dc:creator          "Miller R. A., Street J." ;
+        rdf:type            msh:Book .
+
+bib:Imnayshvili_1977  dct:date  "1977" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Imnayshvili 1977" ;
+        dc:title            "Историко-сравнительный анализ фонетики нахских языков" ;
+        dc:creator          "Имнайшвили Д. С." ;
+        rdf:type            msh:Book .
+
+bib:Miller-Naumann_1991
+        dct:date            "1991" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Miller-Naumann 1991" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Altjapanisch FaFuri. Zu Priestertum und Schamanismus im vorbuddhistischen Japan" ;
+        dc:creator          "Miller R. A., Naumann N." ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1938  dct:date  "1938" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Dumézil 1938" ;
+        dc:title            "Racines oubykhs et tcherkesses à u-préfixé. // BSL, 1938, t. 39, fasc. 1 (No 115)" ;
+        dc:creator          "Dumézil G." ;
+        rdf:type            msh:Book .
+
+bib:Walde-Pokorny  dct:date  "1927-1932" ;
+        talis:localityName  "Leipzig" ;
+        dc:identifier       "Walde-Pokorny" ;
+        dc:title            "Vergleichendes Wörterbuch der indogermanischen Sprachen. Heraussgegeben und bearbeitet von J. Pokorny" ;
+        dc:creator          "Walde A." ;
+        rdf:type            msh:Book .
+
+bib:Kakhadze_1973  dct:date  "1983" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Kakhadze 1973" ;
+        dc:title            "Арчибский язык и его место среди родственных дагестанских языков (автореферат докт. дисс.)" ;
+        dc:creator          "Кахадзе О. И." ;
+        rdf:type            msh:Book .
+
+bib:Щербак_1997  dct:date   "1997" ;
+        talis:localityName  "Санкт-Петербург [Saint-Petersburg]" ;
+        dc:identifier       "Щербак 1997" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology, Mongolian etymology" ;
+        dc:title            "Ранние тюркско-монгольские языковые связи (VIII-XIV вв.) // Early Turko-Mongolian Language Contacts (VIII-XIV centuries)" ;
+        dc:creator          "Щербак А. М. [A. M. Scherbak]" ;
+        rdf:type            msh:Book .
+
+bib:Tyler  dct:date         "1968" ;
+        dc:identifier       "Tyler" ;
+        dct:isReferencedBy  "Nostratic etymology" ;
+        dc:title            "Dravidian and Uralian: the Lexical Evidence" ;
+        dc:creator          "Tyler, Stephen A." ;
+        rdf:type            msh:Book .
+
+bib:МССНЯ  dct:date         "1967" ;
+        talis:localityName  "Москва. [Moscow]." ;
+        dc:identifier       "МССНЯ" ;
+        dct:isReferencedBy  "Long-range etymologies, Nostratic etymology, Altaic etymology" ;
+        dc:title            "Материалы к сравнительному словарю ностратических языков (индоевропейский, алтайский, уральский, дравидийский, картвельский, семито-хамитский). // Этимология 1965. [Materials for a Comparative Dictionary of the Nostratic Languages (Indo-European, Altaic, Uralic, Dravidian, Kartvelian, Semito-Hamitic). Etymology 1965.]" ;
+        dc:creator          "Иллич-Свитыч, В. М. [V. M. Illich-Svitych]" ;
+        rdf:type            msh:Book .
+
+bib:Trubetzkoy_1929  dct:date  "1929" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Trubetzkoy 1929" ;
+        dc:title            "Notes sur les désinences du verbe dans les langues tchétchénolesghiennes (caucasiques-orientales). BSL, 29, 1929, pp. 152-171. Russian translation: Заметки о глагольных показателях в чечено-лезгинских (восточнокавказских) языках, в сб.: Н.С.Трубецкой, Избранные труды по филологии, Москва, 1987, стр.324-343" ;
+        dc:creator          "Trubetzkoy N. S." ;
+        rdf:type            msh:Book .
+
+bib:Lomtadze_1963  dct:date  "1963" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Lomtadze 1963" ;
+        dc:title            "Гинухский диалект дидойского языка" ;
+        dc:creator          "Ломтадзе Э. А." ;
+        rdf:type            msh:Book .
+
+bib:Bokarev_1949  dct:date  "1949" ;
+        talis:localityName  "Москва-Ленинград" ;
+        dc:identifier       "Bokarev 1949" ;
+        dc:title            "Очерк грамматики чамалинского языка" ;
+        dc:creator          "Бокарев А. А." ;
+        rdf:type            msh:Book .
+
+bib:Kardanov_1957  dct:date  "1957" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Kardanov 1957" ;
+        dc:title            "Кабардинско-русский словарь (под общей редакцией Б.М.Карданова)" ;
+        dc:creator          "Карданов Б. М. (редактор)" ;
+        rdf:type            msh:Book .
+
+bib:Rozycki  dct:date       "1994" ;
+        talis:localityName  "Indiana" ;
+        dc:identifier       "Rozycki" ;
+        dct:isReferencedBy  "Altaic etymology, Mongolian etymology" ;
+        dc:title            "Mongol Elements in Manchu." ;
+        dc:creator          "Rozycki W." ;
+        rdf:type            msh:Book .
+
+bib:Németh_1965  dct:date  "1965" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "Németh 1965" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Die Türken von Vidin: Sprache, Folklor, Religion" ;
+        dc:creator          "Németh J." ;
+        rdf:type            msh:Book .
+
+bib:Abdokov_1976  dct:date  "1976" ;
+        talis:localityName  "Нальчик" ;
+        dc:identifier       "Abdokov 1976" ;
+        dc:title            "К вопросу о генетическом родстве абхазско-адыгских и нахско-дагестанских языков" ;
+        dc:creator          "Абдоков А. И." ;
+        rdf:type            msh:Book .
+
+bib:Miller_2000  dct:date   "2000" ;
+        dc:identifier       "Miller 2000" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "How to name a dragon in Altaic // Studia Etymologica Cracoviensia N 5" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1970  dct:date   "1970" ;
+        dc:identifier       "Miller 1970" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "The Old Japanese Reflexes of ProtoAltaic *l2 // UAJ 42" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Abush.>
+        dct:date            "1868" ;
+        talis:localityName  "Санкт-Петербург [Saint-Petersburg]" ;
+        dc:identifier       "Abush." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Словарь джагатайскотурецкий [The Chagatai-Turkic Dictionary]" ;
+        dc:creator          "Вельяминов-Зернов В. В. [V. V. Velyaminov-Zernov]" ;
+        rdf:type            msh:Book .
+
+bib:Mikailov_1959  dct:date  "1959" ;
+        talis:localityName  "Москва-Ленинград" ;
+        dc:identifier       "Mikailov 1959" ;
+        dc:title            "Очерки аварской диалектологии" ;
+        dc:creator          "Микаилов Ш. И." ;
+        rdf:type            msh:Book .
+
+bib:AKE  dct:date           "1954" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "AKE" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Additional Korean Etymologies" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:HGC  dct:date           "1991" ;
+        dc:identifier       "HGC" ;
+        dct:isReferencedBy  "Sino-Caucasian etymology" ;
+        dc:title            "On the Hypothesis of a Genetic Connection between the Sino-Tibetan Languages and the Yeniseian and North-Caucasian languages [translation and introduction by W. Baxter III] // In: Dene-Sino-Caucasian Languages (materials from the First International Interdisciplinary Symposium on Language and Prehistory, Ann Arbor, 8-12 November 1988)." ;
+        dc:creator          "Starostin S. A." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Вас.>
+        dct:date            "1958" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Вас." ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "Эвенкийско-русский словарь [Ewenki-Russian dictionary]" ;
+        dc:creator          "Василевич Г. М. [G. M. Vasilevich]" ;
+        rdf:type            msh:Book .
+
+bib:Liu  dct:date           "1964" ;
+        talis:localityName  "Seoul" ;
+        dc:identifier       "Liu" ;
+        dct:isReferencedBy  "Korean etymology" ;
+        dc:title            "Icoe sacen" ;
+        dc:creator          "Liu Cang Ton" ;
+        rdf:type            msh:Book .
+
+bib:Clark_1980  dct:date    "1980" ;
+        dc:identifier       "Clark 1980" ;
+        dct:isReferencedBy  "Altaic etymology, Turkic etymology, Mongolian etymology" ;
+        dc:title            "Turkic loanwords in Mongol. I: The Treatment of non-initial s, z, š, č // Central Asiatic Journal, vol. 24, N 1-2" ;
+        dc:creator          "Clark L. V." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/At.>
+        dct:date            "1959" ;
+        talis:localityName  "Istanbul" ;
+        dc:identifier       "At." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Atebetü'lHakayīk / ed. Rešit Rahmeti Arat" ;
+        dc:creator          "Edib b. Mahmud Yükneki" ;
+        rdf:type            msh:Book .
+
+bib:Trubetzkoy_1930  dct:date  "1930" ;
+        talis:localityName  "Wien" ;
+        dc:identifier       "Trubetzkoy 1930" ;
+        dc:title            "Nordkaukasische Wortgleichungen. Wiener Zeitschrift für die Kunde des Morgenlandes. Bd. XXXVII, Heft 2 (Russian translation: Севернокавказские словарные совпадения, в сб.: Н.С.Трубецкой, Избранные труды по филологии, Москва, 1987, стр. 271-282)" ;
+        dc:creator          "Trubetzkoy N. S." ;
+        rdf:type            msh:Book .
+
+bib:Wuras  dct:date         "1920-1969" ;
+        dc:identifier       "Wuras" ;
+        dct:isReferencedBy  "Khoekhoe etymology" ;
+        dc:title            "Vokabular der Korana-Sprache. Herausgeben und mit kritischen Anmerkungen versehen von Walther Bourquin. Nachdruck. Zeitschrift für Eingeborenen-Sprachen, Beiheft 1." ;
+        dc:creator          "Wuras Carl" ;
+        rdf:type            msh:Book .
+
+bib:ND  dc:identifier       "ND" ;
+        dct:isReferencedBy  "Long-range etymologies, Nostratic etymology" ;
+        dc:title            "Nostratic Dictionary" ;
+        dc:creator          "Dolgopolski, Aron" ;
+        rdf:type            msh:Book .
+
+bib:Дыбо_1997  dct:date     "1997" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Дыбо 1997" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Названия подарков в праалтайском // Н. А. Баскакову - 90 лет [Names of gifts in Proto-Altaic // In Honour of the 90th Anniversary of N. A. Baskakov]" ;
+        dc:creator          "Дыбо А. В. [A. V. Dybo]" ;
+        rdf:type            msh:Book .
+
+bib:Lee_1958  dct:date      "1958" ;
+        talis:localityName  "Wiesbaden" ;
+        dc:identifier       "Lee 1958" ;
+        dct:isReferencedBy  "Altaic etymology, Mongolian etymology" ;
+        dc:title            "A Comparative Study of Manchu and Korean // Ural-Altaische Jahrbücher XXX" ;
+        dc:creator          "Lee Ki-Moon" ;
+        rdf:type            msh:Book .
+
+bib:Pokorny  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Pokorny" ;
+        rdf:type            msh:Book .
+
+bib:Nikolayev  dct:isReferencedBy  "Na-Dene etymology" ;
+        dc:creator          "Nikolayev" ;
+        rdf:type            msh:Book .
+
+bib:Vovin_1997  dct:date    "1997" ;
+        talis:localityName  "Provo" ;
+        dc:identifier       "Vovin 1997" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Japanese, Korean and Tungusic: Evidence for genetic relationship from verbal morphology // 40th meeting of PIAC" ;
+        dc:creator          "Vovin A." ;
+        rdf:type            msh:Book .
+
+bib:Itabashi_1998  dct:date  "1998" ;
+        dc:identifier       "Itabashi 1998" ;
+        dct:isReferencedBy  "Japanese etymology" ;
+        dc:title            "The Old Japanese personal pronouns as an etymological problem // UAJb 70" ;
+        dc:creator          "Itabashi Y." ;
+        rdf:type            msh:Book .
+
+bib:Kerasheva-Khatanov_1960
+        dct:date            "1960" ;
+        talis:localityName  "Майкоп" ;
+        dc:identifier       "Kerasheva-Khatanov 1960" ;
+        dc:title            "Толковый словарь адыгейского языка" ;
+        dc:creator          "Керашева З. И., Хатанов А. А." ;
+        rdf:type            msh:Book .
+
+bib:Miller_1982  dct:date   "1982" ;
+        dc:identifier       "Miller 1982" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Japanese Evidence for Some Altaic Denominal Verb-stem Derivational Suffixes // AOH 36" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Starostin_1982  dct:date  "1982" ;
+        talis:localityName  "Ленинград" ;
+        dc:identifier       "Starostin 1982" ;
+        dc:title            "Праенисейская реконструкция и внешние связи енисейских языков. // Кетский сборник (антропология, этнография, мифология, лингвистика), стр. 144-237" ;
+        dc:creator          "Старостин С. А." ;
+        rdf:type            msh:Book .
+
+bib:МХТТТ  dct:date         "1966" ;
+        talis:localityName  "Улаанбаатар [Ulan-Bator]" ;
+        dc:identifier       "МХТТТ" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Монгол хэлний товч тайлбар толь" ;
+        dc:creator          "Цэвэл Я." ;
+        rdf:type            msh:Book .
+
+bib:Zenker  dct:date        "1862-1867" ;
+        talis:localityName  "Leipzig" ;
+        dc:identifier       "Zenker" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Dictionnaire turque-arabe-persan" ;
+        dc:creator          "Zenker J. Th." ;
+        rdf:type            msh:Book .
+
+bib:Balkarov_1965  dct:date  "1965" ;
+        talis:localityName  "Hальчик" ;
+        dc:identifier       "Balkarov 1965" ;
+        dc:title            "Адыгские элементы в осетинском языке" ;
+        dc:creator          "Балкаров Б. Х." ;
+        rdf:type            msh:Book .
+
+bib:Rogava_1959  dct:date   "1959" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Rogava 1959" ;
+        dc:title            "Об одной общей иберийско-кавказской основе в значении растения. // Иберийско-кавказское языкознание, т. XI" ;
+        dc:creator          "Рогава Г. В." ;
+        rdf:type            msh:Book .
+
+bib:Dybo_1995  dct:date     "1995" ;
+        talis:localityName  "Berlin" ;
+        dc:identifier       "Dybo 1995" ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "Die Namen des Zeigefingers in den Türkischen und Altaischen Sprachen // Türkische Laut- und Wortgeschichte" ;
+        dc:creator          "Dybo A. V." ;
+        rdf:type            msh:Book .
+
+bib:Matsiyev-Ozdoyev_1966
+        dct:date            "1966" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Matsiyev-Ozdoyev 1966" ;
+        dc:title            "Русско-чеченско-ингушский словарь" ;
+        dc:creator          "Мациев А. Г., Оздоев И. А." ;
+        rdf:type            msh:Book .
+
+bib:Ramstedt_1916  dct:date  "1916" ;
+        dc:identifier       "Ramstedt 1916" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Ein anlautender stimmloser Labial in der mongolisch-türkischen Ursprache // JSFOu, T. 32, N 1" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:Maingard_1958  dct:date  "1958" ;
+        dc:identifier       "Maingard 1958" ;
+        dct:isReferencedBy  "South Khoisan (Taa subgroup) etymology" ;
+        dc:title            "Three Bushman languages: the third Bushman language. In: African studies, 17." ;
+        dc:creator          "Maingard Louis F." ;
+        rdf:type            msh:Book .
+
+bib:Ardzinba_1985  dct:date  "1985" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Ardzinba 1985" ;
+        dc:title            "Ритуалы и мифы древней Анатолии" ;
+        dc:creator          "Ардзинба В. Г." ;
+        rdf:type            msh:Book .
+
+bib:ЯЖУ  dct:date           "1957" ;
+        talis:localityName  "Алма-Ата [Alma-Ata]" ;
+        dc:identifier       "ЯЖУ" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Язык желтых уйгуров: Словарь, грамматика [The Language of the Yellow Uighurs: Vocabulary and Grammar]" ;
+        dc:creator          "Малов С. Е. [S. Ye. Malov]" ;
+        rdf:type            msh:Book .
+
+bib:Kibrik-Kodzasov-Olovyannikova_1972
+        dct:date            "1972" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Kibrik-Kodzasov-Olovyannikova 1972" ;
+        dc:title            "Фрагменты грамматики хиналугского языка" ;
+        dc:creator          "Кибрик А. Е., Кодзасов С. В., Оловянникова И. П." ;
+        rdf:type            msh:Book .
+
+bib:Vossen  dct:date        "1997" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Vossen" ;
+        dct:isReferencedBy  "Central Khoisan etymology, Khoekhoe etymology, West Central Khoisan etymology, East Central Khoisan etymology" ;
+        dc:title            "Die Khoe-Sprachen. Ein Beitrag zur Erforschung der Sprachgeschichte Afrikas. // Quellen zur Khoisan-Forschung/Research in Khoisan studies. Bd. 12." ;
+        dc:creator          "Vossen Rainer" ;
+        rdf:type            msh:Book .
+
+bib:Ehret_1986  dct:date    "1986" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Ehret 1986" ;
+        dct:isReferencedBy  "Macro-Khoisan etymology, Hadza etymology" ;
+        dc:title            "Proposals on Khoisan reconstruction. // In: African hunter-gatherers (international symposium), pp. 105-130. Ed(s).: Franz Rottland & Rainer Vossen. Sprache und Geschichte in Afrika, special issue 7(2)." ;
+        dc:creator          "Ehret Christopher" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Тод._Бн.>
+        dct:date            "1964" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Тод. Бн." ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Баоаньский язык [The Bao'an language]" ;
+        dc:creator          "Тодаева Б. Х. [B. Kh. Todayeva]" ;
+        rdf:type            msh:Book .
+
+bib:Vossen_1992  dct:date   "1992" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Vossen 1992" ;
+        dct:isReferencedBy  "West Central Khoisan etymology, East Central Khoisan etymology" ;
+        dc:title            "Q in Khoe: borrowing, substrate or innovation?. // In: African linguistic contributions (Festschrift Ernst Westphal), pp. 363-388. Edited by Derek F. Gowlett." ;
+        dc:creator          "Vossen Rainer" ;
+        rdf:type            msh:Book .
+
+bib:Horn  dct:date          "1893" ;
+        talis:localityName  "Strassburg" ;
+        dc:identifier       "Horn" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Grundriss der neupersischen Etymologie" ;
+        dc:creator          "Horn P." ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1963  dct:date  "1963" ;
+        talis:localityName  "Roma" ;
+        dc:identifier       "Dumézil 1963" ;
+        dc:title            "Caucasique du Nord-Ouest et parlers scythiques. // \"Istituto orientale di Napoli. Annali. Sezione linguistica\", V, dicembre 1963" ;
+        dc:creator          "Dumézil G." ;
+        rdf:type            msh:Book .
+
+bib:Poppe_1950  dct:date    "1950" ;
+        dc:identifier       "Poppe 1950" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Review of G. J. Ramstedt's \"Studies in Korean Etymology\" // HJAS 13" ;
+        dc:creator          "Poppe N." ;
+        rdf:type            msh:Book .
+
+bib:SH  dct:date            "1939" ;
+        talis:localityName  "Leipzig" ;
+        dc:identifier       "SH" ;
+        dct:isReferencedBy  "Mongolian etymology, Turkic etymology" ;
+        dc:title            "Wörterbuch zu Mangholun Niuča Tobčaan (Yüanchʁao pishi), Geheime Geshichte der Mongolen" ;
+        dc:creator          "Haenisch E." ;
+        rdf:type            msh:Book .
+
+bib:Bgazhba_1964a  dct:date  "1964" ;
+        talis:localityName  "Сухуми" ;
+        dc:identifier       "Bgazhba 1964a" ;
+        dc:title            "Русско-абхазский словарь" ;
+        dc:creator          "Бгажба Х. С. (главный редактор)" ;
+        rdf:type            msh:Book .
+
+bib:Meinhof  dct:date       "1930" ;
+        talis:localityName  "Berlin & Hamburg" ;
+        dc:identifier       "Meinhof" ;
+        dct:isReferencedBy  "Khoekhoe etymology" ;
+        dc:title            "Der Koranadialekt des Hottentottischen. Zeitschrift für Eingeborenen-Sprachen, Beiheft 12." ;
+        dc:creator          "Meinhof Carl" ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1933  dct:date  "1933" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Dumézil 1933" ;
+        dc:title            "Introduction à la grammaire comparée des langues caucasiques du Nord" ;
+        dc:creator          "Dumézil G." ;
+        rdf:type            msh:Book .
+
+bib:Róna-Tas_1988  dct:date  "1988" ;
+        talis:localityName  "Leiden" ;
+        dc:identifier       "Róna-Tas 1988" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Turkic influence on the Uralic languages // The Uralic languages" ;
+        dc:creator          "Róna-Tas A." ;
+        rdf:type            msh:Book .
+
+bib:Sinor_1981  dct:date    "1981" ;
+        dc:identifier       "Sinor 1981" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "The origin of Turkic BALɨQ \"town\" // CAJ 1981, Vol. XXV" ;
+        dc:creator          "Sinor D." ;
+        rdf:type            msh:Book .
+
+bib:Robbeets_2000  dct:date  "2000" ;
+        dc:identifier       "Robbeets 2000" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Etymological evidence for the value of the Middle Korean grapheme D // Studia Etymologica Cracoviensia, N 5" ;
+        dc:creator          "Robbeets M." ;
+        rdf:type            msh:Book .
+
+bib:Bailey  dct:date        "1979" ;
+        talis:localityName  "Cambridge" ;
+        dc:identifier       "Bailey" ;
+        dct:isReferencedBy  "Indo-European etymology, Turkic etymology" ;
+        dc:title            "Dictionary of Khotan Saka" ;
+        dc:creator          "Bailey H. W." ;
+        rdf:type            msh:Book .
+
+bib:Deeters_1963  dct:date  "1963" ;
+        talis:localityName  "Leiden-Köln" ;
+        dc:identifier       "Deeters 1963" ;
+        dc:title            "Die kaukasische Sprachen. // \"Handbuch der Orientalistik\", Bd. 7" ;
+        dc:creator          "Deeters G." ;
+        rdf:type            msh:Book .
+
+bib:Dybo_1977  dct:date     "1977" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Dybo 1977" ;
+        dc:title            "Западнокавказская акцентная система и проблема ее происхождения. // Hостратические языки и ностратическое языкознание, pp. 41-45" ;
+        dc:creator          "Дыбо В. А." ;
+        rdf:type            msh:Book .
+
+bib:Хелимский_2000  dct:date  "2000" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Хелимский 2000" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Компаративистика, уралистика. Лекции и статьи" ;
+        dc:creator          "Хелимский Е. А. [Ye. A. Khelimsky]" ;
+        rdf:type            msh:Book .
+
+bib:Collinder  dct:date     "1955" ;
+        talis:localityName  "Uppsala" ;
+        dc:identifier       "Collinder" ;
+        dct:isReferencedBy  "Nostratic etymology" ;
+        dc:title            "Fenno-Ugric vocabulary" ;
+        dc:creator          "Collinder B." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Аб.>
+        dct:date            "1958-1995" ;
+        talis:localityName  "Москва-Ленинград [Moscow-Leningrad]" ;
+        dc:identifier       "Аб." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Историкоэтимологический словарь осетинского языка, т. 1-5 // A Historical-Etymological Dictionary of the Ossetian Language, vv. 1-5" ;
+        dc:creator          "Абаев В. И. [V. I. Abayev]" ;
+        rdf:type            msh:Book .
+
+bib:Finch_1987  dct:date    "1987" ;
+        dc:identifier       "Finch 1987" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Verb classes in the Altaic languages // Sophia Linguistica 26" ;
+        dc:creator          "Finch R." ;
+        rdf:type            msh:Book .
+
+bib:Dumézil_1975  dct:date  "1975" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Dumézil 1975" ;
+        dc:title            "Analyse et comparaison en linguistique caucasique. // \"Mélanges linguistiques offerts à Émile Benveniste\"" ;
+        dc:creator          "Dumézil G." ;
+        rdf:type            msh:Book .
+
+bib:Michelena  dct:isReferencedBy  "Basque etymology" ;
+        dc:creator          "Michelena" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Он.>
+        dct:date            "1980" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Он." ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "Нанайско-русский словарь [Nanai-Russian Dictionary]" ;
+        dc:creator          "Оненко С. Н. [S. N. Onenko]" ;
+        rdf:type            msh:Book .
+
+bib:Аврорин_-_Лебедева
+        dct:date            "1978" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Аврорин - Лебедева" ;
+        dct:isReferencedBy  "Tungus etymology" ;
+        dc:title            "Орочские тексты и словарь [Oroch texts and vocabulary]" ;
+        dc:creator          "Аврорин В. А., Лебедева Е. П. [V. A. Avrorin, Ye. P. Lebedeva]" ;
+        rdf:type            msh:Book .
+
+bib:Рас._ФиЛ  dct:date      "1971" ;
+        talis:localityName  "Улан-Удэ [Ulan-Ude]" ;
+        dc:identifier       "Рас. ФиЛ" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Фонетика и лексика тофаларского языка [Phonetics and Lexics of the Tofalar Language]" ;
+        dc:creator          "Рассадин В. И. [V. I. Rassadin]" ;
+        rdf:type            msh:Book .
+
+bib:Buck  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Buck" ;
+        rdf:type            msh:Book .
+
+bib:Miller_1976  dct:date   "1976" ;
+        dc:identifier       "Miller 1976" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "The Relevance of Historical Linguistics for Japanese Studies // JJS 2" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Castr.>
+        dct:date            "1857" ;
+        talis:localityName  "Санкт-Петербург [Saint-Petersburg]" ;
+        dc:identifier       "Castr." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Versuch einer koibalischen und karagassischen Sprachlehre" ;
+        dc:creator          "Castrén M. A." ;
+        rdf:type            msh:Book .
+
+bib:Ivanov_1985  dct:date   "1985" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Ivanov 1985" ;
+        dc:title            "Об отношении хаттского языка к северозападнокавказским. - Древняя Анатолия (стр. 26-59)" ;
+        dc:creator          "Иванов Вяч. Вс." ;
+        rdf:type            msh:Book .
+
+bib:Madiyeva_1965  dct:date  "1965" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Madiyeva 1965" ;
+        dc:title            "Грамматический очерк бежитинского языка" ;
+        dc:creator          "Мадиева Г. И." ;
+        rdf:type            msh:Book .
+
+bib:Дыбо_1992  dct:date     "1992" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Дыбо 1992" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Некоторые заимствования в соматической лексике монгольских языков // Монгольский лингвистический сборник [Some loanwords in the somatic lexics of Mongolian languages // Mongolian Linguistic Almanach]" ;
+        dc:creator          "Дыбо А. В. [A. V. Dybo]" ;
+        rdf:type            msh:Book .
+
+bib:Traill-Nakagawa  dct:date  "2000" ;
+        dc:identifier       "Traill-Nakagawa" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "A historical !Xóõ-G|ui contact zone: linguistics and other relations. // In: The state of Khoesan languages in Botswana, pp 1-17. Ed(s): Herman M. Batibo & Joseph Tsonope." ;
+        dc:creator          "Traill Anthony, Hirosi Nakagawa" ;
+        rdf:type            msh:Book .
+
+bib:Martin_1996  dct:date   "1996" ;
+        talis:localityName  "Honolulu" ;
+        dc:identifier       "Martin 1996" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Consonant lenition in Korean and the Macro-Altaic Question" ;
+        dc:creator          "Martin S. E." ;
+        rdf:type            msh:Book .
+
+bib:LFK  dct:date           "1977" ;
+        talis:localityName  "Honolulu" ;
+        dc:identifier       "LFK" ;
+        dct:isReferencedBy  "Zhuang-Tai etymology" ;
+        dc:title            "A Handbook of Comparative Tai." ;
+        dc:creator          "Li Fang-kuei" ;
+        rdf:type            msh:Book .
+
+bib:ЭСКЯ  dc:identifier     "ЭСКЯ" ;
+        dct:isReferencedBy  "Kartvelian etymology" ;
+        dc:creator          "Klimov" ;
+        rdf:type            msh:Book .
+
+bib:Gudava_1979  dct:date   "1979" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Gudava 1979" ;
+        dc:title            "Историко-сравнительный анализ консонантизма дидойских языков" ;
+        dc:creator          "Гудава Т. Е." ;
+        rdf:type            msh:Book .
+
+bib:Dybo_1989  dct:date     "1989" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Dybo 1989" ;
+        dc:title            "Типология и реконструкция парадигматических акцентных систем. // Историческая акцентология и сравнительно-исторический метод" ;
+        dc:creator          "Дыбо В. А." ;
+        rdf:type            msh:Book .
+
+bib:L   dct:date            "1997" ;
+        talis:localityName  "Berkeley" ;
+        dc:identifier       "L" ;
+        dct:isReferencedBy  "Zhuang-Tai etymology" ;
+        dc:title            "The subgroup structure of the Tai languages // Journal of Chinese Linguistics. Monograph Series, N. 12." ;
+        dc:creator          "Luo Yongxian" ;
+        rdf:type            msh:Book .
+
+bib:Saidova_1973  dct:date  "1973" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Saidova 1973" ;
+        dc:title            "Годоберинский язык (грамматический очерк, тексты, словарь)" ;
+        dc:creator          "Саидова П. А." ;
+        rdf:type            msh:Book .
+
+bib:Abdokov_1983  dct:date  "1983" ;
+        talis:localityName  "Нальчик" ;
+        dc:identifier       "Abdokov 1983" ;
+        dc:title            "О звуковых и словарных соответствиях северокавказских языков" ;
+        dc:creator          "Абдоков А. И." ;
+        rdf:type            msh:Book .
+
+bib:Tucker  dc:identifier   "Tucker" ;
+        dct:isReferencedBy  "Hadza etymology" ;
+        dc:title            "Unpublished data on Hadza (w. added versions by B. Sands)" ;
+        dc:creator          "Tucker Archibald" ;
+        rdf:type            msh:Book .
+
+bib:Whitman  dct:date       "1994" ;
+        dc:identifier       "Whitman" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "The Accentuation of Nominal Stems in ProtoKorean // Theoretical Issues in Korean Linguistics" ;
+        dc:creator          "Whitman J. B." ;
+        rdf:type            msh:Book .
+
+bib:Ardzinba_1979  dct:date  "1979" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Ardzinba 1979" ;
+        dc:title            "Hекоторые сходные структурные признаки хаттского и абхазо-адыгских языков. - Переднеазиатский сборник, III" ;
+        dc:creator          "Ардзинба В. Г." ;
+        rdf:type            msh:Book .
+
+bib:AH  dct:date            "1931" ;
+        talis:localityName  "Istanbul" ;
+        dc:identifier       "AH" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "AbûHayyān. Kitāb alIdrāk lilisān al Atrāk" ;
+        dc:creator          "Caferoğlu A." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Пек.>
+        dct:date            "1959" ;
+        talis:localityName  "Unpublished [phototype]" ;
+        dc:identifier       "Пек." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Словарь якутского языка [A Yakut Dictionary]" ;
+        dc:creator          "Пекарский Э. К. [E. K. Pekarsky]" ;
+        rdf:type            msh:Book .
+
+bib:Miller_1985b  dct:date  "1985" ;
+        dc:identifier       "Miller 1985b" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Apocope and the problem of ProtoAltaic *i̯ā̆ (I) // UAJ (NF) 5" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Israel  dct:isReferencedBy  "Kui-Kuwi etymology" ;
+        dc:creator          "Israel" ;
+        rdf:type            msh:Book .
+
+bib:Poppe_1974  dct:date    "1974" ;
+        dc:identifier       "Poppe 1974" ;
+        dct:isReferencedBy  "Altaic etymology, Mongolian etymology" ;
+        dc:title            "Remarks on comparative study of the vocabulary of the Altaic languages // Ural-Altaische Jahrbücher, Bd 46" ;
+        dc:creator          "Poppe N." ;
+        rdf:type            msh:Book .
+
+bib:Bomhard_1996  dct:date  "1996" ;
+        talis:localityName  "Charleston" ;
+        dc:identifier       "Bomhard 1996" ;
+        dct:isReferencedBy  "Long-range etymologies, Nostratic etymology" ;
+        dc:title            "Indo-European and the Nostratic Hypothesis" ;
+        dc:creator          "Bomhard, Alan" ;
+        rdf:type            msh:Book .
+
+bib:Miller_1988  dct:date   "1988" ;
+        dc:identifier       "Miller 1988" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Pleiades perceived: mul-mul to subaru // JAOS V. 108, N 1" ;
+        dc:creator          "Miller R. A." ;
+        rdf:type            msh:Book .
+
+bib:Starostin_1988  dct:date  "1988" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Starostin 1988" ;
+        dc:title            "Индоевропейско-севернокавказские изоглоссы. // Древний Восток (этнокультурные связи), pp. 112-163" ;
+        dc:creator          "Старостин С. А." ;
+        rdf:type            msh:Book .
+
+bib:Vossen_1986  dct:date   "1986" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Vossen 1986" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "Zur Phonologie der ||Ani-Sprache. // In: Contemporary studies on Khoisan (Festschrift Oswin R. A. Köhler), vol 2, pp 321-345. Ed(s): Rainer Vossen & Klaus Keuthmann. Quellen zur Khoisan-Forschung, Bd 5." ;
+        dc:creator          "Rainer Vossen" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Бор._Бад.>
+        dct:date            "1961" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Бор. Бад." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "\"Бадā'и ал-луг̣ат\": Словарь Т̣ā'ли Имāни Гератского к сочинениям Алишера Навои [Badā'i al-lughat]" ;
+        dc:creator          "Боровков А. К. [A. K. Borovkov]" ;
+        rdf:type            msh:Book .
+
+bib:Starostin_1975a  dct:date  "1975" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Starostin 1975a" ;
+        dc:title            "О реконструкции пралезгинской фонологической системы (консонантизм). // Тезисы конференции аспирантов и молодых сотрудников: Литературоведение, текстология, лингвистика" ;
+        dc:creator          "Старостин С. А." ;
+        rdf:type            msh:Book .
+
+bib:Mahanti  dct:isReferencedBy  "Kui-Kuwi etymology" ;
+        dc:creator          "Mahanti" ;
+        rdf:type            msh:Book .
+
+bib:Klimov_1969  dct:date   "1969" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Klimov 1969" ;
+        dc:title            "Абхазско-адыгско-картвельские лексические параллели. Этимология 1967" ;
+        dc:creator          "Климов Г. А." ;
+        rdf:type            msh:Book .
+
+bib:Joki  dct:date          "1952" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "Joki" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Die Lehnwörter des SajanSamojedischen (MSFOu. 103)" ;
+        dc:creator          "Joki A. J." ;
+        rdf:type            msh:Book .
+
+bib:NCED  dc:identifier     "NCED" ;
+        dct:isReferencedBy  "North Caucasian etymology" ;
+        dc:creator          "Nikolayev S. L., Starostin S. A." ;
+        rdf:type            msh:Book .
+
+bib:GSR  dc:identifier      "GSR" ;
+        dct:isReferencedBy  "Chinese characters" ;
+        dc:creator          "Karlgren" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Kow.>
+        dct:date            "1844-1849" ;
+        talis:localityName  "Kasan" ;
+        dc:identifier       "Kow." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Dictionnaire mongol-russe-français" ;
+        dc:creator          "Kowalewski J. E." ;
+        rdf:type            msh:Book .
+
+bib:Gukasyan_1974  dct:date  "1974" ;
+        talis:localityName  "Баку" ;
+        dc:identifier       "Gukasyan 1974" ;
+        dc:title            "Удинско-азербайджанско-русский словарь" ;
+        dc:creator          "Гукасян-Ворошил Г." ;
+        rdf:type            msh:Book .
+
+bib:Visser  dct:date        "2001" ;
+        dc:identifier       "Visser" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "Naro dictionary." ;
+        dc:creator          "Visser Hessel" ;
+        rdf:type            msh:Book .
+
+bib:Khanmagomedov_1957
+        dct:date            "1957" ;
+        talis:localityName  "Махачкала" ;
+        dc:identifier       "Khanmagomedov 1957" ;
+        dc:title            "Русско-табасаранский школьный словарь" ;
+        dc:creator          "Ханмагомедов Б. (редактор)" ;
+        rdf:type            msh:Book .
+
+bib:Haacke_1997  dct:date   "1997" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Haacke 1997" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "Internal and external relations of Khoekhoe dialects: a preliminary survey. // In: Namibian languages: reports and papers, pp 125-209. Ed(s): Wilfrid [Heinrich] [Gerhard] Haacke & Edward D[erek] Elderkin. Namibian African studies, vol 4." ;
+        dc:creator          "Haacke Wilfrid, Eiseb Eliphas" ;
+        rdf:type            msh:Book .
+
+bib:Deeters_1957  dct:date  "1957" ;
+        talis:localityName  "Göttingen" ;
+        dc:identifier       "Deeters 1957" ;
+        dc:title            "Bemerkungen zu K. Bouda's \"Südkaukasisch-nordkaukasischen Etymologien\". // Die Welt des Orients" ;
+        dc:creator          "Deeters G." ;
+        rdf:type            msh:Book .
+
+bib:Шипова  dct:date        "1976" ;
+        talis:localityName  "Алма-Ата [Alma-Ata]" ;
+        dc:identifier       "Шипова" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Словарь тюркизмов в русском языке [A Dictionary of Turkisms in Russian]" ;
+        dc:creator          "Шипова Е. Н. [Ye. N. Shipova]" ;
+        rdf:type            msh:Book .
+
+bib:Vossen_1998  dct:date   "1998" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Vossen 1998" ;
+        dct:isReferencedBy  "West Central Khoisan etymology, East Central Khoisan etymology" ;
+        dc:title            "Forms and functions of *!'o in some Khoe languages. // In: Language, identity and conceptualization among the Khoisan, pp 285-303. Edited by Mathias Schladt. Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 15." ;
+        dc:creator          "Vossen Rainer" ;
+        rdf:type            msh:Book .
+
+bib:Kaɫ._MEJ  dct:date      "1961" ;
+        talis:localityName  "Warszawa" ;
+        dc:identifier       "Kaɫ. MEJ" ;
+        dct:isReferencedBy  "Altaic etymology, Mongolian etymology" ;
+        dc:title            "Mongolische Elemente in der jakutischen Sprache" ;
+        dc:creator          "Kaɫużyński S." ;
+        rdf:type            msh:Book .
+
+bib:Ramstedt  dct:isReferencedBy  "Altaic etymology" ;
+        dc:creator          "Ramstedt" ;
+        rdf:type            msh:Book .
+
+bib:Shakryl_1968  dct:date  "1968" ;
+        talis:localityName  "Сухуми" ;
+        dc:identifier       "Shakryl 1968" ;
+        dc:title            "Hекоторые лексические и звуковые соответствия в абхазско-адыгских языках" ;
+        dc:creator          "Шакрыл К. С." ;
+        rdf:type            msh:Book .
+
+bib:Khaidakov_1975  dct:date  "1975" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Khaidakov 1975" ;
+        dc:title            "Термины гончарного производства в лакском языке. // Ежегодник иберийско-кавказского языкознания, II" ;
+        dc:creator          "Хайдаков С. М." ;
+        rdf:type            msh:Book .
+
+bib:Цинциус_1984  dct:date  "1984" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Цинциус 1984" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Этимологии алтайских лексем с анлаутными придыхательными смычными губно-губным *п' и заднеязычным *к' // Алтайские этимологии [Etymologies of Altaic lexemes with anlaut aspirated obstruents *p` and *k` // Altaic etymologies]" ;
+        dc:creator          "Цинциус В. И. [V. I. Tsintsius]" ;
+        rdf:type            msh:Book .
+
+bib:Tischler  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "Tischler" ;
+        rdf:type            msh:Book .
+
+bib:Gudava_1962  dct:date   "1962" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Gudava 1962" ;
+        dc:title            "Ботлихский язык (грамматический анализ, тексты, словарь) (in Georgian: Botlixuri ena)" ;
+        dc:creator          "Гудава Т. Е." ;
+        rdf:type            msh:Book .
+
+bib:Kibrik-Samedov_1977
+        dct:date            "1977" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Kibrik-Samedov 1977" ;
+        dc:title            "Опыт структурного описания арчинского языка. Тт. 1-4" ;
+        dc:creator          "Кибрик А. Е., Кодзасов С. В., Оловянникова И. П., Самедов Д. С." ;
+        rdf:type            msh:Book .
+
+bib:Тод._ЯМВМ  dct:date     "1981" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Тод. ЯМВМ" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Язык монголов внутренней Монголии: Материалы и словарь" ;
+        dc:creator          "Тодаева Б. Х. [B. Kh. Todayeva]" ;
+        rdf:type            msh:Book .
+
+bib:WP  dct:isReferencedBy  "Indo-European etymology" ;
+        dc:creator          "WP" ;
+        rdf:type            msh:Book .
+
+bib:Ligeti_1954  dct:date   "1954" ;
+        dc:identifier       "Ligeti 1954" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Le lexique moghol de R. Leech // AOH. T. IV" ;
+        dc:creator          "Ligeti L." ;
+        rdf:type            msh:Book .
+
+bib:Fleming  dct:date       "1986" ;
+        talis:localityName  "Hamburg" ;
+        dc:identifier       "Fleming" ;
+        dct:isReferencedBy  "Hadza etymology, Sandawe etymology" ;
+        dc:title            "Hadza and Sandawe genetic relations. // In: African hunter-gatherers (international symposium), pp. 105-130. Ed(s).: Franz Rottland & Rainer Vossen. Sprache und Geschichte in Afrika, special issue 7(2)." ;
+        dc:creator          "Fleming Harold" ;
+        rdf:type            msh:Book .
+
+bib:Phailbus  dct:isReferencedBy  "Gondi etymology" ;
+        dc:creator          "Phailbus" ;
+        rdf:type            msh:Book .
+
+bib:Менгес_1979  dct:date   "1979" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "Менгес 1979" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology" ;
+        dc:title            "Восточные элементы в \"Слове о полку Игореве\" [Eastern elements in \"The Tale of Igor's Campaign\"]" ;
+        dc:creator          "Менгес К. Г. [K. Menges]" ;
+        rdf:type            msh:Book .
+
+bib:SED  dc:identifier      "SED" ;
+        dct:isReferencedBy  "Semitic etymology" ;
+        dc:creator          "Militarev-Kogan" ;
+        rdf:type            msh:Book .
+
+bib:Bokarev_1981  dct:date  "1981" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Bokarev 1981" ;
+        dc:title            "Сравнительно-историческая фонетика восточнокавказских языков" ;
+        dc:creator          "Бокарев Е. А." ;
+        rdf:type            msh:Book .
+
+bib:Mészáros_1934  dct:date  "1934" ;
+        talis:localityName  "Chicago" ;
+        dc:identifier       "Mészáros 1934" ;
+        dc:title            "Die Päkhy-Sprache" ;
+        dc:creator          "Mészáros J." ;
+        rdf:type            msh:Book .
+
+bib:ПМК  dct:date           "1959" ;
+        talis:localityName  "Москва-Ленинград [Moscow-Leningrad]" ;
+        dc:identifier       "ПМК" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Памятники древнетюркской письменности Монголии и Киргизии [Old Turkic written monuments of Mongolia and Kyrghizia]" ;
+        dc:creator          "Малов С. Е. [S. Ye. Malov]" ;
+        rdf:type            msh:Book .
+
+bib:Гаффаров  dct:date      "1914-1927" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Гаффаров" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Персидскорусский словарь [Persian-Russian Dictionary]" ;
+        dc:creator          "Гаффаров М. А. [M. A. Gaffarov]" ;
+        rdf:type            msh:Book .
+
+bib:Trubetzkoy_1931  dct:date  "1931" ;
+        talis:localityName  "Leipzig" ;
+        dc:identifier       "Trubetzkoy 1931" ;
+        dc:title            "Die Konsonantensysteme der ostkaukasischen Sprachen. Caucasica, fasc. 8 (Russian translation: Системы согласных в восточнокавказских языках, в сб.: Н.С.Трубецкой, Избранные труды по филологии, Москва, 1987, стр. 283-323)" ;
+        dc:creator          "Trubetzkoy N. S." ;
+        rdf:type            msh:Book .
+
+bib:Lig._VMI  dct:date      "1962" ;
+        talis:localityName  "Budapest" ;
+        dc:identifier       "Lig. VMI" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Un vocabulaire mongol d'Istanboul // Acta Orientalia Hungarica, t. IV" ;
+        dc:creator          "Ligeti L." ;
+        rdf:type            msh:Book .
+
+bib:ТМС  dct:date           "1975-1977" ;
+        talis:localityName  "Ленинград [Leningrad]" ;
+        dc:identifier       "ТМС" ;
+        dct:isReferencedBy  "Altaic etymology, Tungus etymology" ;
+        dc:title            "Сравнительный словарь тунгусоманьчжурских языков [A Comparative Dictionary of Tungus-Manchu Languages]" ;
+        dc:creator          "Цинциус В. и др. [V. Tsintsius et al.]" ;
+        rdf:type            msh:Book .
+
+bib:Alekseyev_1985  dct:date  "1985" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Alekseyev 1985" ;
+        dc:title            "Вопросы сравнительно-исторической грамматики лезгинских языков" ;
+        dc:creator          "Алексеев М. Е." ;
+        rdf:type            msh:Book .
+
+bib:Kadagidze_1984  dct:date  "1984" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Kadagidze 1984" ;
+        dc:title            "Цова-тушинско-грузинско-русский словарь" ;
+        dc:creator          "Кадагидзе Д. H., Кадагидзе H. Д." ;
+        rdf:type            msh:Book .
+
+bib:Róna-Tas_KM  dct:date  "1973-1974" ;
+        talis:localityName  "Szeged" ;
+        dc:identifier       "Róna-Tas KM" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology" ;
+        dc:title            "Középmongol eredetú jövevényszavak a csuvasbau // Nyelvészeti dolgozatok, 114" ;
+        dc:creator          "Róna-Tas A." ;
+        rdf:type            msh:Book .
+
+bib:Dirr_1913  dct:date     "1913" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Dirr 1913" ;
+        dc:title            "Цахурский язык" ;
+        dc:creator          "Дирр А. М." ;
+        rdf:type            msh:Book .
+
+bib:TKL  dct:date           "1996" ;
+        talis:localityName  "Beijing" ;
+        dc:identifier       "TKL" ;
+        dct:isReferencedBy  "Zhuang-Tai etymology" ;
+        dc:title            "An introduction to the Kam-Tai languages (in Chinese)" ;
+        dc:creator          "Liang Min & Zhang Junru" ;
+        rdf:type            msh:Book .
+
+bib:Sapir  dct:isReferencedBy  "Na-Dene etymology" ;
+        dc:creator          "Sapir" ;
+        rdf:type            msh:Book .
+
+bib:Talibov_1980  dct:date  "1980" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Talibov 1980" ;
+        dc:title            "Сравнительная фонетика лезгинских языков" ;
+        dc:creator          "Талибов Б. Б." ;
+        rdf:type            msh:Book .
+
+bib:R   dc:identifier       "R" ;
+        dct:isReferencedBy  "Long-range etymologies" ;
+        dc:title            "Amerind Dictionary" ;
+        dc:creator          "Ruhlen Merritt" ;
+        rdf:type            msh:Book .
+
+bib:Meilanova_1964  dct:date  "1964" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Meilanova 1964" ;
+        dc:title            "Очерки лезгинской диалектологии" ;
+        dc:creator          "Мейланова У. А." ;
+        rdf:type            msh:Book .
+
+bib:Фармонов  dct:date      "1961" ;
+        talis:localityName  "Tashkent" ;
+        dc:identifier       "Фармонов" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Уш шевасининг фонетик ва лексик хуссыфиятлари // Узбек диалектологиясидан материаллар" ;
+        dc:creator          "Фармонов И. [I. Farmonov]" ;
+        rdf:type            msh:Book .
+
+bib:Kaɫ._JW  dct:date       "1962" ;
+        dc:identifier       "Kaɫ. JW" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Jakutische Wortforschungen // CAJ 1962, Vol. 7, N 3" ;
+        dc:creator          "Kaɫużynski S." ;
+        rdf:type            msh:Book .
+
+bib:Трубачев_1960  dct:date  "1960" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Трубачев 1960" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Происхождение названий домашних животных в славянских языках [The origins of domesticated animal names in Slavic languages]" ;
+        dc:creator          "Трубачев О. Н. [O. N. Trubachev]" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Houts.>
+        dct:date            "1894" ;
+        talis:localityName  "Leiden" ;
+        dc:identifier       "Houts." ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Ein türkischarabisches Glossar" ;
+        dc:creator          "Houtsma M. Th." ;
+        rdf:type            msh:Book .
+
+bib:АПиПЯЯ  dct:date        "1991" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "АПиПЯЯ" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Алтайская проблема и происхождение японского языка [The Altaic problem and the Origins of the Japanese Language]" ;
+        dc:creator          "Старостин С. А. [S. A. Starostin]" ;
+        rdf:type            msh:Book .
+
+bib:Lomtatidze_1964  dct:date  "1964" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Lomtatidze 1964" ;
+        dc:title            "Ашхарский диалект и его место среди других абхазско-абазинских диалектов" ;
+        dc:creator          "Ломтатидзе К. В." ;
+        rdf:type            msh:Book .
+
+bib:Krauss-Leer  dct:isReferencedBy  "Na-Dene etymology" ;
+        dc:creator          "Krauss-Leer" ;
+        rdf:type            msh:Book .
+
+bib:Klimov_1964  dct:date   "1964" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Klimov 1964" ;
+        dc:title            "Этимологический словарь картвельских языков" ;
+        dc:creator          "Климов Г. А." ;
+        rdf:type            msh:Book .
+
+bib:Uslar_1887  dct:date    "1887" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Uslar 1887" ;
+        dc:title            "Абхазский язык" ;
+        dc:creator          "Услар П. К." ;
+        rdf:type            msh:Book .
+
+bib:EAS  dct:date           "1952, 1957" ;
+        talis:localityName  "Helsinki" ;
+        dc:identifier       "EAS" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Einführung in die Altaische Sprachwissenschaft. I Lautlehre. II. Formenlehre" ;
+        dc:creator          "Ramstedt G. J." ;
+        rdf:type            msh:Book .
+
+bib:Sinor_1970  dct:date    "1970" ;
+        talis:localityName  "Tokyo" ;
+        dc:identifier       "Sinor 1970" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Two Altaic Etymologies. // Studies presented to Shirō Hattori on the occasion of his sixtieth birthday" ;
+        dc:creator          "Sinor D." ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Starostin_G.>
+        dct:isReferencedBy  "Dravidian etymology" ;
+        dc:creator          "Starostin G." ;
+        rdf:type            msh:Book .
+
+bib:Hayes  dct:isReferencedBy  "Austric etymology" ;
+        dc:creator          "Hayes" ;
+        rdf:type            msh:Book .
+
+bib:Visser_1998  dct:date   "1998" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Visser 1998" ;
+        dct:isReferencedBy  "West Central Khoisan etymology" ;
+        dc:title            "The phonological system of Naro. // In: Language, identity and conceptualization among the Khoisan, pp 117-136. Ed(s): Mathias Schladt. Quellen zur Khoisan-Forschung/Research in Khoisan studies, Bd 15." ;
+        dc:creator          "Visser Hessel" ;
+        rdf:type            msh:Book .
+
+<http://acoli.cs.uni-frankfurt.de/starling/bib/Поп._Даг.>
+        dct:date            "1933-1937" ;
+        talis:localityName  "Москва-Ленинград [Moscow-Leningrad]" ;
+        dc:identifier       "Поп. Даг." ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Дагурский язык [The Dagur Language]" ;
+        dc:creator          "Поппе Н. Н. [N. Poppe]" ;
+        rdf:type            msh:Book .
+
+bib:Chikobava_1953  dct:date  "1953" ;
+        dc:identifier  "Chikobava 1953" ;
+        dc:title       "К этимологии древнегрузинских терминов bɣwar-i, samxar-i \"юг\". - Иберийско-кавказское языкознание, т. V" ;
+        dc:creator     "Чикобава А. С." ;
+        rdf:type       msh:Book .
+
+bib:Hubschmid_1954  dct:date  "1954" ;
+        dc:identifier       "Hubschmid 1954" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Pirenäenwörter vorromanischen Ursprungs und das vorromanische Substrat der Alpen.// Acta Salmanticensia, v. VII, No 2" ;
+        dc:creator          "Hubschmid H." ;
+        rdf:type            msh:Book .
+
+bib:TBW  dct:date           "1977" ;
+        talis:localityName  "Berlin" ;
+        dc:identifier       "TBW" ;
+        dct:isReferencedBy  "Hadza etymology, Sandawe etymology" ;
+        dc:title            "The East African click languages: a phonetic comparison. // In: Zur Sprachgeschichte und Ethnohistorie in Afrika, pp 301-323. Ed(s): Wilhelm J. G. Möhlig, Franz Rottland & Bernd Heine." ;
+        dc:creator          "Tucker Archibald, Bryan Margaret, Woodburn James" ;
+        rdf:type            msh:Book .
+
+bib:Lomtatidze_1976  dct:date  "1976" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Lomtatidze 1976" ;
+        dc:title            "Историко-сравнительный анализ абхазского и абазинского языков, I" ;
+        dc:creator          "Ломтатидзе К. В." ;
+        rdf:type            msh:Book .
+
+bib:Brockelmann_1954  dct:date  "1954" ;
+        talis:localityName  "Leiden" ;
+        dc:identifier       "Brockelmann 1954" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Osttürkische Grammatik der islamischen Literatursprachen Mittelasiens" ;
+        dc:creator          "Brockelmann C." ;
+        rdf:type            msh:Book .
+
+bib:Gan_1909  dct:date  "1909" ;
+        dc:identifier  "Gan 1909" ;
+        dc:title       "Опыт объяснения кавказских географических названий. // Сборник материалов для описания местностей и племен Кавказа, вып. XL, отд. III" ;
+        dc:creator     "Ган К. Ф." ;
+        rdf:type       msh:Book .
+
+bib:КСТТ  dct:date          "1961" ;
+        talis:localityName  "Казань [Kazan]" ;
+        dc:identifier       "КСТТ" ;
+        dct:isReferencedBy  "Turkic etymology, Mongolian etymology" ;
+        dc:title            "Кøнбатыш Себер татарлары теле; Грамматик очерк hǝм сузлек" ;
+        dc:creator          "Тумашева Д. Г. [D. G. Tumasheva]" ;
+        rdf:type            msh:Book .
+
+bib:Gombocz_1905  dct:date  "1905" ;
+        dc:identifier       "Gombocz 1905" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Az altaji nyelvek hangtörténetéhez // NyK, T. XXXV" ;
+        dc:creator          "Gombocz Z." ;
+        rdf:type            msh:Book .
+
+bib:Bichoyev-Kardanov_1955
+        dct:date            "1955" ;
+        talis:localityName  "Москва" ;
+        dc:identifier       "Bichoyev-Kardanov 1955" ;
+        dc:title            "Русско-кабардино-черкесский словарь" ;
+        dc:creator          "Бичоев А. Е., Карданов Б. М." ;
+        rdf:type            msh:Book .
+
+bib:Sukhebaatar  dct:date   "1997" ;
+        talis:localityName  "Улан-Батор" ;
+        dc:identifier       "Sukhebaatar" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Монгол хэлний харь үдийн толь" ;
+        dc:creator          "Сухбаатар О." ;
+        rdf:type            msh:Book .
+
+bib:Qutb  dct:date          "1961" ;
+        talis:localityName  "Warszawa" ;
+        dc:identifier       "Qutb" ;
+        dct:isReferencedBy  "Turkic etymology" ;
+        dc:title            "Najstarsza wersja turecka Husräv u šīrīn Qutba" ;
+        dc:creator          "Zajączkowski A." ;
+        rdf:type            msh:Book .
+
+bib:Diakonoff-Starostin
+        dct:isReferencedBy  "North Caucasian etymology" ;
+        dc:creator          "Diakonoff-Starostin" ;
+        rdf:type            msh:Book .
+
+bib:Magometov_1970  dct:date  "1970" ;
+        talis:localityName  "Тбилиси" ;
+        dc:identifier       "Magometov 1970" ;
+        dc:title            "Агульский язык" ;
+        dc:creator          "Магометов А. А." ;
+        rdf:type            msh:Book .
+
+bib:КРС  dct:date           "1977" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "КРС" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Калмыцко-русский словарь [Kalmuck-Russian Dictionary]" ;
+        dc:creator          "Муниев Б. (под редакцией) {B. Muniev ed.]" ;
+        rdf:type            msh:Book .
+
+bib:Genko_1930  dct:date    "1930" ;
+        talis:localityName  "Ленинград" ;
+        dc:identifier       "Genko 1930" ;
+        dc:title            "Из культурного прошлого ингушей. // \"Записки Коллегии востоковедов при Азиатском музее АH СССР\", т. V" ;
+        dc:creator          "Генко А." ;
+        rdf:type            msh:Book .
+
+bib:Dumézil-Esenc̣_1975
+        dct:date            "1975" ;
+        talis:localityName  "Paris" ;
+        dc:identifier       "Dumézil-Esenc̣ 1975" ;
+        dc:title            "Le verbe oubykh. Études descriptives et comparatives" ;
+        dc:creator          "Dumézil G., Esenc̣ T." ;
+        rdf:type            msh:Book .
+
+bib:Williams  dct:isReferencedBy  "Gondi etymology" ;
+        dc:creator          "Williams" ;
+        rdf:type            msh:Book .
+
+bib:Street_1985  dct:date   "1985" ;
+        dc:identifier       "Street 1985" ;
+        dct:isReferencedBy  "Altaic etymology" ;
+        dc:title            "Japanese reflexes of the ProtoAltaic lateral // JAOS 105" ;
+        dc:creator          "Street J." ;
+        rdf:type            msh:Book .
+
+bib:Collins_1998  dct:date  "1998" ;
+        talis:localityName  "Köln" ;
+        dc:identifier       "Collins 1998" ;
+        dct:isReferencedBy  "#Hoan etymology" ;
+        dc:title            "Plurality in #Hoan. // In: Khoisan Forum, working paper No. 9." ;
+        dc:creator          "Collins, Chris" ;
+        rdf:type            msh:Book .
+
+bib:Dirr_1907  dct:date     "1907" ;
+        talis:localityName  "Тифлис" ;
+        dc:identifier       "Dirr 1907" ;
+        dc:title            "Агульский язык" ;
+        dc:creator          "Дирр А. М." ;
+        rdf:type            msh:Book .
+
+bib:Benedict  dct:isReferencedBy  "Sino-Tibetan etymology" ;
+        dc:creator          "Benedict" ;
+        rdf:type            msh:Book .
+
+bib:Kibrik-Kodzasov-Starostin_1978
+        dct:date            "1978" ;
+        talis:localityName  "Tallinn" ;
+        dc:identifier       "Kibrik-Kodzasov-Starostin 1978" ;
+        dc:title            "Word prosody in Dagestan languages. // Estonian papers in phonetics" ;
+        dc:creator          "Kibrik A., Kodzasov S., Starostin S." ;
+        rdf:type            msh:Book .
+
+bib:Дыбо_1993  dct:date     "1993" ;
+        talis:localityName  "Москва [Moscow]" ;
+        dc:identifier       "Дыбо 1993" ;
+        dct:isReferencedBy  "Mongolian etymology" ;
+        dc:title            "Некоторые заимствования в русских названиях игральных костей // Принципы составления этимологических и исторических словарей языков различных семей [Some borrowings in Russian names for dice // Principles of compiling etymological and historical dictionaries]" ;
+        dc:creator          "Дыбо А. В. [A. V. Dybo]" ;
+        rdf:type            msh:Book .
